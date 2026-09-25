@@ -802,17 +802,17 @@
     {
       "name": "Designer Skill",
       "displayName": "Designer Skill",
-      "description": "Plug-and-play MCP that gives your agent UI superpowers. One install: design skill + MCP server, zero config.",
+      "description": "Plug-and-play MCP that gives your coding agent UI superpowers: design references, intent routing and a static anti-slop gate, no API key.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "platform": "codex",
       "ecosystems": [
         "codex"
       ],
-      "owner": "Pythoughts-labs",
+      "owner": "PyModel",
       "repo": "designer-skill",
-      "url": "https://github.com/Pythoughts-labs/designer-skill",
-      "install_url": "https://raw.githubusercontent.com/Pythoughts-labs/designer-skill/HEAD/.codex-plugin/plugin.json"
+      "url": "https://github.com/PyModel/designer-skill",
+      "install_url": "https://raw.githubusercontent.com/PyModel/designer-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Devin Plugin CC",
@@ -4370,21 +4370,6 @@
       "repo": "demo-gif-skill",
       "url": "https://github.com/conorbronsdon/demo-gif-skill",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/demo-gif-skill/HEAD/.codex-plugin/plugin.json"
-    },
-    {
-      "name": "Designer Skill",
-      "displayName": "Designer Skill",
-      "description": "Plug-and-play MCP that gives your coding agent UI superpowers: design references, intent routing and a static anti-slop gate, no API key",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "PyModel",
-      "repo": "designer-skill",
-      "url": "https://github.com/PyModel/designer-skill",
-      "install_url": "https://raw.githubusercontent.com/PyModel/designer-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "dev-harness-kit",
