@@ -6907,6 +6907,21 @@
       "install_url": "https://raw.githubusercontent.com/KCNyu/clawock/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Clera",
+      "displayName": "Clera",
+      "description": "Hosted hiring MCP server plus Claude Code, Cursor and Gemini CLI plugins: search 210,000+ vetted startup candidates, review Clera's picks and request intros over OAuth",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "getclera",
+      "repo": "mcp",
+      "url": "https://github.com/getclera/mcp",
+      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "CloudBase AI Toolkit",
       "displayName": "CloudBase AI Toolkit",
       "description": "Backend for AI coding agents on Tencent CloudBase \u2014 database, auth, and functions via Plugin, Skills & MCP",

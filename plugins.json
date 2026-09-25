@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 524,
+  "total": 525,
   "platforms": [
     "codex",
     "grok",
@@ -6452,6 +6452,20 @@
       "install_url": "https://raw.githubusercontent.com/KCNyu/clawock/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Clera",
+      "url": "https://github.com/getclera/mcp",
+      "owner": "getclera",
+      "repo": "mcp",
+      "description": "Hosted hiring MCP server plus Claude Code, Cursor and Gemini CLI plugins: search 210,000+ vetted startup candidates, review Clera's picks and request intros over OAuth",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/getclera/mcp/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
