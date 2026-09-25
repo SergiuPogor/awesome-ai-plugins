@@ -7361,6 +7361,21 @@
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-agy-auth",
+      "displayName": "opencode-agy-auth",
+      "description": "OpenCode plugin providing OAuth 2.0 authentication, model fetching, and quota tracking for the Antigravity CLI",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "anthonyhaussman",
+      "repo": "opencode-agy-auth",
+      "url": "https://github.com/anthonyhaussman/opencode-agy-auth",
+      "install_url": "https://raw.githubusercontent.com/anthonyhaussman/opencode-agy-auth/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-cache-hit",
       "displayName": "opencode-cache-hit",
       "description": "OpenCode sidebar plugin showing prompt cache hit rate, token usage, and cost with sub-agent session rollup",

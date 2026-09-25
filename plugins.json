@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 527,
+  "total": 528,
   "platforms": [
     "codex",
     "grok",
@@ -6874,6 +6874,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Syh1906/openai-compatible-imagegen/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "opencode-agy-auth",
+      "url": "https://github.com/anthonyhaussman/opencode-agy-auth",
+      "owner": "anthonyhaussman",
+      "repo": "opencode-agy-auth",
+      "description": "OpenCode plugin providing OAuth 2.0 authentication, model fetching, and quota tracking for the Antigravity CLI",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/anthonyhaussman/opencode-agy-auth/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
