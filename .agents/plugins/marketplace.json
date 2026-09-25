@@ -5977,6 +5977,21 @@
       "install_url": "https://raw.githubusercontent.com/rezzminator/professor/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Promptiff",
+      "displayName": "Promptiff",
+      "description": "Compares AI responses against original user prompts to surface possible omissions and unsourced additions; local CLI and Skill with a comparison canvas",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "BrantonLiu",
+      "repo": "promptiff",
+      "url": "https://github.com/BrantonLiu/promptiff",
+      "install_url": "https://raw.githubusercontent.com/BrantonLiu/promptiff/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "pstack for Codex",
       "displayName": "pstack for Codex",
       "description": "Codex-native engineering workflows derived from pstack, with 45 explicit skills and 23 Poteto Mode playbooks",
@@ -6117,14 +6132,14 @@
       "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "GlobalMatchHub",
       "repo": "searchlink-lite",
       "url": "https://github.com/GlobalMatchHub/searchlink-lite",
-      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "SEO Skills AI",
@@ -6890,6 +6905,21 @@
       "repo": "claude-dev-suite",
       "url": "https://github.com/claude-dev-suite/claude-dev-suite",
       "install_url": "https://raw.githubusercontent.com/claude-dev-suite/claude-dev-suite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "claude-fuer-deutsches-recht",
+      "displayName": "claude-fuer-deutsches-recht",
+      "description": "Experimental German-law skill collection with installable plugins, drafting workflows, legal source checks, and practice case files",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Klotzkette",
+      "repo": "claude-fuer-deutsches-recht",
+      "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+      "install_url": "https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "clawock",

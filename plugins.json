@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-25",
-  "total": 525,
+  "total": 527,
   "platforms": [
     "codex",
     "grok",
@@ -5587,6 +5587,20 @@
       ]
     },
     {
+      "name": "Promptiff",
+      "url": "https://github.com/BrantonLiu/promptiff",
+      "owner": "BrantonLiu",
+      "repo": "promptiff",
+      "description": "Compares AI responses against original user prompts to surface possible omissions and unsourced additions; local CLI and Skill with a comparison canvas",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/BrantonLiu/promptiff/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pstack for Codex",
       "url": "https://github.com/Aqua-123/pstack-for-codex",
       "owner": "Aqua-123",
@@ -5719,11 +5733,11 @@
       "repo": "searchlink-lite",
       "description": "Local read-only MCP server for Google Search Console: site performance and query breakdowns, low-CTR and rank 8-20 opportunities, URL inspection, sitemaps, on-page checks and Google ranking update history",
       "category": "Development & Workflow",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -6436,6 +6450,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/claude-dev-suite/claude-dev-suite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "claude-fuer-deutsches-recht",
+      "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+      "owner": "Klotzkette",
+      "repo": "claude-fuer-deutsches-recht",
+      "description": "Experimental German-law skill collection with installable plugins, drafting workflows, legal source checks, and practice case files",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Klotzkette/claude-fuer-deutsches-recht/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
