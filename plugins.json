@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-25",
-  "total": 528,
+  "last_updated": "2026-09-26",
+  "total": 533,
   "platforms": [
     "codex",
     "grok",
@@ -1617,6 +1617,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/lennney/stop-that-shit/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Supercov",
+      "url": "https://github.com/supercorp-ai/supercov",
+      "owner": "supercorp-ai",
+      "repo": "supercov",
+      "description": "Coverage, security and code quality for coding agents.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/supercorp-ai/supercov/HEAD/plugins/supercov/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3641,6 +3655,20 @@
       ]
     },
     {
+      "name": "Awesome-Journal-Skills",
+      "url": "https://github.com/brycewang-stanford/Awesome-Journal-Skills",
+      "owner": "brycewang-stanford",
+      "repo": "Awesome-Journal-Skills",
+      "description": "Claude Code plugin marketplace (also usable as Codex skills) of 300 journal- and conference-specific packs covering topic fit, house style, submission rules, and reviewer response for 744 venues across economics, social science, natural science, medicine, and computer science",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/brycewang-stanford/Awesome-Journal-Skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Azzle",
       "url": "https://github.com/azzle-lab/azzle",
       "owner": "azzle-lab",
@@ -4882,6 +4910,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/imMamdouhaboammar/linkedin-animated-infographics/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "local-memory-mcp",
+      "url": "https://github.com/vheins/local-memory-mcp",
+      "owner": "vheins",
+      "repo": "local-memory-mcp",
+      "description": "A lightweight MCP server that gives AI agents persistent memory with semantic search, backed by SQLite",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vheins/local-memory-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6991,6 +7033,20 @@
       ]
     },
     {
+      "name": "PixelLab Pip",
+      "url": "https://github.com/Shilo/pixellab-pip",
+      "owner": "Shilo",
+      "repo": "pixellab-pip",
+      "description": "An unofficial, agent-agnostic Agent Skill for creating, editing, and animating pixel-art assets from plain-language requests, routing each task to PixelLab MCP tools, API endpoints, or editor workflows",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Shilo/pixellab-pip/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "QVeris Agent Toolkit",
       "url": "https://github.com/QVerisAI/qveris-agent-toolkit",
       "owner": "QVerisAI",
@@ -7142,6 +7198,20 @@
       "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "SpringBrand",
+      "url": "https://github.com/springbrand-lab/springbrand-agent-setup",
+      "owner": "springbrand-lab",
+      "repo": "springbrand-agent-setup",
+      "description": "Hosted go-to-market MCP server with setup guides for Claude Code, Codex, Cursor and other agents: social listening across X, TikTok, Instagram, YouTube, Reddit and Xiaohongshu, website traffic and SEO research, company, contact and creator discovery, and copy, image, video and voiceover generation over OAuth, billed per call",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/springbrand-lab/springbrand-agent-setup/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
