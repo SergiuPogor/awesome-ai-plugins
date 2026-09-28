@@ -652,6 +652,7 @@ before submitting.
 
 - [CloudBase AI Toolkit](https://github.com/TencentCloudBase/CloudBase-AI-Toolkit) - Backend for AI coding agents on Tencent CloudBase — database, auth, and functions via Plugin, Skills & MCP.
 - [deja](https://github.com/vshulcz/deja-vu) - Recalls the sessions the other coding agents on the machine already wrote to disk, including work from before it was installed, through MCP tools, a `/deja:recall` command and recall on every prompt.
+- [GoodMemory](https://github.com/hjqcan/GoodMemory) - Local-first, auditable cross-session project memory for Kimi Code with scoped recall, traceable provenance, and approval-gated writes.
 - [HTML/CSS to Image API](https://github.com/htmlcsstoimage/agent-plugins) - Let AI agents capture live website screenshots, render HTML/CSS and populate reusable templates as images or PDFs without managing a browser.
 
 ### DeepSeek Harness Plugins
