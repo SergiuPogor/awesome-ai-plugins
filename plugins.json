@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 551,
+  "total": 552,
   "platforms": [
     "codex",
     "grok",
@@ -3889,6 +3889,20 @@
       "platform": "claude-code",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/hex/claude-council/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "claude-dnd-skill",
+      "url": "https://github.com/neuralinitiative/claude-dnd-skill",
+      "owner": "neuralinitiative",
+      "repo": "claude-dnd-skill",
+      "description": "Unofficial D&D 5e Dungeon Master for Claude Code with persistent campaigns, full 5e rules mechanics, and an optional cinematic display companion for a TV",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/neuralinitiative/claude-dnd-skill/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
       ]

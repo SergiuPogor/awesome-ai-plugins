@@ -4162,6 +4162,21 @@
       "install_url": "https://raw.githubusercontent.com/hex/claude-council/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "claude-dnd-skill",
+      "displayName": "claude-dnd-skill",
+      "description": "Unofficial D&D 5e Dungeon Master for Claude Code with persistent campaigns, full 5e rules mechanics, and an optional cinematic display companion for a TV",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "neuralinitiative",
+      "repo": "claude-dnd-skill",
+      "url": "https://github.com/neuralinitiative/claude-dnd-skill",
+      "install_url": "https://raw.githubusercontent.com/neuralinitiative/claude-dnd-skill/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "claude-image-gen",
       "displayName": "claude-image-gen",
       "description": "AI-powered image generation using Google Gemini or OpenAI (gpt-image-2), integrated with Claude Code via Skills or Claude.ai via MCP",
