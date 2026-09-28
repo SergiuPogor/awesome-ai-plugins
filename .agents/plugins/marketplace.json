@@ -4342,6 +4342,21 @@
       "install_url": "https://raw.githubusercontent.com/MongLong0214/commitlore/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Compact Jev",
+      "displayName": "Compact Jev",
+      "description": "Claude Code command that uses Jev to remove stale tool calls and results from long conversations while keeping user and assistant text verbatim",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "edoproch",
+      "repo": "compact-jev",
+      "url": "https://github.com/edoproch/compact-jev",
+      "install_url": "https://raw.githubusercontent.com/edoproch/compact-jev/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Consensus",
       "displayName": "Consensus",
       "description": "Sends a hard question to a panel of frontier models (Claude, GPT, Gemini, Grok) that answer independently, critique each other adversarially, and return one answer the panel signed off on with its confidence and unresolved disagreements, via a CLI, MCP server, or skill pack that runs on your existing subscriptions with every panelist in a no-tools clean room",
@@ -6980,6 +6995,21 @@
       "repo": "agentguards-plugins",
       "url": "https://github.com/alelaguard/agentguards-plugins",
       "install_url": "https://raw.githubusercontent.com/alelaguard/agentguards-plugins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "agentic-finance-graph-mcp",
+      "displayName": "agentic-finance-graph-mcp",
+      "description": "Read-only MCP server and CLI for Agentic Finance Graph, the independent ledger of machine money: which AI agents on Base actually pay, what they really spend, ranks, detections and metric history, free with no API key",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "AgenticFinanceGraph",
+      "repo": "agentic-finance-graph-mcp",
+      "url": "https://github.com/AgenticFinanceGraph/agentic-finance-graph-mcp",
+      "install_url": "https://raw.githubusercontent.com/AgenticFinanceGraph/agentic-finance-graph-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "agentic-seo",

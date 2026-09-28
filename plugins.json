@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 558,
+  "total": 560,
   "platforms": [
     "codex",
     "grok",
@@ -4062,6 +4062,20 @@
       ]
     },
     {
+      "name": "Compact Jev",
+      "url": "https://github.com/edoproch/compact-jev",
+      "owner": "edoproch",
+      "repo": "compact-jev",
+      "description": "Claude Code command that uses Jev to remove stale tool calls and results from long conversations while keeping user and assistant text verbatim",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/edoproch/compact-jev/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Consensus",
       "url": "https://github.com/seanheiney/consensus",
       "owner": "seanheiney",
@@ -6521,6 +6535,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/alelaguard/agentguards-plugins/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agentic-finance-graph-mcp",
+      "url": "https://github.com/AgenticFinanceGraph/agentic-finance-graph-mcp",
+      "owner": "AgenticFinanceGraph",
+      "repo": "agentic-finance-graph-mcp",
+      "description": "Read-only MCP server and CLI for Agentic Finance Graph, the independent ledger of machine money: which AI agents on Base actually pay, what they really spend, ranks, detections and metric history, free with no API key",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AgenticFinanceGraph/agentic-finance-graph-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
