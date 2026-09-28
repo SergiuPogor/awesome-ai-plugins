@@ -5052,14 +5052,14 @@
       "description": "MCP server giving AI assistants live access to InterSystems IRIS \u2014 execute ObjectScript, query globals, inspect productions, run tests, search code, and manage skills",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "intersystems-community",
       "repo": "iris-agentic-dev",
       "url": "https://github.com/intersystems-community/iris-agentic-dev",
-      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Jev Browser",
