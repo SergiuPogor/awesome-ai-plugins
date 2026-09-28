@@ -905,6 +905,21 @@
       "install_url": "https://raw.githubusercontent.com/MedAdemBHA/docflow/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "done-gate",
+      "displayName": "done-gate",
+      "description": "Stop hook that blocks \"fixed/done\" claims when no test output or exit code appeared in that turn (Claude Code & Codex, MIT).",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "kuroudo-ai",
+      "repo": "done-gate",
+      "url": "https://github.com/kuroudo-ai/done-gate",
+      "install_url": "https://raw.githubusercontent.com/kuroudo-ai/done-gate/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Dryforge",
       "displayName": "Dryforge",
       "description": "Bounded-autonomy plugin that asks only the decisions that belong to the user, builds nothing before the intent is approved, verifies with checks that actually ran, and keeps project decisions as plain Markdown across Codex, Claude Code, Grok Build, Copilot CLI, and Antigravity CLI.",
@@ -2930,6 +2945,21 @@
       "repo": "linkedin-skills",
       "url": "https://github.com/sergebulaev/linkedin-skills",
       "install_url": "https://raw.githubusercontent.com/sergebulaev/linkedin-skills/HEAD/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Loomaly",
+      "displayName": "Loomaly",
+      "description": "Ranks your site's SEO problems by what to fix first, gives Codex a fix prompt for your framework to apply in your repo, and re-checks the live page once the fix is deployed, via a hosted MCP server and four skills.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "loomaly",
+      "repo": "loomaly",
+      "url": "https://github.com/loomaly/loomaly",
+      "install_url": "https://raw.githubusercontent.com/loomaly/loomaly/HEAD/loomaly/.codex-plugin/plugin.json"
     },
     {
       "name": "Maestro: Costguard",
