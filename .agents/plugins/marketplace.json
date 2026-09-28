@@ -4042,6 +4042,21 @@
       "install_url": "https://raw.githubusercontent.com/BioSymphony/structure-factory/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Blender Agent Studio",
+      "displayName": "Blender Agent Studio",
+      "description": "Codex plugin with specialist skills and a local MCP server for building, inspecting, validating, and rendering Blender scenes, plus browser handoffs for Mixamo motion and Pixabay sound effects",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ifBars",
+      "repo": "blender-agent-studio",
+      "url": "https://github.com/ifBars/blender-agent-studio",
+      "install_url": "https://raw.githubusercontent.com/ifBars/blender-agent-studio/HEAD/plugins/blender-agent-studio/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Browser Harness",
       "displayName": "Browser Harness",
       "description": "MCP server and agent skill that connect an AI agent to a real browser through one editable CDP WebSocket",
@@ -7178,6 +7193,21 @@
       "install_url": "https://raw.githubusercontent.com/cdeust/Cortex/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "DeepPaperNote",
+      "displayName": "DeepPaperNote",
+      "description": "Agent skill that deep-reads a single paper and generates structured Obsidian research notes with figures, results, and limitations",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "917Dhj",
+      "repo": "DeepPaperNote",
+      "url": "https://github.com/917Dhj/DeepPaperNote",
+      "install_url": "https://raw.githubusercontent.com/917Dhj/DeepPaperNote/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "DocsMint",
       "displayName": "DocsMint",
       "description": "Cloud or self-hosted knowledge workspace with MCP tools for hybrid search, GraphRAG, and document management",
@@ -7526,6 +7556,21 @@
       "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "motion-launch-videos",
+      "displayName": "motion-launch-videos",
+      "description": "Claude Code skill that turns a short brief into a looping kinetic-typography launch video, written as one self-contained HTML file and rendered locally to MP4 with motion blur and a seamless loop",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Kimeur",
+      "repo": "motion-launch-videos",
+      "url": "https://github.com/Kimeur/motion-launch-videos",
+      "install_url": "https://raw.githubusercontent.com/Kimeur/motion-launch-videos/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Nimble",
       "displayName": "Nimble",
       "description": "Web Search Agents that search, browse, extract, and reason across live pages and return cited, schema-enforced results, with self-learning retrieval that improves accuracy and lowers cost per task on repeat work, plus Search and Extract skills for fast raw web data in Claude Code, Codex, Cursor, and Grok Build",
@@ -7539,6 +7584,21 @@
       "repo": "agent-skills",
       "url": "https://github.com/Nimbleway/agent-skills",
       "install_url": "https://raw.githubusercontent.com/Nimbleway/agent-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "nsfw-ai-skill",
+      "displayName": "nsfw-ai-skill",
+      "description": "Agent Skill and Claude Code plugin for adult (18+) image, image-to-video and image-edit generation through the SpicyAPI API, with cost quotes before every run and adults-only / consent rules",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Spicy-API",
+      "repo": "nsfw-ai-skill",
+      "url": "https://github.com/Spicy-API/nsfw-ai-skill",
+      "install_url": "https://raw.githubusercontent.com/Spicy-API/nsfw-ai-skill/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "OpenAI-Compatible Images",
@@ -7689,6 +7749,21 @@
       "repo": "pixellab-pip",
       "url": "https://github.com/Shilo/pixellab-pip",
       "install_url": "https://raw.githubusercontent.com/Shilo/pixellab-pip/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Plancast",
+      "displayName": "Plancast",
+      "description": "Local-first macOS CLI that helps developers and researchers turn Markdown, text, PDFs, and public articles into two-host audio briefings",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sarthakdabhi",
+      "repo": "plancast",
+      "url": "https://github.com/sarthakdabhi/plancast",
+      "install_url": "https://raw.githubusercontent.com/sarthakdabhi/plancast/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "QVeris Agent Toolkit",
