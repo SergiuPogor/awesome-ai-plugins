@@ -5062,6 +5062,21 @@
       "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Janus",
+      "displayName": "Janus",
+      "description": "macOS menu bar app that saves each Claude Code account's session so switching between accounts is one click, and reclaims disk space by measuring developer caches and moving them to the Trash",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "RamitVishwakarma",
+      "repo": "Janus",
+      "url": "https://github.com/RamitVishwakarma/Janus",
+      "install_url": "https://raw.githubusercontent.com/RamitVishwakarma/Janus/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Jev Browser",
       "displayName": "Jev Browser",
       "description": "Fast, very cheap browser use for agents: Jev picks every action, code owns the loop, and you get the final page, an auditable step trace, console errors, and a screenshot; MCP server, CLI, or library",
@@ -6637,6 +6652,21 @@
       "install_url": "https://raw.githubusercontent.com/synthesisengineering/synthesis-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Task Lantern",
+      "displayName": "Task Lantern",
+      "description": "Offline dashboard that collects progress published by Claude Code and Codex threads across projects into one local HTML workspace, showing the current step, decisions needed, blockers, and recent files",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "paranjaymundra",
+      "repo": "task-lantern",
+      "url": "https://github.com/paranjaymundra/task-lantern",
+      "install_url": "https://raw.githubusercontent.com/paranjaymundra/task-lantern/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "TaskDock",
       "displayName": "TaskDock",
       "description": "Resume agent tasks from current deliverables and decisions, with portable folders, link repair, and reversible file organization",
@@ -7356,6 +7386,21 @@
       "repo": "flacli",
       "url": "https://github.com/h-3303/flacli",
       "install_url": "https://raw.githubusercontent.com/h-3303/flacli/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "framewright",
+      "displayName": "framewright",
+      "description": "Agent skill for Claude Code, Codex and Gemini CLI that turns a brief into a short video from code: one self-contained HTML file with deterministic frames, 16 visual styles, rendered by headless Chrome and ffmpeg with a synthesized soundtrack and no footage",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "smwbev",
+      "repo": "framewright",
+      "url": "https://github.com/smwbev/framewright",
+      "install_url": "https://raw.githubusercontent.com/smwbev/framewright/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GDS Agent",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 555,
+  "total": 558,
   "platforms": [
     "codex",
     "grok",
@@ -4734,6 +4734,20 @@
       ]
     },
     {
+      "name": "Janus",
+      "url": "https://github.com/RamitVishwakarma/Janus",
+      "owner": "RamitVishwakarma",
+      "repo": "Janus",
+      "description": "macOS menu bar app that saves each Claude Code account's session so switching between accounts is one click, and reclaims disk space by measuring developer caches and moving them to the Trash",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/RamitVishwakarma/Janus/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Jev Browser",
       "url": "https://github.com/jkudish/jev-browser",
       "owner": "jkudish",
@@ -6204,6 +6218,20 @@
       ]
     },
     {
+      "name": "Task Lantern",
+      "url": "https://github.com/paranjaymundra/task-lantern",
+      "owner": "paranjaymundra",
+      "repo": "task-lantern",
+      "description": "Offline dashboard that collects progress published by Claude Code and Codex threads across projects into one local HTML workspace, showing the current step, decisions needed, blockers, and recent files",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/paranjaymundra/task-lantern/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "TaskDock",
       "url": "https://github.com/m1nga/taskdock",
       "owner": "m1nga",
@@ -6872,6 +6900,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/h-3303/flacli/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "framewright",
+      "url": "https://github.com/smwbev/framewright",
+      "owner": "smwbev",
+      "repo": "framewright",
+      "description": "Agent skill for Claude Code, Codex and Gemini CLI that turns a brief into a short video from code: one self-contained HTML file with deterministic frames, 16 visual styles, rendered by headless Chrome and ffmpeg with a synthesized soundtrack and no footage",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/smwbev/framewright/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
