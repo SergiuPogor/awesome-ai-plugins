@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-26",
-  "total": 535,
+  "last_updated": "2026-09-28",
+  "total": 541,
   "platforms": [
     "codex",
     "grok",
@@ -749,6 +749,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/davidmosiah/delx-plugins/HEAD/delx-recovery/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "design-helper",
+      "url": "https://github.com/Dessert99/design-helper",
+      "owner": "Dessert99",
+      "repo": "design-helper",
+      "description": "Settles CSS values, layout, and motion by eye: draws candidates that differ in one property side by side in the browser, then applies the one you pick to your code.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Dessert99/design-helper/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4467,6 +4481,20 @@
       ]
     },
     {
+      "name": "honeycomb",
+      "url": "https://github.com/sediment-ai/honeycomb",
+      "owner": "sediment-ai",
+      "repo": "honeycomb",
+      "description": "Buzz agent fleet as code, with each agent defined in YAML, deployed to Kubernetes, and routed to models through a LiteLLM gateway",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sediment-ai/honeycomb/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "humanizer-ru",
       "url": "https://github.com/Vladimir-Human/humanizer-ru",
       "owner": "Vladimir-Human",
@@ -5671,6 +5699,20 @@
       ]
     },
     {
+      "name": "remembrandt",
+      "url": "https://github.com/rishibanota/remembrandt",
+      "owner": "rishibanota",
+      "repo": "remembrandt",
+      "description": "Persistent memory for Claude Code, Cursor, and Codex coding agents that preserves decisions, gotchas, and changelogs across sessions",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rishibanota/remembrandt/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Repo Audit",
       "url": "https://github.com/conorbronsdon/repo-audit",
       "owner": "conorbronsdon",
@@ -5862,6 +5904,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "SlopBar",
+      "url": "https://github.com/thelioo/slopbar",
+      "owner": "thelioo",
+      "repo": "slopbar",
+      "description": "Windows taskbar widget that shows Claude Code and Codex plan usage, limit resets and alerts, and switches accounts before one runs out",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/thelioo/slopbar/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6483,6 +6539,20 @@
       ]
     },
     {
+      "name": "cguard",
+      "url": "https://github.com/simon-init/cguard",
+      "owner": "simon-init",
+      "repo": "cguard",
+      "description": "A Claude Code plugin hook that keeps secrets, stray docs and destructive commands out of agent sessions",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/simon-init/cguard/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Chorale",
       "url": "https://github.com/hxy9243/chorale",
       "owner": "hxy9243",
@@ -6862,6 +6932,20 @@
       "install_url": "https://raw.githubusercontent.com/LetsFG/LetsFG/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Logo Design Skill",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "owner": "kaankiziltug",
+      "repo": "logo-design-skill",
+      "description": "Agent Skill for Claude Code, Codex, Gemini CLI, and other agents that runs a full logo workflow, from brief and category research to three tested SVG concepts and a concept checkpoint, then builds favicons, app icons, and presentation boards, backed by a 1,400+ logo reference library",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kaankiziltug/logo-design-skill/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

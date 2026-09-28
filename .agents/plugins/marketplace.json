@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-28",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -798,6 +798,21 @@
       "repo": "delx-plugins",
       "url": "https://github.com/davidmosiah/delx-plugins",
       "install_url": "https://raw.githubusercontent.com/davidmosiah/delx-plugins/HEAD/delx-recovery/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "design-helper",
+      "displayName": "design-helper",
+      "description": "Settles CSS values, layout, and motion by eye: draws candidates that differ in one property side by side in the browser, then applies the one you pick to your code.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Dessert99",
+      "repo": "design-helper",
+      "url": "https://github.com/Dessert99/design-helper",
+      "install_url": "https://raw.githubusercontent.com/Dessert99/design-helper/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Designer Skill",
@@ -4777,6 +4792,21 @@
       "install_url": "https://raw.githubusercontent.com/HiAi-gg/hiai-opencode/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "honeycomb",
+      "displayName": "honeycomb",
+      "description": "Buzz agent fleet as code, with each agent defined in YAML, deployed to Kubernetes, and routed to models through a LiteLLM gateway",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sediment-ai",
+      "repo": "honeycomb",
+      "url": "https://github.com/sediment-ai/honeycomb",
+      "install_url": "https://raw.githubusercontent.com/sediment-ai/honeycomb/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "humanizer-ru",
       "displayName": "humanizer-ru",
       "description": "Deterministic offline diagnostics and safe cleanup of chat-interface copy-paste artifacts in Russian text and Markdown, shipped as an Agent Skill, MCP server, CLI, GitHub Action, and browser demo, with no authorship verdicts",
@@ -6067,6 +6097,21 @@
       "install_url": "https://raw.githubusercontent.com/Kyne0328/rel-ai-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "remembrandt",
+      "displayName": "remembrandt",
+      "description": "Persistent memory for Claude Code, Cursor, and Codex coding agents that preserves decisions, gotchas, and changelogs across sessions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rishibanota",
+      "repo": "remembrandt",
+      "url": "https://github.com/rishibanota/remembrandt",
+      "install_url": "https://raw.githubusercontent.com/rishibanota/remembrandt/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Repo Audit",
       "displayName": "Repo Audit",
       "description": "Agent Skill that checks whether a repository's README matches its code and whether stated rules are actually enforced, with an opt-in open-source launch workflow",
@@ -6275,6 +6320,21 @@
       "repo": "marketplace",
       "url": "https://github.com/aiskillstore/marketplace",
       "install_url": "https://raw.githubusercontent.com/aiskillstore/marketplace/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "SlopBar",
+      "displayName": "SlopBar",
+      "description": "Windows taskbar widget that shows Claude Code and Codex plan usage, limit resets and alerts, and switches accounts before one runs out",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "thelioo",
+      "repo": "slopbar",
+      "url": "https://github.com/thelioo/slopbar",
+      "install_url": "https://raw.githubusercontent.com/thelioo/slopbar/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "smt-mcp-server-poc",
@@ -6937,6 +6997,21 @@
       "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "cguard",
+      "displayName": "cguard",
+      "description": "A Claude Code plugin hook that keeps secrets, stray docs and destructive commands out of agent sessions",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "simon-init",
+      "repo": "cguard",
+      "url": "https://github.com/simon-init/cguard",
+      "install_url": "https://raw.githubusercontent.com/simon-init/cguard/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Chorale",
       "displayName": "Chorale",
       "description": "An LLM-assisted music sheet analysis and composition local MCP server and a web UI for inspect, annotate, compose, and interactively editing ABC notations for music",
@@ -7344,6 +7419,21 @@
       "repo": "LetsFG",
       "url": "https://github.com/LetsFG/LetsFG",
       "install_url": "https://raw.githubusercontent.com/LetsFG/LetsFG/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Logo Design Skill",
+      "displayName": "Logo Design Skill",
+      "description": "Agent Skill for Claude Code, Codex, Gemini CLI, and other agents that runs a full logo workflow, from brief and category research to three tested SVG concepts and a concept checkpoint, then builds favicons, app icons, and presentation boards, backed by a 1,400+ logo reference library",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "kaankiziltug",
+      "repo": "logo-design-skill",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "install_url": "https://raw.githubusercontent.com/kaankiziltug/logo-design-skill/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "mcp-music-studio",
