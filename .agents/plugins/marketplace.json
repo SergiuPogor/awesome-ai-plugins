@@ -4702,6 +4702,21 @@
       "install_url": "https://raw.githubusercontent.com/kucherenko/gangsta/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "gemini-for-kubernetes-development",
+      "displayName": "gemini-for-kubernetes-development",
+      "description": "Gemini CLI extension that automates Kubernetes development tasks: declarative validation authoring, PR review, and SIG API Machinery issue triage",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "gke-labs",
+      "repo": "gemini-for-kubernetes-development",
+      "url": "https://github.com/gke-labs/gemini-for-kubernetes-development",
+      "install_url": "https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "genie",
       "displayName": "genie",
       "description": "Agent skills and CLI that interview a wish into a plan, dispatch parallel subagents, and review results against acceptance criteria",
