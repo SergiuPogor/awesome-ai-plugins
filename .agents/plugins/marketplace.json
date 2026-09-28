@@ -5052,14 +5052,14 @@
       "description": "MCP server giving AI assistants live access to InterSystems IRIS \u2014 execute ObjectScript, query globals, inspect productions, run tests, search code, and manage skills",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
+      "platform": "claude-code",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ],
       "owner": "intersystems-community",
       "repo": "iris-agentic-dev",
       "url": "https://github.com/intersystems-community/iris-agentic-dev",
-      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Jev Browser",
@@ -6380,6 +6380,21 @@
       "repo": "session-handoff",
       "url": "https://github.com/yuzushi-dev/session-handoff",
       "install_url": "https://raw.githubusercontent.com/yuzushi-dev/session-handoff/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Shadowclone",
+      "displayName": "Shadowclone",
+      "description": "Turns the engineering preferences you keep repeating into reusable skills and instructions for Claude Code, Codex, Cursor, and Antigravity",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "theonly1me",
+      "repo": "shadowclone",
+      "url": "https://github.com/theonly1me/shadowclone",
+      "install_url": "https://raw.githubusercontent.com/theonly1me/shadowclone/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "silica",

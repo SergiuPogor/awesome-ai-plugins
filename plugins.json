@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 554,
+  "total": 555,
   "platforms": [
     "codex",
     "grok",
@@ -4726,11 +4726,11 @@
       "repo": "iris-agentic-dev",
       "description": "MCP server giving AI assistants live access to InterSystems IRIS \u2014 execute ObjectScript, query globals, inspect productions, run tests, search code, and manage skills",
       "category": "Development & Workflow",
-      "platform": "codex",
+      "platform": "claude-code",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/intersystems-community/iris-agentic-dev/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ]
     },
     {
@@ -5963,6 +5963,20 @@
       "install_url": "https://raw.githubusercontent.com/yuzushi-dev/session-handoff/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Shadowclone",
+      "url": "https://github.com/theonly1me/shadowclone",
+      "owner": "theonly1me",
+      "repo": "shadowclone",
+      "description": "Turns the engineering preferences you keep repeating into reusable skills and instructions for Claude Code, Codex, Cursor, and Antigravity",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/theonly1me/shadowclone/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
