@@ -3,11 +3,12 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 550,
+  "total": 551,
   "platforms": [
     "codex",
     "grok",
     "claude-code",
+    "kimi",
     "deepseek-harness"
   ],
   "plugins": [
@@ -7646,6 +7647,20 @@
       "install_url": "https://raw.githubusercontent.com/galleonlabs/hypergrok-trading-desk/HEAD/.grok-plugin/plugin.json",
       "ecosystems": [
         "grok"
+      ]
+    },
+    {
+      "name": "GoodMemory",
+      "url": "https://github.com/hjqcan/GoodMemory",
+      "owner": "hjqcan",
+      "repo": "GoodMemory",
+      "description": "Local-first, auditable cross-session project memory for Kimi Code with scoped recall, traceable provenance, and approval-gated writes",
+      "category": "Kimi Plugins",
+      "platform": "kimi",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hjqcan/GoodMemory/HEAD/kimi.plugin.json",
+      "ecosystems": [
+        "kimi"
       ]
     },
     {

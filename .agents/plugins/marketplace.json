@@ -8186,6 +8186,21 @@
       "install_url": "https://raw.githubusercontent.com/galleonlabs/hypergrok-trading-desk/HEAD/.grok-plugin/plugin.json"
     },
     {
+      "name": "GoodMemory",
+      "displayName": "GoodMemory",
+      "description": "Local-first, auditable cross-session project memory for Kimi Code with scoped recall, traceable provenance, and approval-gated writes",
+      "category": "Kimi Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "kimi",
+      "ecosystems": [
+        "kimi"
+      ],
+      "owner": "hjqcan",
+      "repo": "GoodMemory",
+      "url": "https://github.com/hjqcan/GoodMemory",
+      "install_url": "https://raw.githubusercontent.com/hjqcan/GoodMemory/HEAD/kimi.plugin.json"
+    },
+    {
       "name": "dsh-api-balance",
       "displayName": "dsh-api-balance",
       "description": "API usage-balance panel for DeepSeek Harness: adds a \u300cUsage / Balance\u300d tab to the webui usage ring showing the account balance and today / this-month / 30-day cost with charts, acquiring the platform token automatically from local browser sessions",
