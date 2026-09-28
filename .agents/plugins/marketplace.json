@@ -8246,6 +8246,21 @@
       "install_url": "https://raw.githubusercontent.com/Rich627/whatsapp-claude-plugin/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Whiteboard Video",
+      "displayName": "Whiteboard Video",
+      "description": "Claude Code skill that turns any topic into a hand-drawn whiteboard explainer video: it interviews you, writes a fact-checked script, offers voice samples (macOS, ElevenLabs, OpenAI or your own recordings), then draws, voices and renders an MP4 locally",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Matteoikarieth96",
+      "repo": "whiteboard-video-skill",
+      "url": "https://github.com/Matteoikarieth96/whiteboard-video-skill",
+      "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "You.com Agent Skills",
       "displayName": "You.com Agent Skills",
       "description": "Cross-platform You.com skill and plugin bundle that gives coding agents current web search, URL content extraction, cited research, finance research, and integration discovery, plus MCP server configs",

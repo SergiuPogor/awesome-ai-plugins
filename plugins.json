@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 560,
+  "total": 561,
   "platforms": [
     "codex",
     "grok",
@@ -7703,6 +7703,20 @@
       "install_url": "https://raw.githubusercontent.com/Rich627/whatsapp-claude-plugin/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Whiteboard Video",
+      "url": "https://github.com/Matteoikarieth96/whiteboard-video-skill",
+      "owner": "Matteoikarieth96",
+      "repo": "whiteboard-video-skill",
+      "description": "Claude Code skill that turns any topic into a hand-drawn whiteboard explainer video: it interviews you, writes a fact-checked script, offers voice samples (macOS, ElevenLabs, OpenAI or your own recordings), then draws, voices and renders an MP4 locally",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
