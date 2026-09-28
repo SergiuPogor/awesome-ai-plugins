@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-28",
-  "total": 541,
+  "total": 543,
   "platforms": [
     "codex",
     "grok",
@@ -1553,6 +1553,20 @@
       ]
     },
     {
+      "name": "since-cutoff",
+      "url": "https://github.com/MohammadHijjawi97/since-cutoff",
+      "owner": "MohammadHijjawi97",
+      "repo": "since-cutoff",
+      "description": "Finds the pinned Python dependency APIs that changed after the model's training cutoff, tests which ones the model actually gets wrong, and writes one-line AGENTS.md notes that are kept only if their example type-checks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MohammadHijjawi97/since-cutoff/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "skill-sync-publisher",
       "url": "https://github.com/liuyewang/skill-sync-publisher",
       "owner": "liuyewang",
@@ -3033,6 +3047,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Sendsets",
+      "url": "https://github.com/AddisonHoff/sendsets",
+      "owner": "AddisonHoff",
+      "repo": "sendsets",
+      "description": "Send cold email from Codex: connect and warm up mailboxes, build and launch outbound sequences, and answer replies through the Sendsets MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/AddisonHoff/sendsets/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"

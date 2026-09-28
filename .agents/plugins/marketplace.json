@@ -1655,6 +1655,21 @@
       "install_url": "https://raw.githubusercontent.com/Maksim-Burtsev/simple-man/HEAD/plugins/simple-man/.codex-plugin/plugin.json"
     },
     {
+      "name": "since-cutoff",
+      "displayName": "since-cutoff",
+      "description": "Finds the pinned Python dependency APIs that changed after the model's training cutoff, tests which ones the model actually gets wrong, and writes one-line AGENTS.md notes that are kept only if their example type-checks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MohammadHijjawi97",
+      "repo": "since-cutoff",
+      "url": "https://github.com/MohammadHijjawi97/since-cutoff",
+      "install_url": "https://raw.githubusercontent.com/MohammadHijjawi97/since-cutoff/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "skill-sync-publisher",
       "displayName": "skill-sync-publisher",
       "description": "Safely synchronize this Codex skill across public agent-skill registries.",
@@ -3245,6 +3260,21 @@
       "repo": "seo-dungeon",
       "url": "https://github.com/avalonreset/seo-dungeon",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Sendsets",
+      "displayName": "Sendsets",
+      "description": "Send cold email from Codex: connect and warm up mailboxes, build and launch outbound sequences, and answer replies through the Sendsets MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "AddisonHoff",
+      "repo": "sendsets",
+      "url": "https://github.com/AddisonHoff/sendsets",
+      "install_url": "https://raw.githubusercontent.com/AddisonHoff/sendsets/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Shots",
