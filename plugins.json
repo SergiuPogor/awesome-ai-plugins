@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-28",
-  "total": 562,
+  "last_updated": "2026-09-29",
+  "total": 563,
   "platforms": [
     "codex",
     "grok",
@@ -6523,6 +6523,20 @@
       "install_url": "https://raw.githubusercontent.com/pattern-ai-labs/agentcall/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "AgentDocStore",
+      "url": "https://github.com/koushikginjupally/agentdocstore",
+      "owner": "koushikginjupally",
+      "repo": "agentdocstore",
+      "description": "Self-hostable, offline-first versioned document store with a web UI, REST API, and a 16-tool stdio MCP server that catches secrets before they are saved",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/koushikginjupally/agentdocstore/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
