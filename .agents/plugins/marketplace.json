@@ -7388,6 +7388,21 @@
       "install_url": "https://raw.githubusercontent.com/cdeust/Cortex/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "DataForge",
+      "displayName": "DataForge",
+      "description": "Turns any website into a quality-scored LLM fine-tuning dataset in JSONL, Parquet or on the Hugging Face Hub, with a CLI and a `dataforge mcp` server exposing tools to scrape, explore, validate, run and inspect a dataset build",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ianktoo",
+      "repo": "data-forge",
+      "url": "https://github.com/ianktoo/data-forge",
+      "install_url": "https://raw.githubusercontent.com/ianktoo/data-forge/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "DeepPaperNote",
       "displayName": "DeepPaperNote",
       "description": "Agent skill that deep-reads a single paper and generates structured Obsidian research notes with figures, results, and limitations",
