@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-29",
-  "total": 566,
+  "total": 567,
   "platforms": [
     "codex",
     "grok",
@@ -7477,6 +7477,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sarthakdabhi/plancast/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Portway",
+      "url": "https://github.com/rath/portway",
+      "owner": "rath",
+      "repo": "portway",
+      "description": "A local HTTP proxy for Claude Code, Codex, and OpenAI-compatible endpoints on vLLM or SGLang that sends each turn as a zstd delta against the previous one: about 1 KiB, not the whole context",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rath/portway/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

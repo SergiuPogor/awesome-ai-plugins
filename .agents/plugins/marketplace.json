@@ -8006,6 +8006,21 @@
       "install_url": "https://raw.githubusercontent.com/sarthakdabhi/plancast/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Portway",
+      "displayName": "Portway",
+      "description": "A local HTTP proxy for Claude Code, Codex, and OpenAI-compatible endpoints on vLLM or SGLang that sends each turn as a zstd delta against the previous one: about 1 KiB, not the whole context",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rath",
+      "repo": "portway",
+      "url": "https://github.com/rath/portway",
+      "install_url": "https://raw.githubusercontent.com/rath/portway/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "QVeris Agent Toolkit",
       "displayName": "QVeris Agent Toolkit",
       "description": "Cross-client toolkit that brings professional data and tools to AI assistants, products, and workflows: find services, review supported scope, call them, and audit usage",
