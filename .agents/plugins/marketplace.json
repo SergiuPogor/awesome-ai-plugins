@@ -7961,6 +7961,21 @@
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "pi-recall",
+      "displayName": "pi-recall",
+      "description": "pi extension that lets an agent search your past AI chat history across Cursor, Claude Code, Codex, and pi, backed by a local SQLite FTS5 index",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "pratikgajjar",
+      "repo": "recall",
+      "url": "https://github.com/pratikgajjar/recall",
+      "install_url": "https://raw.githubusercontent.com/pratikgajjar/recall/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "PixelLab Pip",
       "displayName": "PixelLab Pip",
       "description": "An unofficial, agent-agnostic Agent Skill for creating, editing, and animating pixel-art assets from plain-language requests, routing each task to PixelLab MCP tools, API endpoints, or editor workflows",

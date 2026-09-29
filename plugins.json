@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-29",
-  "total": 565,
+  "total": 566,
   "platforms": [
     "codex",
     "grok",
@@ -7435,6 +7435,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "pi-recall",
+      "url": "https://github.com/pratikgajjar/recall",
+      "owner": "pratikgajjar",
+      "repo": "recall",
+      "description": "pi extension that lets an agent search your past AI chat history across Cursor, Claude Code, Codex, and pi, backed by a local SQLite FTS5 index",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pratikgajjar/recall/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
