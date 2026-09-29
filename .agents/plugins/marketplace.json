@@ -7147,6 +7147,21 @@
       "install_url": "https://raw.githubusercontent.com/brekkylab/backlot/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Bilinc",
+      "displayName": "Bilinc",
+      "description": "Persistent memory for AI agents over MCP: commit, recall, revise, snapshot and roll back agent state with provenance, shared across Claude Code, Claude Desktop and other MCP clients",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "atakanelik34",
+      "repo": "Bilinc",
+      "url": "https://github.com/atakanelik34/Bilinc",
+      "install_url": "https://raw.githubusercontent.com/atakanelik34/Bilinc/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "BoondManager MCP Server",
       "displayName": "BoondManager MCP Server",
       "description": "MCP server for the BoondManager staffing ERP/CRM exposing 182 tools, 12 prompts and 22 resources over candidates, resources, opportunities, projects, invoices and expense reports, with stdio and OAuth-protected HTTP transports",
