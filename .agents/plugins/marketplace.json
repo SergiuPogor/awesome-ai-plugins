@@ -7282,6 +7282,21 @@
       "install_url": "https://raw.githubusercontent.com/KCNyu/clawock/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Clayform",
+      "displayName": "Clayform",
+      "description": "MCP server that lets agents build 3D models from a semantic scene document, look at them through a software renderer, check them with measuring critics, rig and animate them, and export glTF, with no Blender or GPU",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sezginkipel",
+      "repo": "clayform",
+      "url": "https://github.com/sezginkipel/clayform",
+      "install_url": "https://raw.githubusercontent.com/sezginkipel/clayform/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Clera",
       "displayName": "Clera",
       "description": "Hosted hiring MCP server plus Claude Code, Cursor and Gemini CLI plugins: search 210,000+ vetted startup candidates, review Clera's picks and request intros over OAuth",

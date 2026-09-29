@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-29",
-  "total": 563,
+  "total": 564,
   "platforms": [
     "codex",
     "grok",
@@ -6801,6 +6801,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/KCNyu/clawock/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Clayform",
+      "url": "https://github.com/sezginkipel/clayform",
+      "owner": "sezginkipel",
+      "repo": "clayform",
+      "description": "MCP server that lets agents build 3D models from a semantic scene document, look at them through a software renderer, check them with measuring critics, rig and animate them, and export glTF, with no Blender or GPU",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sezginkipel/clayform/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
