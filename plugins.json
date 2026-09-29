@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-29",
-  "total": 568,
+  "total": 569,
   "platforms": [
     "codex",
     "grok",
@@ -6886,6 +6886,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ilyautov/cordon/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "CoreSpeed",
+      "url": "https://github.com/corespeed-io/cs",
+      "owner": "corespeed-io",
+      "repo": "cs",
+      "description": "One MCP endpoint with browser sign-in that gives any agent (Claude Code, Codex, Cursor and more) your apps, your team's shared memory and built-in tools for media, web search and social data, with spend caps and an activity log; this plugin adds it to Claude Code and Codex with skills for the cs CLI",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/corespeed-io/cs/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
