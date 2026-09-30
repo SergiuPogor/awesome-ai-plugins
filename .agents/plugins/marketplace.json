@@ -5902,6 +5902,21 @@
       "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-litellm",
+      "displayName": "opencode-litellm",
+      "description": "OpenCode plugin that auto-detects a LiteLLM proxy and dynamically registers its models in the OpenCode picker",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "yuseferi",
+      "repo": "opencode-litellm",
+      "url": "https://github.com/yuseferi/opencode-litellm",
+      "install_url": "https://raw.githubusercontent.com/yuseferi/opencode-litellm/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-models-discovery",
       "displayName": "opencode-models-discovery",
       "description": "OpenCode plugin that dynamically discovers models from OpenAI-compatible providers and injects them into provider config with filtering and metadata enrichment",
@@ -6492,14 +6507,14 @@
       "description": "Turns the engineering preferences you keep repeating into reusable skills and instructions for Claude Code, Codex, Cursor, and Antigravity",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "theonly1me",
       "repo": "shadowclone",
       "url": "https://github.com/theonly1me/shadowclone",
-      "install_url": "https://raw.githubusercontent.com/theonly1me/shadowclone/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/theonly1me/shadowclone/HEAD/plugins/shadowclone/.codex-plugin/plugin.json"
     },
     {
       "name": "silica",
