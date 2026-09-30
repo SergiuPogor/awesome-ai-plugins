@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-30",
-  "total": 570,
+  "total": 572,
   "platforms": [
     "codex",
     "grok",
@@ -3964,6 +3964,20 @@
       ]
     },
     {
+      "name": "Codex Attachment Manager",
+      "url": "https://github.com/chipfighter/codex-attachment-manager",
+      "owner": "chipfighter",
+      "repo": "codex-attachment-manager",
+      "description": "Codex plugin that lets users pick which past images are resent to the model, replacing unchecked ones with placeholders to shrink requests",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/chipfighter/codex-attachment-manager/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Codex Full-Stack Workflow",
       "url": "https://github.com/kevin592/codex-full-stack-workflow",
       "owner": "kevin592",
@@ -5823,6 +5837,20 @@
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "React Native Developer Skills",
+      "url": "https://github.com/Neha/rn-developer-skills",
+      "owner": "Neha",
+      "repo": "rn-developer-skills",
+      "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Neha/rn-developer-skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

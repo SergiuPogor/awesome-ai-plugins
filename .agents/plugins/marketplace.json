@@ -4237,6 +4237,21 @@
       "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Codex Attachment Manager",
+      "displayName": "Codex Attachment Manager",
+      "description": "Codex plugin that lets users pick which past images are resent to the model, replacing unchecked ones with placeholders to shrink requests",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "chipfighter",
+      "repo": "codex-attachment-manager",
+      "url": "https://github.com/chipfighter/codex-attachment-manager",
+      "install_url": "https://raw.githubusercontent.com/chipfighter/codex-attachment-manager/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex Full-Stack Workflow",
       "displayName": "Codex Full-Stack Workflow",
       "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates",
@@ -6230,6 +6245,21 @@
       "repo": "pstack-for-codex",
       "url": "https://github.com/Aqua-123/pstack-for-codex",
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "React Native Developer Skills",
+      "displayName": "React Native Developer Skills",
+      "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Neha",
+      "repo": "rn-developer-skills",
+      "url": "https://github.com/Neha/rn-developer-skills",
+      "install_url": "https://raw.githubusercontent.com/Neha/rn-developer-skills/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Rel.AI MCP",
