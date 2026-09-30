@@ -6667,6 +6667,21 @@
       "install_url": "https://raw.githubusercontent.com/majiayu000/spellbook/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "squidward",
+      "displayName": "squidward",
+      "description": "Claude Code plugin that does the work correctly but delivers every sentence sarcastically, with mild, rowdy, and savage levels and a one-line roast code review",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "keshavbiswa",
+      "repo": "squidward",
+      "url": "https://github.com/keshavbiswa/squidward",
+      "install_url": "https://raw.githubusercontent.com/keshavbiswa/squidward/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "ssot-check",
       "displayName": "ssot-check",
       "description": "Agent Skill and dependency-free Python CLI that discovers repeated facts in documentation and checks declared copies against canonical values",
