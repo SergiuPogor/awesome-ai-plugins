@@ -2180,6 +2180,21 @@
       "install_url": "https://raw.githubusercontent.com/zagrosi-code/zagrosi-forge/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ZCode Bridge",
+      "displayName": "ZCode Bridge",
+      "description": "Delegate development tasks from Codex to a local ZCode runtime, follow progress, and review the resulting changes.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Sandyzzx",
+      "repo": "codex-zcode-bridge",
+      "url": "https://github.com/Sandyzzx/codex-zcode-bridge",
+      "install_url": "https://raw.githubusercontent.com/Sandyzzx/codex-zcode-bridge/HEAD/plugins/codex-zcode-bridge/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agent Message Queue",
       "displayName": "Agent Message Queue",
       "description": "File-based inter-agent messaging with co-op mode, cross-project federation, and orchestrator integrations.",
@@ -2208,6 +2223,21 @@
       "repo": "agent-vision",
       "url": "https://github.com/zfifteen/agent-vision",
       "install_url": "https://raw.githubusercontent.com/zfifteen/agent-vision/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "AgentDomains",
+      "displayName": "AgentDomains",
+      "description": "Claim and manage free subdomains under makes.fyi or agentdomains.co for the sites and APIs AI agents build.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "tashfeenahmed",
+      "repo": "AgentDomains-skill",
+      "url": "https://github.com/tashfeenahmed/AgentDomains-skill",
+      "install_url": "https://raw.githubusercontent.com/tashfeenahmed/AgentDomains-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agentgram",
@@ -7778,6 +7808,21 @@
       "install_url": "https://raw.githubusercontent.com/hostinger/api-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "HProxy MCP",
+      "displayName": "HProxy MCP",
+      "description": "Hosted MCP server, Claude Code plugin and Gemini CLI extension exposing proxy_list, proxy_check and ip_lookup over a keyless, continuously verified free proxy pool, with nothing to install",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "hproxy-com",
+      "repo": "hproxy-mcp",
+      "url": "https://github.com/hproxy-com/hproxy-mcp",
+      "install_url": "https://raw.githubusercontent.com/hproxy-com/hproxy-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "HTML/CSS to Image API",
       "displayName": "HTML/CSS to Image API",
       "description": "Let AI agents capture live website screenshots, render HTML/CSS and populate reusable templates as images or PDFs without managing a browser",
@@ -8708,6 +8753,20 @@
       "owner": "Kihara777",
       "repo": "dsh-api-balance",
       "url": "https://github.com/Kihara777/dsh-api-balance"
+    },
+    {
+      "name": "dsh-blender-plugin",
+      "displayName": "dsh-blender-plugin",
+      "description": "DSH plugin that lets an AI model drive Blender over a direct TCP channel: viewport frames, custom-angle renders, Python execution, headless offload, and a judgment/acceptance layer (`blender_rt_plan`, 28 families / 183 ops)",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "sixtysevenlf",
+      "repo": "dsh-blender-plugin",
+      "url": "https://github.com/sixtysevenlf/dsh-blender-plugin"
     },
     {
       "name": "dsh-config-manager",
