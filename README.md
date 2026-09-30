@@ -344,6 +344,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [opencode-see-image](https://github.com/alfaoz/opencode-see-image) - OpenCode plugin that gives non-vision models image and screenshot understanding by routing attachments to a vision-capable model.
 - [opencode-skills-collection](https://github.com/FrancoStino/opencode-skills-collection) - OpenCode plugin that bundles 1595+ skills and auto-syncs them locally, loading each on demand via pointer files.
 - [opencode-synced](https://github.com/iHildy/opencode-synced) - OpenCode plugin that syncs global configuration and skills across machines via Git, with optional sessions and secrets for private repositories.
+- [opencode-toolrouter](https://github.com/Nsilswal/opencode-toolrouter) - OpenCode plugin that uses TypeSafe's Jev to send the model only the MCP tools each request needs, cutting tool-schema tokens per model call by about 92% in a 296-tool benchmark.
 - [opencode-weave](https://github.com/weave-io/weave) - OpenCode plugin providing multi-agent orchestration with specialized agents, category task dispatch, and background sub-agent execution.
 - [OpenSea Skills](https://github.com/ProjectOpenSea/opensea-skill) - Five Agent Skills for OpenSea data, Seaport trading, ERC20 swaps, wallet signing, and ERC-8257 tool development.
 - [Orchestrate Task Force](https://github.com/alexpsz/orchestrate-task-force) - Task orchestration skill for Codex Desktop, Claude Code, and Google Antigravity, with visible task ownership, scoped parallel work, and integrated review.
