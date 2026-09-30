@@ -2510,6 +2510,21 @@
       "install_url": "https://raw.githubusercontent.com/BestLemoon/codex-seo/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex Tools Bridge",
+      "displayName": "Codex Tools Bridge",
+      "description": "Experimental macOS-first MCP bridge that lets ChatGPT Web call native local Codex tools while preserving native permission context, with no second model loop.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "KunHcz",
+      "repo": "codex-tools-bridge",
+      "url": "https://github.com/KunHcz/codex-tools-bridge",
+      "install_url": "https://raw.githubusercontent.com/KunHcz/codex-tools-bridge/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex Usage Tracker",
       "displayName": "Codex Usage Tracker",
       "description": "Track aggregate Codex token usage from local session logs with MCP tools for summaries, session detail, CSV export, and dashboard generation.",
@@ -4085,6 +4100,21 @@
       "repo": "blender-agent-studio",
       "url": "https://github.com/ifBars/blender-agent-studio",
       "install_url": "https://raw.githubusercontent.com/ifBars/blender-agent-studio/HEAD/plugins/blender-agent-studio/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "BPMN Mapper",
+      "displayName": "BPMN Mapper",
+      "description": "Claude Code plugin that reconstructs an application's business flows from its source code as validated BPMN 2.0, with style lint, incremental updates and XML export for bpmn.io and Camunda",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "rwspatin",
+      "repo": "bpmn-skill",
+      "url": "https://github.com/rwspatin/bpmn-skill",
+      "install_url": "https://raw.githubusercontent.com/rwspatin/bpmn-skill/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Browser Harness",

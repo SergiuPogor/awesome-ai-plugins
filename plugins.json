@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-09-30",
-  "total": 582,
+  "total": 584,
   "platforms": [
     "codex",
     "grok",
@@ -2352,6 +2352,20 @@
       ]
     },
     {
+      "name": "Codex Tools Bridge",
+      "url": "https://github.com/KunHcz/codex-tools-bridge",
+      "owner": "KunHcz",
+      "repo": "codex-tools-bridge",
+      "description": "Experimental macOS-first MCP bridge that lets ChatGPT Web call native local Codex tools while preserving native permission context, with no second model loop.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/KunHcz/codex-tools-bridge/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Codex Usage Tracker",
       "url": "https://github.com/douglasmonsky/codex-usage-tracker",
       "owner": "douglasmonsky",
@@ -3821,6 +3835,20 @@
       "install_url": "https://raw.githubusercontent.com/ifBars/blender-agent-studio/HEAD/plugins/blender-agent-studio/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "BPMN Mapper",
+      "url": "https://github.com/rwspatin/bpmn-skill",
+      "owner": "rwspatin",
+      "repo": "bpmn-skill",
+      "description": "Claude Code plugin that reconstructs an application's business flows from its source code as validated BPMN 2.0, with style lint, incremental updates and XML export for bpmn.io and Camunda",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rwspatin/bpmn-skill/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
