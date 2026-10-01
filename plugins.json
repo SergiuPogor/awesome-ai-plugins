@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-01",
-  "total": 594,
+  "total": 595,
   "platforms": [
     "codex",
     "grok",
@@ -8037,6 +8037,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ThoughtProof/thoughtproof-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Threads Analytics",
+      "url": "https://github.com/ridemountainpig/threads-analytics",
+      "owner": "ridemountainpig",
+      "repo": "threads-analytics",
+      "description": "Self-hosted Threads analytics dashboard with an OAuth-protected, read-only MCP server for querying synced posts, performance metrics, and follower history",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ridemountainpig/threads-analytics/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
