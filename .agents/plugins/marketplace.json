@@ -1160,6 +1160,21 @@
       "install_url": "https://raw.githubusercontent.com/hashgraph-online/hol-guard-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Homie",
+      "displayName": "Homie",
+      "description": "Makes and remixes multiplayer web games, music and video, then publishes them from a studio site with public rooms on your own Cloudflare account.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "homie-rocks",
+      "repo": "homie",
+      "url": "https://github.com/homie-rocks/homie",
+      "install_url": "https://raw.githubusercontent.com/homie-rocks/homie/HEAD/plugins/homie/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Honcho",
       "displayName": "Honcho",
       "description": "Persistent cross-session memory for Codex powered by Honcho \u2014 lifecycle hooks capture each session and inject relevant context back at session start, so Codex remembers your preferences, projects, and decisions across restarts.",
@@ -7175,6 +7190,21 @@
       "repo": "zui",
       "url": "https://github.com/easysoft/zui",
       "install_url": "https://raw.githubusercontent.com/easysoft/zui/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "affine-mcp-server",
+      "displayName": "affine-mcp-server",
+      "description": "MCP server exposing AFFiNE workspaces, documents, and databases to AI clients over stdio or HTTP",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "DAWNCR0W",
+      "repo": "affine-mcp-server",
+      "url": "https://github.com/DAWNCR0W/affine-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/DAWNCR0W/affine-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent QA",
