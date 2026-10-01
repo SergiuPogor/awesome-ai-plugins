@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-01",
-  "total": 593,
+  "total": 594,
   "platforms": [
     "codex",
     "grok",
@@ -4743,6 +4743,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ranahaani/i-hate-editing/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "i-m-senior-developer",
+      "url": "https://github.com/spumer/i-m-senior-developer",
+      "owner": "spumer",
+      "repo": "i-m-senior-developer",
+      "description": "A collection of Claude Code plugins covering TDD, code clarity, planning, review roles, and context upkeep",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/spumer/i-m-senior-developer/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
