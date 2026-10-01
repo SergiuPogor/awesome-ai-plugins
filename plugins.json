@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-09-30",
-  "total": 589,
+  "last_updated": "2026-10-01",
+  "total": 591,
   "platforms": [
     "codex",
     "grok",
@@ -750,6 +750,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/hccccc01333/codex-deepseek-mini-router/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "dejavu",
+      "url": "https://github.com/WhiteBite/dejavu-gates",
+      "owner": "WhiteBite",
+      "repo": "dejavu-gates",
+      "description": "Cross-session error gates that detect recurring tool-call failures and escalate remind to block, with one shared store across Codex, Claude Code, OpenCode, Gemini CLI, Cursor and more (MIT).",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/WhiteBite/dejavu-gates/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -7168,6 +7182,20 @@
       "install_url": "https://raw.githubusercontent.com/HiAi-gg/docsmint/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "dotpals",
+      "url": "https://github.com/Rikinshah787/dotpals",
+      "owner": "Rikinshah787",
+      "repo": "dotpals",
+      "description": "Desktop pal and notch that shows what AI coding agents did in plain words, with live diffs, approvals, and flags for .env changes, force-pushes, and two agents editing the same file across Claude Code, Codex, Cursor, Gemini CLI, and OpenCode",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Rikinshah787/dotpals/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

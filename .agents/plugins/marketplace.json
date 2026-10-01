@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-09-30",
+  "last_updated": "2026-10-01",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -798,6 +798,21 @@
       "repo": "codex-deepseek-mini-router",
       "url": "https://github.com/hccccc01333/codex-deepseek-mini-router",
       "install_url": "https://raw.githubusercontent.com/hccccc01333/codex-deepseek-mini-router/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "dejavu",
+      "displayName": "dejavu",
+      "description": "Cross-session error gates that detect recurring tool-call failures and escalate remind to block, with one shared store across Codex, Claude Code, OpenCode, Gemini CLI, Cursor and more (MIT).",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "WhiteBite",
+      "repo": "dejavu-gates",
+      "url": "https://github.com/WhiteBite/dejavu-gates",
+      "install_url": "https://raw.githubusercontent.com/WhiteBite/dejavu-gates/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Delx Recovery",
@@ -7671,6 +7686,21 @@
       "repo": "docsmint",
       "url": "https://github.com/HiAi-gg/docsmint",
       "install_url": "https://raw.githubusercontent.com/HiAi-gg/docsmint/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "dotpals",
+      "displayName": "dotpals",
+      "description": "Desktop pal and notch that shows what AI coding agents did in plain words, with live diffs, approvals, and flags for .env changes, force-pushes, and two agents editing the same file across Claude Code, Codex, Cursor, Gemini CLI, and OpenCode",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Rikinshah787",
+      "repo": "dotpals",
+      "url": "https://github.com/Rikinshah787/dotpals",
+      "install_url": "https://raw.githubusercontent.com/Rikinshah787/dotpals/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "edgeone-makers-tools",
