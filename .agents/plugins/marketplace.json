@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-01",
+  "last_updated": "2026-10-02",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -3892,21 +3892,6 @@
       "install_url": "https://raw.githubusercontent.com/raysonmeng/agent-bridge/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "agentic-readiness-assessment",
-      "displayName": "agentic-readiness-assessment",
-      "description": "Agent skill that audits a repository for AI coding agent readiness and produces an evidence-based scorecard with prioritized fixes",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "exadel-inc",
-      "repo": "agentic-readiness-assessment",
-      "url": "https://github.com/exadel-inc/agentic-readiness-assessment",
-      "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Agentic Ship",
       "displayName": "Agentic Ship",
       "description": "Cross-host product-development toolkit for Claude Code, Codex, Cursor, Hermes, and OpenClaw with shared rules, specialist roles, service connections, and machine-checked UI, backend, security, and launch gates",
@@ -3920,6 +3905,21 @@
       "repo": "agentic-ship",
       "url": "https://github.com/moasq/agentic-ship",
       "install_url": "https://raw.githubusercontent.com/moasq/agentic-ship/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "agentic-readiness-assessment",
+      "displayName": "agentic-readiness-assessment",
+      "description": "Agent skill that audits a repository for AI coding agent readiness and produces an evidence-based scorecard with prioritized fixes",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "exadel-inc",
+      "repo": "agentic-readiness-assessment",
+      "url": "https://github.com/exadel-inc/agentic-readiness-assessment",
+      "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AgentWiki",
@@ -6052,6 +6052,21 @@
       "install_url": "https://raw.githubusercontent.com/waybarrios/opencode-power-pack/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-9router",
+      "displayName": "opencode-9router",
+      "description": "OpenCode plugin that registers 9Router as a provider with automatic model discovery and caching",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "vheins",
+      "repo": "opencode-9router",
+      "url": "https://github.com/vheins/opencode-9router",
+      "install_url": "https://raw.githubusercontent.com/vheins/opencode-9router/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-litellm",
       "displayName": "opencode-litellm",
       "description": "OpenCode plugin that auto-detects a LiteLLM proxy and dynamically registers its models in the OpenCode picker",
@@ -8161,14 +8176,14 @@
       "description": "Claude Code plugin for hosted AI agent memory over MCP that learns from outcomes: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work and browser OAuth sign-in instead of an API key",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "mnemoverse",
       "repo": "claude-plugin",
       "url": "https://github.com/mnemoverse/claude-plugin",
-      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "motion-launch-videos",

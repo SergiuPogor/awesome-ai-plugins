@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-01",
-  "total": 598,
+  "last_updated": "2026-10-02",
+  "total": 599,
   "platforms": [
     "codex",
     "grok",
@@ -3642,20 +3642,6 @@
       ]
     },
     {
-      "name": "agentic-readiness-assessment",
-      "url": "https://github.com/exadel-inc/agentic-readiness-assessment",
-      "owner": "exadel-inc",
-      "repo": "agentic-readiness-assessment",
-      "description": "Agent skill that audits a repository for AI coding agent readiness and produces an evidence-based scorecard with prioritized fixes",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Agentic Ship",
       "url": "https://github.com/moasq/agentic-ship",
       "owner": "moasq",
@@ -3665,6 +3651,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/moasq/agentic-ship/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agentic-readiness-assessment",
+      "url": "https://github.com/exadel-inc/agentic-readiness-assessment",
+      "owner": "exadel-inc",
+      "repo": "agentic-readiness-assessment",
+      "description": "Agent skill that audits a repository for AI coding agent readiness and produces an evidence-based scorecard with prioritized fixes",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -5658,6 +5658,20 @@
       ]
     },
     {
+      "name": "opencode-9router",
+      "url": "https://github.com/vheins/opencode-9router",
+      "owner": "vheins",
+      "repo": "opencode-9router",
+      "description": "OpenCode plugin that registers 9Router as a provider with automatic model discovery and caching",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/vheins/opencode-9router/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "opencode-litellm",
       "url": "https://github.com/yuseferi/opencode-litellm",
       "owner": "yuseferi",
@@ -7628,11 +7642,11 @@
       "repo": "claude-plugin",
       "description": "Claude Code plugin for hosted AI agent memory over MCP that learns from outcomes: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work and browser OAuth sign-in instead of an API key",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
