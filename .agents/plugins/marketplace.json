@@ -3067,6 +3067,21 @@
       "install_url": "https://raw.githubusercontent.com/mbanderas/costguard/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Magic Hour",
+      "displayName": "Magic Hour",
+      "description": "Create and finish AI images and videos through Magic Hour's MCP or API with reusable media workflows, output review, and account-credit requirements.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "magichourhq",
+      "repo": "skills",
+      "url": "https://github.com/magichourhq/skills",
+      "install_url": "https://raw.githubusercontent.com/magichourhq/skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MATLAB Simulink Tools",
       "displayName": "MATLAB Simulink Tools",
       "description": "Connects Codex to MATLAB and Simulink through a local MCP server for model inspection, script execution, and engineering workflow automation.",
@@ -3335,6 +3350,21 @@
       "repo": "codex-remotion-plugin",
       "url": "https://github.com/tim-osterhus/codex-remotion-plugin",
       "install_url": "https://raw.githubusercontent.com/tim-osterhus/codex-remotion-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Resume Tailor",
+      "displayName": "Resume Tailor",
+      "description": "Tailor resumes and application text to job descriptions, or create candidate profiles from supplied career evidence.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "olegvg",
+      "repo": "resume-tailor-plugin",
+      "url": "https://github.com/olegvg/resume-tailor-plugin",
+      "install_url": "https://raw.githubusercontent.com/olegvg/resume-tailor-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "ru-text",
@@ -4880,6 +4910,21 @@
       "repo": "ga4-gsc-clarity-mcp-server",
       "url": "https://github.com/rakoo04/ga4-gsc-clarity-mcp-server",
       "install_url": "https://raw.githubusercontent.com/rakoo04/ga4-gsc-clarity-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Game Development Studio",
+      "displayName": "Game Development Studio",
+      "description": "CLI, skills, and MCP server for game asset production, vendoring, visual debugging, and performance analysis",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "theisegoria",
+      "repo": "game-development-studio",
+      "url": "https://github.com/theisegoria/game-development-studio",
+      "install_url": "https://raw.githubusercontent.com/theisegoria/game-development-studio/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Gangsta Agents",
@@ -7881,6 +7926,21 @@
       "repo": "ego-lite",
       "url": "https://github.com/citrolabs/ego-lite",
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Ethora",
+      "displayName": "Ethora",
+      "description": "MCP server for the Ethora chat and messaging platform: create and manage apps, chat rooms and users, broadcast messages, and deploy AI agents and RAG chatbots",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "dappros",
+      "repo": "ethora-mcp-server",
+      "url": "https://github.com/dappros/ethora-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/dappros/ethora-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "flacli",
