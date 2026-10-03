@@ -3502,6 +3502,21 @@
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Sendpaper",
+      "displayName": "Sendpaper",
+      "description": "Send real postcards and letters to US addresses from Codex, with an exact print preview, payment only with your approval, and USPS First-Class mailing via a hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ryan-tish",
+      "repo": "sendpaper-plugin",
+      "url": "https://github.com/ryan-tish/sendpaper-plugin",
+      "install_url": "https://raw.githubusercontent.com/ryan-tish/sendpaper-plugin/HEAD/plugins/sendpaper/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Sendsets",
       "displayName": "Sendsets",
       "description": "Send cold email from Codex: connect and warm up mailboxes, build and launch outbound sequences, and answer replies through the Sendsets MCP server.",
@@ -8769,6 +8784,21 @@
       "repo": "scvd-general-store-repo",
       "url": "https://github.com/seancrecord/scvd-general-store-repo",
       "install_url": "https://raw.githubusercontent.com/seancrecord/scvd-general-store-repo/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Serply Agent Skills",
+      "displayName": "Serply Agent Skills",
+      "description": "Agent Skill and Claude Code plugin that teaches coding agents to pull live Google Search, Scholar, News, Maps, Jobs, Bing, Amazon and Reddit results and scrape URLs to markdown through the Serply API or its hosted MCP server",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "serply-inc",
+      "repo": "skills",
+      "url": "https://github.com/serply-inc/skills",
+      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Sessionbus",
