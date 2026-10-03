@@ -559,6 +559,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Grabbit](https://github.com/BrainGridAI/grabbit-mcp) - Hosted screenshot MCP for agents that grabs any URL as a hosted image with no local Chromium.
 - [GSC Quick Wins](https://github.com/iniyan/gsc-quick-wins) - Agent Skill that reads a Google Search Console export, finds keywords stuck in positions 4–20, and writes the exact title, meta, H2, FAQ and internal-link fixes, with a zero-dependency Python scorer.
 - [Hermes Tweet](https://github.com/Xquik-dev/hermes-tweet) - Hermes Agent X/Twitter plugin for read-first social research, monitoring, and approval-gated actions through Xquik.
+- [HodlJuice](https://github.com/nmorton13/hodljuice-cli) - Claude Code plugin and `hj` CLI for searching and playing 30,000+ Bitcoin podcast episodes, with a status-line player, /pint and /brew commands, and a hosted MCP server.
 - [Hostinger API MCP](https://github.com/hostinger/api-mcp-server) - Manage Hostinger VPS, domains, DNS, hosting, and billing through MCP tools backed by the official Hostinger API.
 - [HProxy MCP](https://github.com/hproxy-com/hproxy-mcp) - Hosted MCP server, Claude Code plugin and Gemini CLI extension exposing proxy_list, proxy_check and ip_lookup over a keyless, continuously verified free proxy pool, with nothing to install.
 - [HTML/CSS to Image API](https://github.com/htmlcsstoimage/agent-plugins) - Let AI agents capture live website screenshots, render HTML/CSS and populate reusable templates as images or PDFs without managing a browser.
