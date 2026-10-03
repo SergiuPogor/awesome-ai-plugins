@@ -8621,6 +8621,21 @@
       "install_url": "https://raw.githubusercontent.com/linxule/mcp-music-studio/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "mcpsnoop",
+      "displayName": "mcpsnoop",
+      "description": "Wireshark for MCP, a transparent proxy that shows the real traffic between your AI client and MCP servers, fails CI on it and exports it as OpenTelemetry spans",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "kerlenton",
+      "repo": "mcpsnoop",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "install_url": "https://raw.githubusercontent.com/kerlenton/mcpsnoop/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Mimi Seed",
       "displayName": "Mimi Seed",
       "description": "App launch ops for Claude Code and Codex: a local MCP server and CLI that drive Google Play, App Store Connect, Firebase, AdMob, and more from local credentials",

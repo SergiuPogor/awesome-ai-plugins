@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-03",
-  "total": 640,
+  "total": 641,
   "platforms": [
     "codex",
     "grok",
@@ -8051,6 +8051,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/linxule/mcp-music-studio/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "mcpsnoop",
+      "url": "https://github.com/kerlenton/mcpsnoop",
+      "owner": "kerlenton",
+      "repo": "mcpsnoop",
+      "description": "Wireshark for MCP, a transparent proxy that shows the real traffic between your AI client and MCP servers, fails CI on it and exports it as OpenTelemetry spans",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kerlenton/mcpsnoop/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
