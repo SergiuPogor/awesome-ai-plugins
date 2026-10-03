@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-03",
-  "total": 638,
+  "total": 640,
   "platforms": [
     "codex",
     "grok",
@@ -4916,6 +4916,20 @@
       ]
     },
     {
+      "name": "harness-scope",
+      "url": "https://github.com/shimo4228/harness-scope",
+      "owner": "shimo4228",
+      "repo": "harness-scope",
+      "description": "Claude Code mod that turns global skills, agents, rules files and tools on or off per repo through named profiles kept in ~/.claude, with no network or model calls",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/shimo4228/harness-scope/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Hey Jarvis",
       "url": "https://github.com/dijiclick/hey-jarvis",
       "owner": "dijiclick",
@@ -8739,6 +8753,20 @@
       "install_url": "https://raw.githubusercontent.com/youdotcom-oss/agent-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "YYLO Skills",
+      "url": "https://github.com/yylo-dev/yylo-skills",
+      "owner": "yylo-dev",
+      "repo": "yylo-skills",
+      "description": "Reusable agent skills maintained by YYLO: the canonical, independently versioned source for the ledger-tasks, wiki, workflow, artifact, benchmark, understand-project, plan-ledger-tasks and ralph-loop skills used by YYLO CLI and YYLO Ledger",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/yylo-dev/yylo-skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
