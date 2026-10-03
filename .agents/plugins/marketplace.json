@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-02",
+  "last_updated": "2026-10-03",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -8379,6 +8379,21 @@
       "repo": "pdf-monster",
       "url": "https://github.com/jbaehova/pdf-monster",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "phone-sms",
+      "displayName": "phone-sms",
+      "description": "MCP server and Claude Code plugin that reads and sends SMS through the user's own Android phone over KDE Connect on the local network, with no cloud relay, sending only after the user approves recipient and text",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "h-3303",
+      "repo": "phone-sms",
+      "url": "https://github.com/h-3303/phone-sms",
+      "install_url": "https://raw.githubusercontent.com/h-3303/phone-sms/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "pi-recall",

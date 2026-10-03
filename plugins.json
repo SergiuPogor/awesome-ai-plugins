@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-02",
-  "total": 599,
+  "last_updated": "2026-10-03",
+  "total": 600,
   "platforms": [
     "codex",
     "grok",
@@ -7827,6 +7827,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "phone-sms",
+      "url": "https://github.com/h-3303/phone-sms",
+      "owner": "h-3303",
+      "repo": "phone-sms",
+      "description": "MCP server and Claude Code plugin that reads and sends SMS through the user's own Android phone over KDE Connect on the local network, with no cloud relay, sending only after the user approves recipient and text",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/h-3303/phone-sms/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
