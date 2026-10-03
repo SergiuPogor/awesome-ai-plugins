@@ -2956,6 +2956,20 @@
       ]
     },
     {
+      "name": "Mnemoverse Memory",
+      "url": "https://github.com/mnemoverse/claude-plugin",
+      "owner": "mnemoverse",
+      "repo": "claude-plugin",
+      "description": "Hosted AI agent memory that learns from outcomes, over remote MCP with OAuth sign-in: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Mobazha",
       "url": "https://github.com/mobazha/mobazha-skills",
       "owner": "mobazha",
@@ -8079,20 +8093,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/olgasafonova/miro-mcp-server/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Mnemoverse Memory",
-      "url": "https://github.com/mnemoverse/claude-plugin",
-      "owner": "mnemoverse",
-      "repo": "claude-plugin",
-      "description": "Claude Code plugin for hosted AI agent memory over MCP that learns from outcomes: tell it a recalled memory helped or misled and it re-ranks what comes back next, with shared rooms for multi-agent work and browser OAuth sign-in instead of an API key",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/mnemoverse/claude-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
