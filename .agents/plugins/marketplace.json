@@ -395,6 +395,21 @@
       "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ChatGPT Agent",
+      "displayName": "ChatGPT Agent",
+      "description": "Use ChatGPT as a reviewer, advisor, editor, or implementer in Codex, with ZIP packets by default and an opt-in MCP bridge.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "TohmaN233",
+      "repo": "chatgpt-review-agent-skill",
+      "url": "https://github.com/TohmaN233/chatgpt-review-agent-skill",
+      "install_url": "https://raw.githubusercontent.com/TohmaN233/chatgpt-review-agent-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Claude Code Codex Plugin",
       "displayName": "Claude Code Codex Plugin",
       "description": "Security-focused Codex plugin that connects to the local Claude Code CLI through MCP with login, status checks, safe-mode prompts, and no credential storage.",

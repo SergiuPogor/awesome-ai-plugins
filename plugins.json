@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-03",
-  "total": 613,
+  "total": 614,
   "platforms": [
     "codex",
     "grok",
@@ -372,6 +372,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/x4cc3/casefile/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ChatGPT Agent",
+      "url": "https://github.com/TohmaN233/chatgpt-review-agent-skill",
+      "owner": "TohmaN233",
+      "repo": "chatgpt-review-agent-skill",
+      "description": "Use ChatGPT as a reviewer, advisor, editor, or implementer in Codex, with ZIP packets by default and an opt-in MCP bridge.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TohmaN233/chatgpt-review-agent-skill/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
