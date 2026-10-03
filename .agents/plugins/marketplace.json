@@ -7928,6 +7928,21 @@
       "install_url": "https://raw.githubusercontent.com/BrainGridAI/grabbit-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "GSC Quick Wins",
+      "displayName": "GSC Quick Wins",
+      "description": "Agent Skill that reads a Google Search Console export, finds keywords stuck in positions 4\u201320, and writes the exact title, meta, H2, FAQ and internal-link fixes, with a zero-dependency Python scorer",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "iniyan",
+      "repo": "gsc-quick-wins",
+      "url": "https://github.com/iniyan/gsc-quick-wins",
+      "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Hostinger API MCP",
       "displayName": "Hostinger API MCP",
       "description": "Manage Hostinger VPS, domains, DNS, hosting, and billing through MCP tools backed by the official Hostinger API",

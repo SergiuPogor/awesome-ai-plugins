@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-03",
-  "total": 600,
+  "total": 601,
   "platforms": [
     "codex",
     "grok",
@@ -7404,6 +7404,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/BrainGridAI/grabbit-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "GSC Quick Wins",
+      "url": "https://github.com/iniyan/gsc-quick-wins",
+      "owner": "iniyan",
+      "repo": "gsc-quick-wins",
+      "description": "Agent Skill that reads a Google Search Console export, finds keywords stuck in positions 4\u201320, and writes the exact title, meta, H2, FAQ and internal-link fixes, with a zero-dependency Python scorer",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
