@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-03",
-  "total": 608,
+  "total": 612,
   "platforms": [
     "codex",
     "grok",
@@ -1498,6 +1498,20 @@
       ]
     },
     {
+      "name": "RepoPilot",
+      "url": "https://github.com/MykytaStel/repopilot",
+      "owner": "MykytaStel",
+      "repo": "repopilot",
+      "description": "Snapshots each Codex session and stops the agent when it weakened tests, suppressions, or CI gates, once per signal; local and deterministic.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MykytaStel/repopilot/HEAD/integrations/claude-code/repopilot/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Reviewable HTML Workbench",
       "url": "https://github.com/u-ichi/reviewable-html-workbench",
       "owner": "u-ichi",
@@ -2150,6 +2164,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/aient-ai/aient-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Anime Reaction GIF",
+      "url": "https://github.com/LIghtJUNction/anime-reaction-gif",
+      "owner": "LIghtJUNction",
+      "repo": "anime-reaction-gif",
+      "description": "Create original anime reaction stickers with image-generated pose sheets, expressive timing, and looping GIF and MP4 exports.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/LIghtJUNction/anime-reaction-gif/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3020,6 +3048,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/papersflow-ai/papersflow-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "PlaceCall",
+      "url": "https://github.com/voygr-tech/placecall",
+      "owner": "voygr-tech",
+      "repo": "placecall",
+      "description": "Places real outbound phone calls to US businesses (bookings, inquiries, quotes) through the PlaceCall API and returns the outcome and transcript.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/voygr-tech/placecall/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -6355,6 +6397,20 @@
       "install_url": "https://raw.githubusercontent.com/kobimantzur/agent-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "skills",
+      "url": "https://github.com/pwguler/skills",
+      "owner": "pwguler",
+      "repo": "skills",
+      "description": "Agent skills against the debt coding agents leave behind: unsettled plans, untested code, and claims nobody checked",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pwguler/skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

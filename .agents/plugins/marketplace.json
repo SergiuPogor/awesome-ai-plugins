@@ -1595,6 +1595,21 @@
       "install_url": "https://raw.githubusercontent.com/DitriXNew/rekall/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "RepoPilot",
+      "displayName": "RepoPilot",
+      "description": "Snapshots each Codex session and stops the agent when it weakened tests, suppressions, or CI gates, once per signal; local and deterministic.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MykytaStel",
+      "repo": "repopilot",
+      "url": "https://github.com/MykytaStel/repopilot",
+      "install_url": "https://raw.githubusercontent.com/MykytaStel/repopilot/HEAD/integrations/claude-code/repopilot/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Reviewable HTML Workbench",
       "displayName": "Reviewable HTML Workbench",
       "description": "Generate reviewable HTML documents, serve previews, collect inline review comments, and feed review outcomes back into agent workflows.",
@@ -2298,6 +2313,21 @@
       "repo": "aient-codex-plugin",
       "url": "https://github.com/aient-ai/aient-codex-plugin",
       "install_url": "https://raw.githubusercontent.com/aient-ai/aient-codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Anime Reaction GIF",
+      "displayName": "Anime Reaction GIF",
+      "description": "Create original anime reaction stickers with image-generated pose sheets, expressive timing, and looping GIF and MP4 exports.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "LIghtJUNction",
+      "repo": "anime-reaction-gif",
+      "url": "https://github.com/LIghtJUNction/anime-reaction-gif",
+      "install_url": "https://raw.githubusercontent.com/LIghtJUNction/anime-reaction-gif/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Antigravity 2.0",
@@ -3230,6 +3260,21 @@
       "repo": "papersflow-codex-plugin",
       "url": "https://github.com/papersflow-ai/papersflow-codex-plugin",
       "install_url": "https://raw.githubusercontent.com/papersflow-ai/papersflow-codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "PlaceCall",
+      "displayName": "PlaceCall",
+      "description": "Places real outbound phone calls to US businesses (bookings, inquiries, quotes) through the PlaceCall API and returns the outcome and transcript.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "voygr-tech",
+      "repo": "placecall",
+      "url": "https://github.com/voygr-tech/placecall",
+      "install_url": "https://raw.githubusercontent.com/voygr-tech/placecall/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "plori",
@@ -6800,6 +6845,21 @@
       "repo": "agent-skills",
       "url": "https://github.com/kobimantzur/agent-skills",
       "install_url": "https://raw.githubusercontent.com/kobimantzur/agent-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "skills",
+      "displayName": "skills",
+      "description": "Agent skills against the debt coding agents leave behind: unsettled plans, untested code, and claims nobody checked",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "pwguler",
+      "repo": "skills",
+      "url": "https://github.com/pwguler/skills",
+      "install_url": "https://raw.githubusercontent.com/pwguler/skills/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "skillsaw",
