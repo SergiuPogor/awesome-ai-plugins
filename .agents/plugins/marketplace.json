@@ -3127,6 +3127,21 @@
       "install_url": "https://raw.githubusercontent.com/BlockchainHB/launchfast_codex_plugin/HEAD/plugins/launchfast/.codex-plugin/plugin.json"
     },
     {
+      "name": "LienDeadline",
+      "displayName": "LienDeadline",
+      "description": "US mechanics lien and preliminary notice deadlines for construction material suppliers, with statute citations, plus lien guides for all 50 states and DC; read-only.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "LienDeadline",
+      "repo": "skills",
+      "url": "https://github.com/LienDeadline/skills",
+      "install_url": "https://raw.githubusercontent.com/LienDeadline/skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "LinkedIn Skills",
       "displayName": "LinkedIn Skills",
       "description": "Codex-ready LinkedIn marketing bundle with a native .codex-plugin manifest and 10 skills: post writing with 16 tested hook formulas, AI-tell humanizer, pre-publish audit, comment and reply drafting, hook extraction, content planning, profile optimization, engager analytics, and thread monitoring; also works in Claude Code.",
@@ -8679,6 +8694,21 @@
       "repo": "kunglao-agent",
       "url": "https://github.com/amd2g2zz/kunglao-agent",
       "install_url": "https://raw.githubusercontent.com/amd2g2zz/kunglao-agent/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "lemo-mod",
+      "displayName": "lemo-mod",
+      "description": "Claude Code plugin bundle: 21 styles for the terminal and desktop app, plus 16 mods (a panel, usage band, message numbers, speech, session recaps and more), with only looks on at install",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "lemomo-ai",
+      "repo": "lemo-mod",
+      "url": "https://github.com/lemomo-ai/lemo-mod",
+      "install_url": "https://raw.githubusercontent.com/lemomo-ai/lemo-mod/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "LetsFG",
