@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-04",
-  "total": 649,
+  "total": 650,
   "platforms": [
     "codex",
     "grok",
@@ -5625,6 +5625,20 @@
       "platform": "claude-code",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/labyrinth-analytics/loredocs/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "lumberroom-claude-code",
+      "url": "https://github.com/lumberroom/lumberroom-claude-code",
+      "owner": "lumberroom",
+      "repo": "lumberroom-claude-code",
+      "description": "Claude Code mod that replaces Claude Code's built-in memory with lumberroom shared memory, on lumberroom.cloud or a self-hosted engine, with session digests, optional per-prompt recall, automatic fact extraction, and token accounting in the status line",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lumberroom/lumberroom-claude-code/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
       ]

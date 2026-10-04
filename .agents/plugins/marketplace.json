@@ -6022,6 +6022,21 @@
       "install_url": "https://raw.githubusercontent.com/labyrinth-analytics/loredocs/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "lumberroom-claude-code",
+      "displayName": "lumberroom-claude-code",
+      "description": "Claude Code mod that replaces Claude Code's built-in memory with lumberroom shared memory, on lumberroom.cloud or a self-hosted engine, with session digests, optional per-prompt recall, automatic fact extraction, and token accounting in the status line",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "lumberroom",
+      "repo": "lumberroom-claude-code",
+      "url": "https://github.com/lumberroom/lumberroom-claude-code",
+      "install_url": "https://raw.githubusercontent.com/lumberroom/lumberroom-claude-code/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "MARGINAL",
       "displayName": "MARGINAL",
       "description": "Local-first runtime governor for AI coding agents that detects proven no-progress repetition, records decision evidence, starts in Shadow Mode, and earns narrow enforcement only after repository-local evidence",
