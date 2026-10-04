@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-04",
-  "total": 653,
+  "total": 654,
   "platforms": [
     "codex",
     "grok",
@@ -3622,6 +3622,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/CarrotGamesStudios/vidseeds-mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "VoiceMoat Skills",
+      "url": "https://github.com/prateeks367/voicemoat-skills",
+      "owner": "prateeks367",
+      "repo": "voicemoat-skills",
+      "description": "Skills-only Codex plugin with 26 skills for LinkedIn and Twitter/X posts: draft in your own voice, audit before you publish, fix weak openings, draft comments and replies, read your numbers and plan the week, with no account or API key needed.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/prateeks367/voicemoat-skills/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -8308,6 +8322,20 @@
       ]
     },
     {
+      "name": "okaypic-video-skill",
+      "url": "https://github.com/okaypic/okaypic-video-skill",
+      "owner": "okaypic",
+      "repo": "okaypic-video-skill",
+      "description": "Claude Code skill and Python toolchain that turns a script into a finished episode through the okaypic.com video API: character reference sheets, batch MiniMax H3 rendering with generated voices, a local timeline editor with English and Chinese captions, and a one-command final cut",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/okaypic/okaypic-video-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "OpenAI-Compatible Images",
       "url": "https://github.com/Syh1906/openai-compatible-imagegen",
       "owner": "Syh1906",
@@ -8851,20 +8879,6 @@
       "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
-      ]
-    },
-    {
-      "name": "VoiceMoat Skills",
-      "url": "https://github.com/prateeks367/voicemoat-skills",
-      "owner": "prateeks367",
-      "repo": "voicemoat-skills",
-      "description": "26 Agent Skills for LinkedIn and Twitter/X posts that draft in your own voice, audit a post before you publish, fix weak openings, draft comments and replies, read your numbers and plan the week, for Claude Code, Codex and any client that reads SKILL.md",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/prateeks367/voicemoat-skills/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
       ]
     },
     {

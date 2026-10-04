@@ -3877,6 +3877,21 @@
       "install_url": "https://raw.githubusercontent.com/CarrotGamesStudios/vidseeds-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "VoiceMoat Skills",
+      "displayName": "VoiceMoat Skills",
+      "description": "Skills-only Codex plugin with 26 skills for LinkedIn and Twitter/X posts: draft in your own voice, audit before you publish, fix weak openings, draft comments and replies, read your numbers and plan the week, with no account or API key needed.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "prateeks367",
+      "repo": "voicemoat-skills",
+      "url": "https://github.com/prateeks367/voicemoat-skills",
+      "install_url": "https://raw.githubusercontent.com/prateeks367/voicemoat-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "WakeWire",
       "displayName": "WakeWire",
       "description": "Push events from GitHub, Gmail, Slack, and any signed webhook (Linear, Sentry, ClickUp) straight into your Codex threads as new turns \u2014 event-driven triggers instead of polling, with HMAC verification, deduplication, and a durable delivery queue.",
@@ -8891,6 +8906,21 @@
       "install_url": "https://raw.githubusercontent.com/Spicy-API/nsfw-ai-skill/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "okaypic-video-skill",
+      "displayName": "okaypic-video-skill",
+      "description": "Claude Code skill and Python toolchain that turns a script into a finished episode through the okaypic.com video API: character reference sheets, batch MiniMax H3 rendering with generated voices, a local timeline editor with English and Chinese captions, and a one-command final cut",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "okaypic",
+      "repo": "okaypic-video-skill",
+      "url": "https://github.com/okaypic/okaypic-video-skill",
+      "install_url": "https://raw.githubusercontent.com/okaypic/okaypic-video-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "OpenAI-Compatible Images",
       "displayName": "OpenAI-Compatible Images",
       "description": "Generate, edit, and batch-process images through OpenAI-compatible APIs using a standalone skill or a Codex App plugin with a canvas for annotating edit requests",
@@ -9474,21 +9504,6 @@
       "repo": "VMware-AIops",
       "url": "https://github.com/vmware-skills/VMware-AIops",
       "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json"
-    },
-    {
-      "name": "VoiceMoat Skills",
-      "displayName": "VoiceMoat Skills",
-      "description": "26 Agent Skills for LinkedIn and Twitter/X posts that draft in your own voice, audit a post before you publish, fix weak openings, draft comments and replies, read your numbers and plan the week, for Claude Code, Codex and any client that reads SKILL.md",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "prateeks367",
-      "repo": "voicemoat-skills",
-      "url": "https://github.com/prateeks367/voicemoat-skills",
-      "install_url": "https://raw.githubusercontent.com/prateeks367/voicemoat-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Watermelon UI",
