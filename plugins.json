@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-03",
-  "total": 641,
+  "last_updated": "2026-10-04",
+  "total": 643,
   "platforms": [
     "codex",
     "grok",
@@ -4239,6 +4239,20 @@
       "platform": "claude-code",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "Cloudish",
+      "url": "https://github.com/cloudishai/skills",
+      "owner": "cloudishai",
+      "repo": "skills",
+      "description": "Deploy a Dockerfile, source folder, or container image to Cloudish from Claude Code or Codex and report the live URL, with persistent volumes and an agent-created, credit-capped API key",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/cloudishai/skills/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
       ]
@@ -8753,6 +8767,20 @@
       "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "owner": "nanaism",
+      "repo": "yomiyasu",
+      "description": "Agent Skill for rewriting unnatural, AI-generated Japanese into human-readable, high-information-density text while strictly preserving the original meaning",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nanaism/yomiyasu/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

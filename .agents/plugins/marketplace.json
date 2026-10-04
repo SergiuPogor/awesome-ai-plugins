@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-03",
+  "last_updated": "2026-10-04",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4535,6 +4535,21 @@
       "repo": "claude-supertool",
       "url": "https://github.com/Digital-Process-Tools/claude-supertool",
       "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Cloudish",
+      "displayName": "Cloudish",
+      "description": "Deploy a Dockerfile, source folder, or container image to Cloudish from Claude Code or Codex and report the live URL, with persistent volumes and an agent-created, credit-capped API key",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "cloudishai",
+      "repo": "skills",
+      "url": "https://github.com/cloudishai/skills",
+      "install_url": "https://raw.githubusercontent.com/cloudishai/skills/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Codex Full-Stack Workflow",
@@ -9369,6 +9384,21 @@
       "repo": "whiteboard-video-skill",
       "url": "https://github.com/Matteoikarieth96/whiteboard-video-skill",
       "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "yomiyasu",
+      "displayName": "yomiyasu",
+      "description": "Agent Skill for rewriting unnatural, AI-generated Japanese into human-readable, high-information-density text while strictly preserving the original meaning",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "nanaism",
+      "repo": "yomiyasu",
+      "url": "https://github.com/nanaism/yomiyasu",
+      "install_url": "https://raw.githubusercontent.com/nanaism/yomiyasu/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "You.com Agent Skills",
