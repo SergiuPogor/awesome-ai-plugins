@@ -2585,6 +2585,21 @@
       "install_url": "https://raw.githubusercontent.com/yaffalhakim1/codex-discord-bridge/HEAD/codex-packages/codex-discord-bridge/.codex-plugin/plugin.json"
     },
     {
+      "name": "Codex Image Plugin",
+      "displayName": "Codex Image Plugin",
+      "description": "Generate and edit raster images through any OpenAI-compatible image API, with model discovery, reference-image editing, masks, and provider configuration support.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "zlsbksdxl",
+      "repo": "codex-image-plugin",
+      "url": "https://github.com/zlsbksdxl/codex-image-plugin",
+      "install_url": "https://raw.githubusercontent.com/zlsbksdxl/codex-image-plugin/HEAD/plugins/codex-image-plugin/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codex Mem",
       "displayName": "Codex Mem",
       "description": "Automatically capture, compress, and inject session context back into future Codex sessions.",
@@ -6755,6 +6770,21 @@
       "repo": "pikamux",
       "url": "https://github.com/ayushjainr/pikamux",
       "install_url": "https://raw.githubusercontent.com/ayushjainr/pikamux/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Pixel",
+      "displayName": "Pixel",
+      "description": "Local, deterministic code index that Claude Code, Codex, Pi, OpenCode and other coding agents query for signatures, callers, impact and Git history instead of reading whole files",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Pixel-CLI",
+      "repo": "pixel",
+      "url": "https://github.com/Pixel-CLI/pixel",
+      "install_url": "https://raw.githubusercontent.com/Pixel-CLI/pixel/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Planning with Files",
