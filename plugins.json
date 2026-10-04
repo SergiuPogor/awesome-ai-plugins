@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-04",
-  "total": 654,
+  "total": 655,
   "platforms": [
     "codex",
     "grok",
@@ -6831,6 +6831,20 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "STE-Pro Max",
+      "url": "https://github.com/shyamsridhar123/STE-Pro-Max",
+      "owner": "shyamsridhar123",
+      "repo": "STE-Pro-Max",
+      "description": "Simplified Technical English-inspired writing, interactive visual explanations, and evidence-linked storytelling for Claude Code, Codex, and GitHub Copilot CLI",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/shyamsridhar123/STE-Pro-Max/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

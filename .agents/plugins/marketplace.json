@@ -7312,6 +7312,21 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/ssot-check/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "STE-Pro Max",
+      "displayName": "STE-Pro Max",
+      "description": "Simplified Technical English-inspired writing, interactive visual explanations, and evidence-linked storytelling for Claude Code, Codex, and GitHub Copilot CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "shyamsridhar123",
+      "repo": "STE-Pro-Max",
+      "url": "https://github.com/shyamsridhar123/STE-Pro-Max",
+      "install_url": "https://raw.githubusercontent.com/shyamsridhar123/STE-Pro-Max/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Stvena",
       "displayName": "Stvena",
       "description": "Terminal workspace for running Codex or Claude Code beside live diffs, full-file review, checks, staging, and precise code feedback",
