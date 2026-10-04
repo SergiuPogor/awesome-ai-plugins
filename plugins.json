@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-04",
-  "total": 643,
+  "total": 644,
   "platforms": [
     "codex",
     "grok",
@@ -4059,6 +4059,20 @@
       "install_url": "https://raw.githubusercontent.com/ifBars/blender-agent-studio/HEAD/plugins/blender-agent-studio/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Blender Developer Tools",
+      "url": "https://github.com/TMHSDigital/Blender-Developer-Tools",
+      "owner": "TMHSDigital",
+      "repo": "Blender-Developer-Tools",
+      "description": "16 skills, 9 rules, snippets, templates, and smoke-tested examples for Blender Python add-on and scripting work with correct 4.5 LTS and 5.2 LTS APIs, installable as a Claude Code plugin and usable from Cursor",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/TMHSDigital/Blender-Developer-Tools/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
