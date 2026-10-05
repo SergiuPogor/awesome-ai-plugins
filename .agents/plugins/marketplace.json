@@ -3172,6 +3172,21 @@
       "install_url": "https://raw.githubusercontent.com/sergebulaev/linkedin-skills/HEAD/.codex-marketplace/linkedin-skills/.codex-plugin/plugin.json"
     },
     {
+      "name": "LinkMCP",
+      "displayName": "LinkMCP",
+      "description": "Connects Codex to your own LinkedIn account through the hosted LinkMCP server for profile and company lookups, people and Sales Navigator search, inbox, posts, connection requests and work email finding (closed source; paid plans with a 7-day free trial).",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "linkmcp-io",
+      "repo": "linkmcp",
+      "url": "https://github.com/linkmcp-io/linkmcp",
+      "install_url": "https://raw.githubusercontent.com/linkmcp-io/linkmcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Loomaly",
       "displayName": "Loomaly",
       "description": "Ranks your site's SEO problems by what to fix first, gives Codex a fix prompt for your framework to apply in your repo, and re-checks the live page once the fix is deployed, via a hosted MCP server and four skills.",
@@ -6522,14 +6537,14 @@
       "description": "Oh My Pi (omp) extension that adds a /rewrite command, which asks clarifying questions about a rough draft prompt in a side turn and puts a thorough rewrite in the composer",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
+      "platform": "claude-code",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ],
       "owner": "zPeppOz",
       "repo": "omp-rewrite",
       "url": "https://github.com/zPeppOz/omp-rewrite",
-      "install_url": "https://raw.githubusercontent.com/zPeppOz/omp-rewrite/HEAD/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/zPeppOz/omp-rewrite/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Open PR",
