@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-04",
-  "total": 655,
+  "last_updated": "2026-10-05",
+  "total": 656,
   "platforms": [
     "codex",
     "grok",
@@ -4339,6 +4339,20 @@
       "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-supertool/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "clawd-tracker",
+      "url": "https://github.com/IKnowJot/clawd-plugins",
+      "owner": "IKnowJot",
+      "repo": "clawd-plugins",
+      "description": "Claude Code mod: a pizza-tracker progress bar above the prompt where Clawd acts out each step, with a learned ETA, plan usage rings and four themes",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/IKnowJot/clawd-plugins/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
