@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 661,
+  "total": 662,
   "platforms": [
     "codex",
     "grok",
@@ -8415,6 +8415,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/okaypic/okaypic-video-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "open-doc",
+      "url": "https://github.com/simonliu-ai-product/open-doc",
+      "owner": "simonliu-ai-product",
+      "repo": "open-doc",
+      "description": "Document framework for agents: write React/TSX or import Markdown, render to real A4 pages, and export PDF, HTML, or Word, with bundled Agent Skills and an opt-in MCP server for editing documents",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/simonliu-ai-product/open-doc/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
