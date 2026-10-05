@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 656,
+  "total": 657,
   "platforms": [
     "codex",
     "grok",
@@ -6943,6 +6943,20 @@
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Supermod ClaudeCode",
+      "url": "https://github.com/nayde8824/supermod-claudecode",
+      "owner": "nayde8824",
+      "repo": "supermod-claudecode",
+      "description": "Claude Code mod that adds workbranches, trial copies of your project you can save, bring into main or throw away with one click, plus a usage bar for context, rate limits, cost and tokens",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nayde8824/supermod-claudecode/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

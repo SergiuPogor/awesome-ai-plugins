@@ -7432,6 +7432,21 @@
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Supermod ClaudeCode",
+      "displayName": "Supermod ClaudeCode",
+      "description": "Claude Code mod that adds workbranches, trial copies of your project you can save, bring into main or throw away with one click, plus a usage bar for context, rate limits, cost and tokens",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "nayde8824",
+      "repo": "supermod-claudecode",
+      "url": "https://github.com/nayde8824/supermod-claudecode",
+      "install_url": "https://raw.githubusercontent.com/nayde8824/supermod-claudecode/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "synthesis-skills",
       "displayName": "synthesis-skills",
       "description": "Engineering workflow skills (planning, review, rituals, fleet co-op) for Claude Code, Codex, and Muse, shipped through a gated cross-client release train",
