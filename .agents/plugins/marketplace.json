@@ -2705,6 +2705,21 @@
       "install_url": "https://raw.githubusercontent.com/cohesivity-org/cohesivity-plugin/HEAD/packages/codex/plugins/cohesivity/.codex-plugin/plugin.json"
     },
     {
+      "name": "Command Code Usage",
+      "displayName": "Command Code Usage",
+      "description": "Show your Command Code plan usage inside Codex: a per-turn quota line, plus a /quota command for the full panel.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Jovan1666",
+      "repo": "commandcode-usage",
+      "url": "https://github.com/Jovan1666/commandcode-usage",
+      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/plugins/codex/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Computer Usage Summary",
       "displayName": "Computer Usage Summary",
       "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux.",
@@ -2930,6 +2945,21 @@
       "repo": "power-automate-mcp-skills",
       "url": "https://github.com/ninihen1/power-automate-mcp-skills",
       "install_url": "https://raw.githubusercontent.com/ninihen1/power-automate-mcp-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "FXMacroData",
+      "displayName": "FXMacroData",
+      "description": "Official-source macro releases, central-bank rates, release calendars and FX rates for 22 currencies through the hosted FXMacroData MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "fxmacrodata",
+      "repo": "claude-plugin-fxmacrodata",
+      "url": "https://github.com/fxmacrodata/claude-plugin-fxmacrodata",
+      "install_url": "https://raw.githubusercontent.com/fxmacrodata/claude-plugin-fxmacrodata/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GH Project",
@@ -4657,6 +4687,21 @@
       "install_url": "https://raw.githubusercontent.com/cloudishai/skills/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "Cluadex",
+      "displayName": "Cluadex",
+      "description": "Lightweight take on LCU for Claude Code only: a macOS plugin that lets Claude use Codex's computer-use runtime from the installed ChatGPT app, with a Liquid Glass approval panel that asks before the agent touches each app",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "leepokai",
+      "repo": "cluadex",
+      "url": "https://github.com/leepokai/cluadex",
+      "install_url": "https://raw.githubusercontent.com/leepokai/cluadex/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Codex Full-Stack Workflow",
       "displayName": "Codex Full-Stack Workflow",
       "description": "Turns rough product requests into staged, reviewable full-stack delivery with persistent requirements, change control, visual evidence, and completion gates",
@@ -5932,6 +5977,21 @@
       "install_url": "https://raw.githubusercontent.com/luocfprime/labtasker/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "LaTeX Inline",
+      "displayName": "LaTeX Inline",
+      "description": "Typesets the LaTeX math in Claude Code replies inline with the text, as pictures in Ghostty, cmux and kitty and as Unicode text in other terminals",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "dazebug",
+      "repo": "latex-inline",
+      "url": "https://github.com/dazebug/latex-inline",
+      "install_url": "https://raw.githubusercontent.com/dazebug/latex-inline/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "lattice",
       "displayName": "lattice",
       "description": "Composable AI skills framework that infuses clean code, clean architecture, domain-driven design, secure coding, and proper testing into the workflow by default, with scenario-driven guides for getting started, customization, and team use",
@@ -6215,6 +6275,21 @@
       "repo": "mental",
       "url": "https://github.com/afaraha8403/mental",
       "install_url": "https://raw.githubusercontent.com/afaraha8403/mental/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Mermaid Inline",
+      "displayName": "Mermaid Inline",
+      "description": "Draws the Mermaid diagrams in Claude Code replies right in the terminal, as pictures in Ghostty, cmux and kitty and as Unicode box drawing in other terminals",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "dazebug",
+      "repo": "mermaid-inline",
+      "url": "https://github.com/dazebug/mermaid-inline",
+      "install_url": "https://raw.githubusercontent.com/dazebug/mermaid-inline/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "mermaid-for-claude",
@@ -8288,21 +8363,6 @@
       "install_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-AI-Toolkit/HEAD/.claude-plugin/plugin.json"
     },
     {
-      "name": "Command Code Usage",
-      "displayName": "Command Code Usage",
-      "description": "Shows Command Code plan quota (5-hour, weekly and monthly windows with reset times) inside Claude Code, Codex, ZCode, Grok Build, opencode, pi and DeepSeek Harness, read from local session data so checking your quota costs no quota",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "Jovan1666",
-      "repo": "commandcode-usage",
-      "url": "https://github.com/Jovan1666/commandcode-usage",
-      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Commercial Legal PL",
       "displayName": "Commercial Legal PL",
       "description": "Drafts and reviews contracts under Polish law (B2B IT, IP, settlements) with a clause library, doctrinal knowledge base, and \u00a7 / ust. / pkt cross-reference consistency checks",
@@ -8376,6 +8436,21 @@
       "repo": "court-rules-mcp",
       "url": "https://github.com/foklepoint/court-rules-mcp",
       "install_url": "https://raw.githubusercontent.com/foklepoint/court-rules-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Creo",
+      "displayName": "Creo",
+      "description": "macOS menu bar app for searching and resuming Claude Code and Codex sessions, with live 5-hour and weekly plan usage for both",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "RaazKetan",
+      "repo": "creo",
+      "url": "https://github.com/RaazKetan/creo",
+      "install_url": "https://raw.githubusercontent.com/RaazKetan/creo/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Darkmoon",
@@ -9279,6 +9354,21 @@
       "repo": "portway",
       "url": "https://github.com/rath/portway",
       "install_url": "https://raw.githubusercontent.com/rath/portway/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Pulse CC",
+      "displayName": "Pulse CC",
+      "description": "Claude Code plugin that shows a stock and crypto watchlist above the prompt, with a `/pulse` panel to manage tickers and an optional local MCP connection to Pulse for Mac watchlists",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "fatwang2",
+      "repo": "Pulse",
+      "url": "https://github.com/fatwang2/Pulse",
+      "install_url": "https://raw.githubusercontent.com/fatwang2/Pulse/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "QVeris Agent Toolkit",
