@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 662,
+  "total": 663,
   "platforms": [
     "codex",
     "grok",
@@ -6106,6 +6106,20 @@
       ]
     },
     {
+      "name": "opencode-mempalace-persistence",
+      "url": "https://github.com/geco/opencode-mempalace-persistence",
+      "owner": "geco",
+      "repo": "opencode-mempalace-persistence",
+      "description": "OpenCode plugin that archives conversations to local MemPalace memory and recalls past decisions verbatim in later sessions",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/geco/opencode-mempalace-persistence/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "opencode-models-discovery",
       "url": "https://github.com/yuhp/opencode-models-discovery",
       "owner": "yuhp",
@@ -8398,11 +8412,11 @@
       "repo": "nsfw-ai-skill",
       "description": "Agent Skill and Claude Code plugin for adult (18+) image, image-to-video and image-edit generation through the SpicyAPI API, with cost quotes before every run and adults-only / consent rules",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Spicy-API/nsfw-ai-skill/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/Spicy-API/nsfw-ai-skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
