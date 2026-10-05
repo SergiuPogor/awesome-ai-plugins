@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 660,
+  "total": 661,
   "platforms": [
     "codex",
     "grok",
@@ -5863,6 +5863,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/gkrtjd99/Metis/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "miru-code",
+      "url": "https://github.com/takara-ai/miru-code",
+      "owner": "takara-ai",
+      "repo": "miru-code",
+      "description": "MCP server and multi-IDE plugin giving coding agents semantic and hybrid code search tools",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/takara-ai/miru-code/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

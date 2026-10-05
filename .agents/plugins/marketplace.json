@@ -6277,6 +6277,21 @@
       "install_url": "https://raw.githubusercontent.com/gkrtjd99/Metis/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "miru-code",
+      "displayName": "miru-code",
+      "description": "MCP server and multi-IDE plugin giving coding agents semantic and hybrid code search tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "takara-ai",
+      "repo": "miru-code",
+      "url": "https://github.com/takara-ai/miru-code",
+      "install_url": "https://raw.githubusercontent.com/takara-ai/miru-code/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MisakaNet",
       "displayName": "MisakaNet",
       "description": "Git-backed failure-memory for AI coding agents with 290 indexed lessons, MCP server with 5 tools (search, get_lesson, submit_usage, submit_intake, usage_status), and DeepSeekHarness adapter",
