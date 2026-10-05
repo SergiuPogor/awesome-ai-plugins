@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 659,
+  "total": 660,
   "platforms": [
     "codex",
     "grok",
@@ -8989,6 +8989,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Wolfpack",
+      "url": "https://github.com/almogdepaz/wolfpack",
+      "owner": "almogdepaz",
+      "repo": "wolfpack",
+      "description": "Self-hosted browser and phone terminals for persistent coding-agent sessions across your own macOS/Linux machines, with private Tailscale access",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/almogdepaz/wolfpack/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

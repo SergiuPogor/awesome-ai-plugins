@@ -9626,6 +9626,21 @@
       "install_url": "https://raw.githubusercontent.com/Matteoikarieth96/whiteboard-video-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Wolfpack",
+      "displayName": "Wolfpack",
+      "description": "Self-hosted browser and phone terminals for persistent coding-agent sessions across your own macOS/Linux machines, with private Tailscale access",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "almogdepaz",
+      "repo": "wolfpack",
+      "url": "https://github.com/almogdepaz/wolfpack",
+      "install_url": "https://raw.githubusercontent.com/almogdepaz/wolfpack/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "yomiyasu",
       "displayName": "yomiyasu",
       "description": "Agent Skill for rewriting unnatural, AI-generated Japanese into human-readable, high-information-density text while strictly preserving the original meaning",
