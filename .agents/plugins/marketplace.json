@@ -2705,21 +2705,6 @@
       "install_url": "https://raw.githubusercontent.com/cohesivity-org/cohesivity-plugin/HEAD/packages/codex/plugins/cohesivity/.codex-plugin/plugin.json"
     },
     {
-      "name": "Command Code Usage",
-      "displayName": "Command Code Usage",
-      "description": "Show your Command Code plan usage inside Codex: a per-turn quota line, plus a /quota command for the full panel.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "Jovan1666",
-      "repo": "commandcode-usage",
-      "url": "https://github.com/Jovan1666/commandcode-usage",
-      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/plugins/codex/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Computer Usage Summary",
       "displayName": "Computer Usage Summary",
       "description": "Privacy-first, local ActivityWatch reports for app time, AFK time, projects, billable work, and redacted timelines across macOS, Windows, and Linux.",
@@ -3577,21 +3562,6 @@
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Sendpaper",
-      "displayName": "Sendpaper",
-      "description": "Send real postcards and letters to US addresses from Codex, with an exact print preview, payment only with your approval, and USPS First-Class mailing via a hosted MCP server.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "ryan-tish",
-      "repo": "sendpaper-plugin",
-      "url": "https://github.com/ryan-tish/sendpaper-plugin",
-      "install_url": "https://raw.githubusercontent.com/ryan-tish/sendpaper-plugin/HEAD/plugins/sendpaper/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Sendsets",
       "displayName": "Sendsets",
       "description": "Send cold email from Codex: connect and warm up mailboxes, build and launch outbound sequences, and answer replies through the Sendsets MCP server.",
@@ -3695,6 +3665,21 @@
       "repo": "sysknife",
       "url": "https://github.com/lacs-project/sysknife",
       "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "TableJourney",
+      "displayName": "TableJourney",
+      "description": "Food travel answers from TableJourney's hosted read-only MCP server: hand-checked places to eat in 200+ cities, food festivals with dates, signature dishes, itineraries and bookable food tours.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "lewismvaughan",
+      "repo": "tablejourney-codex-plugin",
+      "url": "https://github.com/lewismvaughan/tablejourney-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/lewismvaughan/tablejourney-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Taisly Agent Kit",
@@ -8077,6 +8062,21 @@
       "install_url": "https://raw.githubusercontent.com/atakanelik34/Bilinc/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "bookstack-mcp",
+      "displayName": "bookstack-mcp",
+      "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "ttpears",
+      "repo": "bookstack-mcp",
+      "url": "https://github.com/ttpears/bookstack-mcp",
+      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "BoondManager MCP Server",
       "displayName": "BoondManager MCP Server",
       "description": "MCP server for the BoondManager staffing ERP/CRM exposing 182 tools, 12 prompts and 22 resources over candidates, resources, opportunities, projects, invoices and expense reports, with stdio and OAuth-protected HTTP transports",
@@ -8256,6 +8256,21 @@
       "repo": "CloudBase-AI-Toolkit",
       "url": "https://github.com/TencentCloudBase/CloudBase-AI-Toolkit",
       "install_url": "https://raw.githubusercontent.com/TencentCloudBase/CloudBase-AI-Toolkit/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Command Code Usage",
+      "displayName": "Command Code Usage",
+      "description": "Shows Command Code plan quota (5-hour, weekly and monthly windows with reset times) inside Claude Code, Codex, ZCode, Grok Build, opencode, pi and DeepSeek Harness, read from local session data so checking your quota costs no quota",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Jovan1666",
+      "repo": "commandcode-usage",
+      "url": "https://github.com/Jovan1666/commandcode-usage",
+      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Commercial Legal PL",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-05",
-  "total": 657,
+  "total": 658,
   "platforms": [
     "codex",
     "grok",
@@ -2534,20 +2534,6 @@
       ]
     },
     {
-      "name": "Command Code Usage",
-      "url": "https://github.com/Jovan1666/commandcode-usage",
-      "owner": "Jovan1666",
-      "repo": "commandcode-usage",
-      "description": "Show your Command Code plan usage inside Codex: a per-turn quota line, plus a /quota command for the full panel.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/plugins/codex/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Computer Usage Summary",
       "url": "https://github.com/liuyewang/computer-usage-summary-skill",
       "owner": "liuyewang",
@@ -3348,20 +3334,6 @@
       ]
     },
     {
-      "name": "Sendpaper",
-      "url": "https://github.com/ryan-tish/sendpaper-plugin",
-      "owner": "ryan-tish",
-      "repo": "sendpaper-plugin",
-      "description": "Send real postcards and letters to US addresses from Codex, with an exact print preview, payment only with your approval, and USPS First-Class mailing via a hosted MCP server.",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ryan-tish/sendpaper-plugin/HEAD/plugins/sendpaper/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Sendsets",
       "url": "https://github.com/AddisonHoff/sendsets",
       "owner": "AddisonHoff",
@@ -3454,6 +3426,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/lacs-project/sysknife/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "TableJourney",
+      "url": "https://github.com/lewismvaughan/tablejourney-codex-plugin",
+      "owner": "lewismvaughan",
+      "repo": "tablejourney-codex-plugin",
+      "description": "Food travel answers from TableJourney's hosted read-only MCP server: hand-checked places to eat in 200+ cities, food festivals with dates, signature dishes, itineraries and bookable food tours.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lewismvaughan/tablejourney-codex-plugin/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -7548,6 +7534,20 @@
       ]
     },
     {
+      "name": "bookstack-mcp",
+      "url": "https://github.com/ttpears/bookstack-mcp",
+      "owner": "ttpears",
+      "repo": "bookstack-mcp",
+      "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "BoondManager MCP Server",
       "url": "https://github.com/fauguste/boondmanager-mcp-server",
       "owner": "fauguste",
@@ -7714,6 +7714,20 @@
       "ecosystems": [
         "claude-code",
         "kimi"
+      ]
+    },
+    {
+      "name": "Command Code Usage",
+      "url": "https://github.com/Jovan1666/commandcode-usage",
+      "owner": "Jovan1666",
+      "repo": "commandcode-usage",
+      "description": "Shows Command Code plan quota (5-hour, weekly and monthly windows with reset times) inside Claude Code, Codex, ZCode, Grok Build, opencode, pi and DeepSeek Harness, read from local session data so checking your quota costs no quota",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Jovan1666/commandcode-usage/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
