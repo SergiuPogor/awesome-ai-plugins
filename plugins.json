@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-06",
-  "total": 683,
+  "total": 684,
   "platforms": [
     "codex",
     "grok",
@@ -7139,6 +7139,20 @@
       "install_url": "https://raw.githubusercontent.com/Kevthetech143/super-jev/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "super-pm",
+      "url": "https://github.com/konglong87/superPM",
+      "owner": "konglong87",
+      "repo": "superPM",
+      "description": "Product management skill pack with 50 core skills and 6 workflows covering demand research, PRD writing, growth analysis, product strategy, and launch planning",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/konglong87/superPM/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

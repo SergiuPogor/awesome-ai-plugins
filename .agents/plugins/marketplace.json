@@ -7642,6 +7642,21 @@
       "install_url": "https://raw.githubusercontent.com/Kevthetech143/super-jev/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "super-pm",
+      "displayName": "super-pm",
+      "description": "Product management skill pack with 50 core skills and 6 workflows covering demand research, PRD writing, growth analysis, product strategy, and launch planning",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "konglong87",
+      "repo": "superPM",
+      "url": "https://github.com/konglong87/superPM",
+      "install_url": "https://raw.githubusercontent.com/konglong87/superPM/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "super-token-saver",
       "displayName": "super-token-saver",
       "description": "Cuts Claude Code and Codex token spend with prompt-cache expiry warnings, zero-cost session restore after compaction, and per-model usage and cost reports",
