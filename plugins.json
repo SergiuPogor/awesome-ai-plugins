@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-06",
-  "total": 674,
+  "total": 681,
   "platforms": [
     "codex",
     "grok",
@@ -1002,6 +1002,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/vinicq/falsegreen-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Figma Maxxing",
+      "url": "https://github.com/thiagoxikota/figma-maxxing",
+      "owner": "thiagoxikota",
+      "repo": "figma-maxxing",
+      "description": "Eight Agent Skills for real Figma files, with Plugin API gotchas, a read-only preflight before any write, checks after the write and before handoff, and open comments turned into fixes with evidence.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/thiagoxikota/figma-maxxing/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3026,6 +3040,20 @@
       ]
     },
     {
+      "name": "MAQAMI Travel",
+      "url": "https://github.com/negm17111995/mcp-server",
+      "owner": "negm17111995",
+      "repo": "mcp-server",
+      "description": "Search hotels (3M+ hotels) and flights worldwide, read hotel details, then prebook and book through the hosted MAQAMI MCP server (no API key), with a booking skill that confirms with you before any reservation.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/negm17111995/mcp-server/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "MATLAB Simulink Tools",
       "url": "https://github.com/summer521521/MATLAB_Simulink_plugin",
       "owner": "summer521521",
@@ -3314,6 +3342,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/olegvg/resume-tailor-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Roomcomm",
+      "url": "https://github.com/kotinder/codex-roomcomm",
+      "owner": "kotinder",
+      "repo": "codex-roomcomm",
+      "description": "Shared rooms where Codex talks with other people's AI agents (Claude Code, DeepSeek Harness, OpenClaw) through the hosted Roomcomm MCP server, with a signed message history and no key needed to start.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kotinder/codex-roomcomm/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4762,6 +4804,20 @@
       ]
     },
     {
+      "name": "dev-flow & plan-flow",
+      "url": "https://github.com/PramodTKodag/claude-code-skills",
+      "owner": "PramodTKodag",
+      "repo": "claude-code-skills",
+      "description": "Claude Code plugin marketplace with dev-flow (resumable multi-PR changes), plan-flow (turns a GitHub issue into per-session implementation prompts) and dependency-audit (CVE and outdated-package audit)",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/PramodTKodag/claude-code-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "dev-harness-kit",
       "url": "https://github.com/sh-ai-x/dev-harness-kit",
       "owner": "sh-ai-x",
@@ -5009,6 +5065,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/bharath03-a/GitCortex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "GlanceFlow",
+      "url": "https://github.com/Antreas-Strb/glanceflow",
+      "owner": "Antreas-Strb",
+      "repo": "glanceflow",
+      "description": "Claude Code mod that replaces the wall of tool calls with one plain-English checklist above the prompt: the plan, live progress, a clear Needs-you state, time left learned from history, and a daily team report",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Antreas-Strb/glanceflow/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -5431,6 +5501,20 @@
       "install_url": "https://raw.githubusercontent.com/muse0509/jev-preflight/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "jevalyzer",
+      "url": "https://github.com/killerz3/jevalyzer",
+      "owner": "killerz3",
+      "repo": "jevalyzer",
+      "description": "CLI that grades Claude Code, Codex, OpenCode, Gemini CLI, and Antigravity session logs already on disk with TypeSafe's Jev model instead of spinning up a full LLM judge",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/killerz3/jevalyzer/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -7741,6 +7825,20 @@
       "install_url": "https://raw.githubusercontent.com/getcargohq/cargo-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "cc-dash-kit",
+      "url": "https://github.com/coolthor/cc-dash-kit",
+      "owner": "coolthor",
+      "repo": "cc-dash-kit",
+      "description": "Sidebar dashboard for Claude Code showing 5-hour/weekly usage limits and session cards, installable with one prompt and extensible with custom cards (e.g., GPU or local services)",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/coolthor/cc-dash-kit/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
