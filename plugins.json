@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-05",
-  "total": 670,
+  "last_updated": "2026-10-06",
+  "total": 673,
   "platforms": [
     "codex",
     "grok",
@@ -3861,6 +3861,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/agent-kit-startup/agent-kit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agent-sounds",
+      "url": "https://github.com/lodev09/agent-sounds",
+      "owner": "lodev09",
+      "repo": "agent-sounds",
+      "description": "Sound feedback plugin playing game voice lines on Claude Code and Codex session events, configurable by source and volume",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lodev09/agent-sounds/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -8672,6 +8686,20 @@
       ]
     },
     {
+      "name": "peepshow",
+      "url": "https://github.com/t0mtaylor/peepshow",
+      "owner": "t0mtaylor",
+      "repo": "peepshow",
+      "description": "Gemini CLI extension registering `/peepshow:slides` and `/peepshow:sink` (with Claude Code, Cursor, Windsurf, Cline, and Codex manifests alongside) that turns videos, YouTube links, live streams, and animated GIF/APNG/WebP into an ordered timeline of frames plus a transcribed audio track, then fans each run out to 95 pluggable sinks across SQL, vector stores, object storage, chat, and issue trackers",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/t0mtaylor/peepshow/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "phone-sms",
       "url": "https://github.com/h-3303/phone-sms",
       "owner": "h-3303",
@@ -8949,6 +8977,20 @@
       "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "SkyAccess",
+      "url": "https://github.com/sky-access/skyaccess-mcp",
+      "owner": "sky-access",
+      "repo": "skyaccess-mcp",
+      "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links; no account or API key",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sky-access/skyaccess-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

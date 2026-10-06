@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-05",
+  "last_updated": "2026-10-06",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4130,6 +4130,21 @@
       "repo": "agent-kit",
       "url": "https://github.com/agent-kit-startup/agent-kit",
       "install_url": "https://raw.githubusercontent.com/agent-kit-startup/agent-kit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "agent-sounds",
+      "displayName": "agent-sounds",
+      "description": "Sound feedback plugin playing game voice lines on Claude Code and Codex session events, configurable by source and volume",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "lodev09",
+      "repo": "agent-sounds",
+      "url": "https://github.com/lodev09/agent-sounds",
+      "install_url": "https://raw.githubusercontent.com/lodev09/agent-sounds/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "agent-talk",
@@ -9281,6 +9296,21 @@
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "peepshow",
+      "displayName": "peepshow",
+      "description": "Gemini CLI extension registering `/peepshow:slides` and `/peepshow:sink` (with Claude Code, Cursor, Windsurf, Cline, and Codex manifests alongside) that turns videos, YouTube links, live streams, and animated GIF/APNG/WebP into an ordered timeline of frames plus a transcribed audio track, then fans each run out to 95 pluggable sinks across SQL, vector stores, object storage, chat, and issue trackers",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "t0mtaylor",
+      "repo": "peepshow",
+      "url": "https://github.com/t0mtaylor/peepshow",
+      "install_url": "https://raw.githubusercontent.com/t0mtaylor/peepshow/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "phone-sms",
       "displayName": "phone-sms",
       "description": "MCP server and Claude Code plugin that reads and sends SMS through the user's own Android phone over KDE Connect on the local network, with no cloud relay, sending only after the user approves recipient and text",
@@ -9579,6 +9609,21 @@
       "repo": "Skill-Atlas",
       "url": "https://github.com/danielLublinsky/Skill-Atlas",
       "install_url": "https://raw.githubusercontent.com/danielLublinsky/Skill-Atlas/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "SkyAccess",
+      "displayName": "SkyAccess",
+      "description": "Search 5,000+ live empty leg flights, get charter price estimates and booking links; no account or API key",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sky-access",
+      "repo": "skyaccess-mcp",
+      "url": "https://github.com/sky-access/skyaccess-mcp",
+      "install_url": "https://raw.githubusercontent.com/sky-access/skyaccess-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "SpringBrand",
