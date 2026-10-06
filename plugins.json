@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-06",
-  "total": 673,
+  "total": 674,
   "platforms": [
     "codex",
     "grok",
@@ -3821,6 +3821,20 @@
       "install_url": "https://raw.githubusercontent.com/ayoubben18/ab-method/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "adr-kit",
+      "url": "https://github.com/rvdbreemen/adr-kit",
+      "owner": "rvdbreemen",
+      "repo": "adr-kit",
+      "description": "Architecture Decision Record toolkit for Claude Code, Codex, GitHub Copilot CLI, and OpenCode that injects the governing decisions before each edit, guides ADR authoring, and enforces decisions in deterministic pre-commit and CI gates",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rvdbreemen/adr-kit/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
