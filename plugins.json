@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-06",
-  "total": 681,
+  "total": 683,
   "platforms": [
     "codex",
     "grok",
@@ -2626,6 +2626,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/foklepoint/court-rules-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Darkmoon",
+      "url": "https://github.com/ASCIT31/darkmoon-mcp-server",
+      "owner": "ASCIT31",
+      "repo": "darkmoon-mcp-server",
+      "description": "Start authorized autonomous AI pentest runs, poll status, list campaigns and read findings on your own self-hosted Darkmoon Pro through MCP.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ASCIT31/darkmoon-mcp-server/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -7744,6 +7758,20 @@
       ]
     },
     {
+      "name": "Bestax",
+      "url": "https://github.com/allxsmith/bestax-skills",
+      "owner": "allxsmith",
+      "repo": "bestax-skills",
+      "description": "Agent Skills and a local MCP server for building React apps with Bestax on Bulma v1, covering forms, layouts, theming, icons, CSS size, and migration from older Bulma libraries",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/allxsmith/bestax-skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Bilinc",
       "url": "https://github.com/atakanelik34/Bilinc",
       "owner": "atakanelik34",
@@ -8034,20 +8062,6 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/RaazKetan/creo/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
-      "name": "Darkmoon",
-      "url": "https://github.com/ASCIT31/darkmoon-mcp-server",
-      "owner": "ASCIT31",
-      "repo": "darkmoon-mcp-server",
-      "description": "Claude Code plugin and MCP server that drives a self-hosted Darkmoon Pro instance (autonomous AI pentest engine, GPL-3.0) to start a run against an authorized target, poll status, list campaigns and read findings; requires Darkmoon Pro and run_pentest is not read-only",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ASCIT31/darkmoon-mcp-server/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -9523,6 +9537,19 @@
       "owner": "tinqiao-oss",
       "repo": "engramory",
       "description": "Curated, file-based long-term memory for DSH agents \u2014 plain markdown notes in one store shared across hosts, with the index size cap enforced as a monotonic `ctx.tools.guard()` refusal rather than a reminder. Install: `dsh plugin --profile <name> add dsh-engramory`",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "LocalForge",
+      "url": "https://github.com/orfeomorello/dsh-localforge",
+      "owner": "orfeomorello",
+      "repo": "dsh-localforge",
+      "description": "LM Studio, Ollama, and vLLM adapter for DeepSeek Harness with live model discovery, auto-load, per-model concurrency limits, fallback chains, and Prometheus metrics",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",
