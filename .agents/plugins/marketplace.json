@@ -7867,6 +7867,21 @@
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Ultralytics Agent Skills",
+      "displayName": "Ultralytics Agent Skills",
+      "description": "Agent skills for the Ultralytics YOLO computer vision lifecycle: datasets, training, tuning, inference, tracking, and export",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ultralytics",
+      "repo": "skills",
+      "url": "https://github.com/ultralytics/skills",
+      "install_url": "https://raw.githubusercontent.com/ultralytics/skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Usage Monitor",
       "displayName": "Usage Monitor",
       "description": "Floating desktop meter that shows remaining Grok, MiniMax, Codex, Claude, Cursor, Copilot, and Gemini usage and keeps each session on this computer",
@@ -8811,6 +8826,21 @@
       "repo": "gds-agent",
       "url": "https://github.com/neo4j-contrib/gds-agent",
       "install_url": "https://raw.githubusercontent.com/neo4j-contrib/gds-agent/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "GitHub Issues for Claude Code",
+      "displayName": "GitHub Issues for Claude Code",
+      "description": "Claude Code mod that lists a repository's GitHub issues as cards in a side pane, with search, label filters and linked pull requests, and hands an issue to Claude with one click",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "MarcoCarnevali",
+      "repo": "claude-code-mods",
+      "url": "https://github.com/MarcoCarnevali/claude-code-mods",
+      "install_url": "https://raw.githubusercontent.com/MarcoCarnevali/claude-code-mods/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GodotPrompter",
