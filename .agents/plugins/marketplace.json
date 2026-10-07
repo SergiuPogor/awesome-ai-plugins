@@ -1967,7 +1967,7 @@
       "owner": "tartinerlabs",
       "repo": "skills",
       "url": "https://github.com/tartinerlabs/skills",
-      "install_url": "https://raw.githubusercontent.com/tartinerlabs/skills/HEAD/plugins/tartinerlabs/.codex-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/tartinerlabs/skills/HEAD/plugins/quality/.codex-plugin/plugin.json"
     },
     {
       "name": "Team Skills Platform",
@@ -2960,6 +2960,21 @@
       "repo": "codex-lark",
       "url": "https://github.com/zlsbksdxl/codex-lark",
       "install_url": "https://raw.githubusercontent.com/zlsbksdxl/codex-lark/HEAD/plugins/feishu2codex/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Firecrawl",
+      "displayName": "Firecrawl",
+      "description": "Search, scrape, crawl, and map the web from Codex with Firecrawl CLI skills for live research and extraction.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "firecrawl",
+      "repo": "firecrawl-codex-plugin",
+      "url": "https://github.com/firecrawl/firecrawl-codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/firecrawl/firecrawl-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Flow Studio Power Automate",
@@ -8255,6 +8270,21 @@
       "repo": "affine-mcp-server",
       "url": "https://github.com/DAWNCR0W/affine-mcp-server",
       "install_url": "https://raw.githubusercontent.com/DAWNCR0W/affine-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agent Face",
+      "displayName": "Agent Face",
+      "description": "Agent skills that give a coding agent a small always-on-top desktop face showing its state (working, thinking, happy, stuck) with captions and lip-synced voice clips",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ericphamhoangdev",
+      "repo": "agent-face-skills",
+      "url": "https://github.com/ericphamhoangdev/agent-face-skills",
+      "install_url": "https://raw.githubusercontent.com/ericphamhoangdev/agent-face-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent QA",

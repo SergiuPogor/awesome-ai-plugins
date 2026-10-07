@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-07",
-  "total": 702,
+  "total": 704,
   "platforms": [
     "codex",
     "grok",
@@ -1841,7 +1841,7 @@
       "description": "Agent skills for git workflows, GitHub automation, security audits, code refactoring, and project tooling.",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/tartinerlabs/skills/HEAD/plugins/tartinerlabs/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/tartinerlabs/skills/HEAD/plugins/quality/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2768,6 +2768,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/zlsbksdxl/codex-lark/HEAD/plugins/feishu2codex/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl-codex-plugin",
+      "owner": "firecrawl",
+      "repo": "firecrawl-codex-plugin",
+      "description": "Search, scrape, crawl, and map the web from Codex with Firecrawl CLI skills for live research and extraction.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/firecrawl/firecrawl-codex-plugin/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -7711,6 +7725,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/DAWNCR0W/affine-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Agent Face",
+      "url": "https://github.com/ericphamhoangdev/agent-face-skills",
+      "owner": "ericphamhoangdev",
+      "repo": "agent-face-skills",
+      "description": "Agent skills that give a coding agent a small always-on-top desktop face showing its state (working, thinking, happy, stuck) with captions and lip-synced voice clips",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ericphamhoangdev/agent-face-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
