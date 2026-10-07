@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-06",
-  "total": 686,
+  "last_updated": "2026-10-07",
+  "total": 701,
   "platforms": [
     "codex",
     "grok",
@@ -3978,6 +3978,34 @@
       ]
     },
     {
+      "name": "agentglass",
+      "url": "https://github.com/BjoernSchotte/agentglass",
+      "owner": "BjoernSchotte",
+      "repo": "agentglass",
+      "description": "Native terminal UI and JSON CLI that shows every Claude Code, Codex, Gemini CLI, pi, OpenCode, Kiro and fx session on your machine live, down to each tool call, diff, cost and stuck-agent alert",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/BjoernSchotte/agentglass/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agentglass-herdr",
+      "url": "https://github.com/BjoernSchotte/agentglass-herdr",
+      "owner": "BjoernSchotte",
+      "repo": "agentglass-herdr",
+      "description": "herdr plugin that opens agentglass as a popup, jumps from any agent pane to its session, and adds opt-in cost and alert tokens for Claude Code, Codex and other agents to the herdr sidebar",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/BjoernSchotte/agentglass-herdr/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Agentic Ship",
       "url": "https://github.com/moasq/agentic-ship",
       "owner": "moasq",
@@ -4239,6 +4267,48 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/BioSymphony/structure-factory/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Blazium Games Skills",
+      "url": "https://github.com/blazium-games/games_skill",
+      "owner": "blazium-games",
+      "repo": "games_skill",
+      "description": "Agent skills and plugins for the Blazium Games store on Claude Code, Cursor, Codex, and Grok, covering store pages, deploys, crashes, analytics, and the developer and player MCP servers",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/blazium-games/games_skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Blazium Skills",
+      "url": "https://github.com/blazium-games/blazium-skills",
+      "owner": "blazium-games",
+      "repo": "blazium-skills",
+      "description": "Agent skill packs for the MIT Blazium engine on Claude Code, Cursor, Codex, and Grok, covering GDScript, scenes, editor MCP, export, live ops, and shipping",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/blazium-games/blazium-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Blazium Subagents",
+      "url": "https://github.com/blazium-games/blazium-subagents",
+      "owner": "blazium-games",
+      "repo": "blazium-subagents",
+      "description": "Studio roster of specialist subagents plus a routing orchestrator for Claude Code, Cursor, Codex, and Grok that loads Blazium Skills for design, prototype, and development",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/blazium-games/blazium-subagents/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -4967,6 +5037,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/rasimme/FlowBoard/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Foreman",
+      "url": "https://github.com/thruwire/foreman",
+      "owner": "thruwire",
+      "repo": "foreman",
+      "description": "Jev-powered agent supervisor for Codex and OpenCode workers, with Pi and Pi Durable hooks for tool activity, project responsibilities, and completion checks",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/thruwire/foreman/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6106,6 +6190,20 @@
       ]
     },
     {
+      "name": "model-orchestration",
+      "url": "https://github.com/divyamrastogi/model-orchestration",
+      "owner": "divyamrastogi",
+      "repo": "model-orchestration",
+      "description": "Manager/worker orchestration for Claude Code: keep your smartest model as the manager and delegate implementation and token-hungry work to isolated headless workers backed by any Anthropic-compatible API (z.ai GLM, Kimi, DeepSeek, LiteLLM proxies)",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/divyamrastogi/model-orchestration/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "mstar-harness",
       "url": "https://github.com/btspoony/mstar-harness",
       "owner": "btspoony",
@@ -6129,6 +6227,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/vishalsg42/munim/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "mutagate",
+      "url": "https://github.com/keyboardsamurai/mutagate",
+      "owner": "keyboardsamurai",
+      "repo": "mutagate",
+      "description": "Mutation-testing hook for Claude Code, Codex, OpenCode, and Pi that mutates the code under each agent-written test and blocks completion until the tests kill at least 80% of the mutants",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/keyboardsamurai/mutagate/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6568,6 +6680,20 @@
       ]
     },
     {
+      "name": "pawl",
+      "url": "https://github.com/ulukaya/pawl",
+      "owner": "ulukaya",
+      "repo": "pawl",
+      "description": "Deterministic hooks for Claude Code, Codex, and Antigravity that gate destructive commands, credential access, outbound messages, and repeated tool calls using Python's standard library",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ulukaya/pawl/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pbx-mcp",
       "url": "https://github.com/ictinnovations/pbx-mcp",
       "owner": "ictinnovations",
@@ -6731,6 +6857,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Kyne0328/rel-ai-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "remcycle",
+      "url": "https://github.com/lianmatsuo/remcycle",
+      "owner": "lianmatsuo",
+      "repo": "remcycle",
+      "description": "Garbage collection for Claude Code's memory: a mod that rereads your sessions every day, keeps what you decided, and questions the notes that have gone stale",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lianmatsuo/remcycle/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -6999,6 +7139,20 @@
       "install_url": "https://raw.githubusercontent.com/0xGondarxyz/slopless/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Smith",
+      "url": "https://github.com/aslamdoctor/skills",
+      "owner": "aslamdoctor",
+      "repo": "skills",
+      "description": "Agent skill that runs several coding tasks in parallel from one Herdr pane, each in its own git worktree with a worker agent (Claude Code, Codex, Cursor, OpenCode and others) that stops for your OK at the spec, implementation and PR stages",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aslamdoctor/skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -8574,6 +8728,20 @@
       ]
     },
     {
+      "name": "mcp-pin",
+      "url": "https://github.com/GautamTalksDev/mcp-pin",
+      "owner": "GautamTalksDev",
+      "repo": "mcp-pin",
+      "description": "Pins the MCP tool descriptions and schemas your client approved and stops the session when a server changes them, with a signed public log of 400+ servers",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/GautamTalksDev/mcp-pin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "mcpsnoop",
       "url": "https://github.com/kerlenton/mcpsnoop",
       "owner": "kerlenton",
@@ -8681,6 +8849,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Spicy-API/nsfw-ai-skill/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Obsidian MCP",
+      "url": "https://github.com/dharmikbhesaniya/obsidian-mcp",
+      "owner": "dharmikbhesaniya",
+      "repo": "obsidian-mcp",
+      "description": "Typed Model Context Protocol server enabling local and remote AI agents to access Obsidian vaults over stdio and Streamable HTTP with scoped bearer authentication and per-vault permissions",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/dharmikbhesaniya/obsidian-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -9106,6 +9288,20 @@
       ]
     },
     {
+      "name": "Shipvela",
+      "url": "https://github.com/stefanautomateed/shipvela-codex",
+      "owner": "stefanautomateed",
+      "repo": "shipvela-codex",
+      "description": "MIT client bundle for owner-confirmed static website and GitHub publishing through a proprietary, account-based hosting service with OAuth MCP, exact deployment tracking, and plan limits",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/stefanautomateed/shipvela-codex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "site-spec",
       "url": "https://github.com/ariaxhan/site-spec",
       "owner": "ariaxhan",
@@ -9201,6 +9397,20 @@
       "install_url": "https://raw.githubusercontent.com/team-telnyx/ai/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Terraform Boundary",
+      "url": "https://github.com/somesh-ghaturle/agentic-boundary-terraform-skills",
+      "owner": "somesh-ghaturle",
+      "repo": "agentic-boundary-terraform-skills",
+      "description": "Claude Code, Codex, Cursor, and Windsurf skill that deploys AI agents on AWS, Azure, GCP, or Snowflake with Terraform while keeping a human in the loop: a hook blocks agent-run apply and destroy, only a human at a terminal can apply after typing the plan's fingerprint, and each change gets an evidence record for regulated-environment reviews",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/somesh-ghaturle/agentic-boundary-terraform-skills/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
