@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-07",
-  "total": 701,
+  "total": 702,
   "platforms": [
     "codex",
     "grok",
@@ -4071,6 +4071,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ucsandman/Agnostic-AI/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AI Quota HUD",
+      "url": "https://github.com/Pakapong26/ai-quota-hud",
+      "owner": "Pakapong26",
+      "repo": "ai-quota-hud",
+      "description": "Windows desktop HUD showing % left and reset countdown for every Codex/ChatGPT and Claude Code account (local + VPS over SSH) plus xKiro credit, flagging early/bonus resets while reading only local logs so it uses zero quota",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Pakapong26/ai-quota-hud/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
