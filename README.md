@@ -255,6 +255,7 @@ Third-party plugins built by the community. [PRs welcome](#contributing)!
 - [Flaky Detector](./plugins/mturac/flaky-detector) - Run a test command N times, report per-test flakiness %.
 - [FlexViz](https://github.com/flex-analytics/flexviz) - Interactive cross-filter dashboards for large datasets with a Claude Code skill for agent-driven data exploration.
 - [FlowBoard](https://github.com/rasimme/FlowBoard) - Local-first project workspace and task-coordination plugin for OpenClaw and external coding agents, with lazy-loaded context and a shared Kanban board.
+- [Foreman](https://github.com/thruwire/foreman) - Jev-powered agent supervisor for Codex and OpenCode workers, with Pi and Pi Durable hooks for tool activity, project responsibilities, and completion checks.
 - [forgecat-agent-profiles](https://github.com/nota-america/forgecat-agent-profiles) - Catalog of 191 cross-platform agent profiles installable via the ForgeCat CLI into Claude Code, Cursor, Codex, OpenClaw, and Hermes Agent.
 - [Frappe Agent](https://github.com/Dkm0315/frappe-agent) - Frappe and ERPNext coding, customization, bench, and review intelligence for Codex.
 - [ga4-gsc-clarity-mcp-server](https://github.com/rakoo04/ga4-gsc-clarity-mcp-server) - Read-only MCP server for Google Analytics 4, Google Search Console, and Microsoft Clarity with named OAuth/token connections reusable across any project.
