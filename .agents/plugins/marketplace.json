@@ -8812,6 +8812,21 @@
       "install_url": "https://raw.githubusercontent.com/fauguste/boondmanager-mcp-server/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "BulkPublish",
+      "displayName": "BulkPublish",
+      "description": "Official BulkPublish MCP server config and agent skills for Claude Code, Cursor, and other Agent Skills clients that draft, schedule, cross-post, and analyze social media posts on 15 platforms, including Instagram, TikTok, YouTube, X, and LinkedIn",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "azeemkafridi",
+      "repo": "bulkpublish-ai-toolkit",
+      "url": "https://github.com/azeemkafridi/bulkpublish-ai-toolkit",
+      "install_url": "https://raw.githubusercontent.com/azeemkafridi/bulkpublish-ai-toolkit/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Busabase",
       "displayName": "Busabase",
       "description": "Open-source database and workspace for AI agents to manage typed tables, fields, views, records, docs, files, and search with a Streamable HTTP MCP server and human-in-the-loop ChangeRequests",
