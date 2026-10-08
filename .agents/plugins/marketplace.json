@@ -9416,6 +9416,21 @@
       "install_url": "https://raw.githubusercontent.com/kaankiziltug/logo-design-skill/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "looot",
+      "displayName": "looot",
+      "description": "21 Agent Skills that search, price and run 2,500+ data API endpoints (work emails, company and people search, Google results, web pages) with one prepaid balance",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "loootai",
+      "repo": "looot-skills",
+      "url": "https://github.com/loootai/looot-skills",
+      "install_url": "https://raw.githubusercontent.com/loootai/looot-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "mcp-dialect-fix",
       "displayName": "mcp-dialect-fix",
       "description": "npx stdio proxy that rewrites MCP tool schemas from JSON Schema draft-07 to 2020-12 for Claude Desktop and Cowork, plus an SDK transport wrapper and a CI check",
