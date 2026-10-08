@@ -4432,6 +4432,21 @@
       "install_url": "https://raw.githubusercontent.com/jmylchreest/aide/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "akc-cycle",
+      "displayName": "akc-cycle",
+      "description": "Claude Code plugin for the Agent Knowledge Cycle: ten skills for its six phases (research, extract, curate, promote, measure, maintain) and seven companion skills for model-generation audits, ADRs with expiry conditions, review-to-lint and LLM-as-judge design",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "shimo4228",
+      "repo": "akc-cycle",
+      "url": "https://github.com/shimo4228/akc-cycle",
+      "install_url": "https://raw.githubusercontent.com/shimo4228/akc-cycle/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Alloy",
       "displayName": "Alloy",
       "description": "Orchestrates Codex, Claude, Grok, and Antigravity CLIs using existing subscriptions, with Jev task routing, read-only review panels, and managed worktree execution with independent review",
