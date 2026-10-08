@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 711,
+  "total": 712,
   "platforms": [
     "codex",
     "grok",
@@ -5373,6 +5373,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/shimo4228/harness-scope/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "hemingway",
+      "url": "https://github.com/sysangel/hemingway",
+      "owner": "sysangel",
+      "repo": "hemingway",
+      "description": "Claude Code skill that cuts any draft down to point-first text, with no filler or backstory",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sysangel/hemingway/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

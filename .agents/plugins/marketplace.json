@@ -5752,6 +5752,21 @@
       "install_url": "https://raw.githubusercontent.com/shimo4228/harness-scope/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "hemingway",
+      "displayName": "hemingway",
+      "description": "Claude Code skill that cuts any draft down to point-first text, with no filler or backstory",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sysangel",
+      "repo": "hemingway",
+      "url": "https://github.com/sysangel/hemingway",
+      "install_url": "https://raw.githubusercontent.com/sysangel/hemingway/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Hey Jarvis",
       "displayName": "Hey Jarvis",
       "description": "macOS voice assistant with an on-device wake word that runs quick Mac actions instantly and hands real work (code, browser, apps, email) to Claude Code through the Agent SDK",
