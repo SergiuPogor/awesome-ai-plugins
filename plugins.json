@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 719,
+  "total": 720,
   "platforms": [
     "codex",
     "grok",
@@ -8650,6 +8650,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "herdr-acp",
+      "url": "https://github.com/frankjoshua/herdr-acp",
+      "owner": "frankjoshua",
+      "repo": "herdr-acp",
+      "description": "Exposes a Herdr terminal pane running Claude Code, Codex, Pi, or a plain shell as an Agent Client Protocol agent, streaming everything in the pane to the client as one shared session",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/frankjoshua/herdr-acp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

@@ -9263,6 +9263,21 @@
       "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "herdr-acp",
+      "displayName": "herdr-acp",
+      "description": "Exposes a Herdr terminal pane running Claude Code, Codex, Pi, or a plain shell as an Agent Client Protocol agent, streaming everything in the pane to the client as one shared session",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "frankjoshua",
+      "repo": "herdr-acp",
+      "url": "https://github.com/frankjoshua/herdr-acp",
+      "install_url": "https://raw.githubusercontent.com/frankjoshua/herdr-acp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "HodlJuice",
       "displayName": "HodlJuice",
       "description": "Claude Code plugin and `hj` CLI for searching and playing 30,000+ Bitcoin podcast episodes, with a status-line player, /pint and /brew commands, and a hosted MCP server",
