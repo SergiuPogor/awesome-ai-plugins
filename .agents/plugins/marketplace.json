@@ -7897,6 +7897,21 @@
       "install_url": "https://raw.githubusercontent.com/datit309/supergraph/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Superintelligent UI",
+      "displayName": "Superintelligent UI",
+      "description": "Claude Code plugin that answers questions with small interactive pages instead of text walls: step-through diagrams, calculators with editable assumptions, filterable grids, and working tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "levfo",
+      "repo": "superintelligent-ui",
+      "url": "https://github.com/levfo/superintelligent-ui",
+      "install_url": "https://raw.githubusercontent.com/levfo/superintelligent-ui/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Supermod ClaudeCode",
       "displayName": "Supermod ClaudeCode",
       "description": "Claude Code mod that adds workbranches, trial copies of your project you can save, bring into main or throw away with one click, plus a usage bar for context, rate limits, cost and tokens",
