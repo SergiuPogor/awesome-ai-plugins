@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 728,
+  "total": 729,
   "platforms": [
     "codex",
     "grok",
@@ -6509,6 +6509,20 @@
       "install_url": "https://raw.githubusercontent.com/Kihara777/NixKits/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "obsidian-wiki",
+      "url": "https://github.com/Ar9av/obsidian-wiki",
+      "owner": "Ar9av",
+      "repo": "obsidian-wiki",
+      "description": "Builds an Obsidian knowledge vault from docs, URLs, and Claude Code, Codex, Copilot, Hermes, OpenClaw, and Pi session history, then cross-links it and answers questions with citations",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

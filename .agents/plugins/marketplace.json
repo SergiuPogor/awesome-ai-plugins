@@ -6967,6 +6967,21 @@
       "install_url": "https://raw.githubusercontent.com/Kihara777/NixKits/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "obsidian-wiki",
+      "displayName": "obsidian-wiki",
+      "description": "Builds an Obsidian knowledge vault from docs, URLs, and Claude Code, Codex, Copilot, Hermes, OpenClaw, and Pi session history, then cross-links it and answers questions with citations",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Ar9av",
+      "repo": "obsidian-wiki",
+      "url": "https://github.com/Ar9av/obsidian-wiki",
+      "install_url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "oddyssey",
       "displayName": "oddyssey",
       "description": "Observability-Driven Development for coding agents: instrument an application or an AI agent with OpenTelemetry (gen_ai semantic conventions: model, agent, tool and MCP spans, token and latency metrics), observe a run through its metrics, traces, logs and profiles on a local Grafana stack or a remote backend, benchmark it with k6, and verify that a fix landed",
