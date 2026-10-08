@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 715,
+  "total": 716,
   "platforms": [
     "codex",
     "grok",
@@ -5835,6 +5835,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/oliver-zehentleitner/keep-the-why/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ken",
+      "url": "https://github.com/rajnandan1/ken",
+      "owner": "rajnandan1",
+      "repo": "ken",
+      "description": "Thompson-mode coding discipline for Claude Code, Codex, Gemini CLI, OpenCode, pi, and any AGENTS.md-reading agent: think first, build bottom-up, brute force until measured, and rewrite a thrice-patched unit instead of patching it a fourth time",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rajnandan1/ken/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

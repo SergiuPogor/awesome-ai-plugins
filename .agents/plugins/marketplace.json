@@ -6247,6 +6247,21 @@
       "install_url": "https://raw.githubusercontent.com/oliver-zehentleitner/keep-the-why/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ken",
+      "displayName": "ken",
+      "description": "Thompson-mode coding discipline for Claude Code, Codex, Gemini CLI, OpenCode, pi, and any AGENTS.md-reading agent: think first, build bottom-up, brute force until measured, and rewrite a thrice-patched unit instead of patching it a fourth time",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rajnandan1",
+      "repo": "ken",
+      "url": "https://github.com/rajnandan1/ken",
+      "install_url": "https://raw.githubusercontent.com/rajnandan1/ken/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "kgai",
       "displayName": "kgai",
       "description": "Shared decision memory for AI dev teams \u2014 share the decisions and knowledge behind your code across Claude Code, Codex CLI and Gemini CLI as an immutable local log, synced over an S3 bucket you own",
