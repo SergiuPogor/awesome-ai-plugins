@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 712,
+  "total": 713,
   "platforms": [
     "codex",
     "grok",
@@ -3959,6 +3959,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/agent-kit-startup/agent-kit/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agent-memory-kit",
+      "url": "https://github.com/awrshift/agent-memory-kit",
+      "owner": "awrshift",
+      "repo": "agent-memory-kit",
+      "description": "Agent memory that asks before it writes: the agent proposes dated notes, you approve them, and they live as plain files in your repo, injected by hooks in Claude Code, Cursor CLI and OpenCode and read through skills and AGENTS.md in Codex and Copilot CLI",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/awrshift/agent-memory-kit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

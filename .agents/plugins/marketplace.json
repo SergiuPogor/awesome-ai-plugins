@@ -4237,6 +4237,21 @@
       "install_url": "https://raw.githubusercontent.com/agent-kit-startup/agent-kit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "agent-memory-kit",
+      "displayName": "agent-memory-kit",
+      "description": "Agent memory that asks before it writes: the agent proposes dated notes, you approve them, and they live as plain files in your repo, injected by hooks in Claude Code, Cursor CLI and OpenCode and read through skills and AGENTS.md in Codex and Copilot CLI",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "awrshift",
+      "repo": "agent-memory-kit",
+      "url": "https://github.com/awrshift/agent-memory-kit",
+      "install_url": "https://raw.githubusercontent.com/awrshift/agent-memory-kit/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "agent-sounds",
       "displayName": "agent-sounds",
       "description": "Sound feedback plugin playing game voice lines on Claude Code and Codex session events, configurable by source and volume",
