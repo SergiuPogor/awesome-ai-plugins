@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 729,
+  "total": 730,
   "platforms": [
     "codex",
     "grok",
@@ -8554,6 +8554,20 @@
       "install_url": "https://raw.githubusercontent.com/917Dhj/DeepPaperNote/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "DiviOps",
+      "url": "https://github.com/oaris-dev/diviops",
+      "owner": "oaris-dev",
+      "repo": "diviops",
+      "description": "MCP server and authoring skills for building and editing native Divi 5 pages on WordPress with AI assistants",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/oaris-dev/diviops/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
