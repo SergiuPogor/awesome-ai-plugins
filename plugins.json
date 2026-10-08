@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 716,
+  "total": 717,
   "platforms": [
     "codex",
     "grok",
@@ -8877,6 +8877,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Salman-Labs/mcp-dialect-fix/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "mcp-gatehouse",
+      "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+      "owner": "nickgeorgeseo",
+      "repo": "mcp-gatehouse",
+      "description": "Python library that adds permission tiers, fail-closed approval gates, and append-only JSONL audit logging with secret redaction inside MCP servers built on the official Python SDK, with no proxy or external policy service (`pip install mcp-gatehouse`)",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nickgeorgeseo/mcp-gatehouse/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

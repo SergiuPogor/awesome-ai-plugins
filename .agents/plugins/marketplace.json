@@ -9506,6 +9506,21 @@
       "install_url": "https://raw.githubusercontent.com/Salman-Labs/mcp-dialect-fix/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "mcp-gatehouse",
+      "displayName": "mcp-gatehouse",
+      "description": "Python library that adds permission tiers, fail-closed approval gates, and append-only JSONL audit logging with secret redaction inside MCP servers built on the official Python SDK, with no proxy or external policy service (`pip install mcp-gatehouse`)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "nickgeorgeseo",
+      "repo": "mcp-gatehouse",
+      "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+      "install_url": "https://raw.githubusercontent.com/nickgeorgeseo/mcp-gatehouse/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "mcp-music-studio",
       "displayName": "mcp-music-studio",
       "description": "MCP server for AI music creation: scored ABC notation composition and Strudel live coding, with sheet music rendering, harmony analysis, and MIDI/WAV export",
