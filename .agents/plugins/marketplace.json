@@ -6532,6 +6532,21 @@
       "install_url": "https://raw.githubusercontent.com/SignalLayerLabs/Marginal/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "MartinLoop",
+      "displayName": "MartinLoop",
+      "description": "Open-source runtime for governed coding-agent runs with scope limits, budget caps, verifier gates, retries, stop conditions, and evidence records across Codex, Claude Code, Gemini CLI, and supported model runtimes",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Keesan12",
+      "repo": "martin-loop",
+      "url": "https://github.com/Keesan12/martin-loop",
+      "install_url": "https://raw.githubusercontent.com/Keesan12/martin-loop/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "MCP Migration Check",
       "displayName": "MCP Migration Check",
       "description": "Deterministic MCP 2026-07-28 migration checker with an agent skill, CLI, GitHub Action, and hosted web probe powered by one rule engine",

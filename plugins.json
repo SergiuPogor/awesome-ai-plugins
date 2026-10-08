@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 718,
+  "total": 719,
   "platforms": [
     "codex",
     "grok",
@@ -6101,6 +6101,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/SignalLayerLabs/Marginal/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "MartinLoop",
+      "url": "https://github.com/Keesan12/martin-loop",
+      "owner": "Keesan12",
+      "repo": "martin-loop",
+      "description": "Open-source runtime for governed coding-agent runs with scope limits, budget caps, verifier gates, retries, stop conditions, and evidence records across Codex, Claude Code, Gemini CLI, and supported model runtimes",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Keesan12/martin-loop/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
