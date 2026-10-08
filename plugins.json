@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 724,
+  "total": 726,
   "platforms": [
     "codex",
     "grok",
@@ -274,6 +274,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/armoriq/armorCodex/HEAD/plugins/armorcodex/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "assay",
+      "url": "https://github.com/awss1i/assay",
+      "owner": "awss1i",
+      "repo": "assay",
+      "description": "Opens a web page you changed, drives every control on it, and reports what it did and what happened in one line, clean or broken.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/awss1i/assay/HEAD/plugins/assay/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -3482,6 +3496,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Sendpaper",
+      "url": "https://github.com/ryan-tish/sendpaper-plugin",
+      "owner": "ryan-tish",
+      "repo": "sendpaper-plugin",
+      "description": "Send real postcards and letters to US addresses from Codex, with an exact print preview, payment only with your approval, and USPS First-Class mailing via a hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ryan-tish/sendpaper-plugin/HEAD/plugins/sendpaper/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"

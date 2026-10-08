@@ -290,6 +290,21 @@
       "install_url": "https://raw.githubusercontent.com/armoriq/armorCodex/HEAD/plugins/armorcodex/.codex-plugin/plugin.json"
     },
     {
+      "name": "assay",
+      "displayName": "assay",
+      "description": "Opens a web page you changed, drives every control on it, and reports what it did and what happened in one line, clean or broken.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "awss1i",
+      "repo": "assay",
+      "url": "https://github.com/awss1i/assay",
+      "install_url": "https://raw.githubusercontent.com/awss1i/assay/HEAD/plugins/assay/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AtomLane",
       "displayName": "AtomLane",
       "description": "Parallelizes only work proven safe by compiling resource-aware atomic plans for builds, tests, Make/Compose workflows, and long-running jobs with live progress and measured savings.",
@@ -3725,6 +3740,21 @@
       "repo": "seo-dungeon",
       "url": "https://github.com/avalonreset/seo-dungeon",
       "install_url": "https://raw.githubusercontent.com/avalonreset/seo-dungeon/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Sendpaper",
+      "displayName": "Sendpaper",
+      "description": "Send real postcards and letters to US addresses from Codex, with an exact print preview, payment only with your approval, and USPS First-Class mailing via a hosted MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ryan-tish",
+      "repo": "sendpaper-plugin",
+      "url": "https://github.com/ryan-tish/sendpaper-plugin",
+      "install_url": "https://raw.githubusercontent.com/ryan-tish/sendpaper-plugin/HEAD/plugins/sendpaper/.codex-plugin/plugin.json"
     },
     {
       "name": "Sendsets",
