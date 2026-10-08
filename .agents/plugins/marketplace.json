@@ -10151,6 +10151,21 @@
       "install_url": "https://raw.githubusercontent.com/reduck-ai/agents/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Review Analyzer Skill",
+      "displayName": "Review Analyzer Skill",
+      "description": "Agent skill that tags e-commerce reviews across 22 dimensions and produces a 15-chapter insight report, six HTML dashboards, and optional Feishu sync",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "buluslan",
+      "repo": "review-analyzer-skill",
+      "url": "https://github.com/buluslan/review-analyzer-skill",
+      "install_url": "https://raw.githubusercontent.com/buluslan/review-analyzer-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "RunAPI MCP Server",
       "displayName": "RunAPI MCP Server",
       "description": "MCP server for AI image generation, AI video generation, AI music creation, text-to-speech, prompt search, and model discovery",

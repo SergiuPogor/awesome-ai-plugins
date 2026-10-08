@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 726,
+  "total": 727,
   "platforms": [
     "codex",
     "grok",
@@ -9479,6 +9479,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/reduck-ai/agents/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Review Analyzer Skill",
+      "url": "https://github.com/buluslan/review-analyzer-skill",
+      "owner": "buluslan",
+      "repo": "review-analyzer-skill",
+      "description": "Agent skill that tags e-commerce reviews across 22 dimensions and produces a 15-chapter insight report, six HTML dashboards, and optional Feishu sync",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/buluslan/review-analyzer-skill/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
