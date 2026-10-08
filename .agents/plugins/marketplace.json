@@ -9158,6 +9158,21 @@
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Equibles",
+      "displayName": "Equibles",
+      "description": "Plugin packages (Agent Plugins, Gemini CLI, Grok Build) for the hosted Equibles financial data MCP server: SEC filings, as-reported fundamentals, earnings-call transcripts, 13F holdings, and insider and congressional trades, with OAuth sign-in",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "daniel3303",
+      "repo": "stock-market-mcp-server",
+      "url": "https://github.com/daniel3303/stock-market-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Ethora",
       "displayName": "Ethora",
       "description": "MCP server for the Ethora chat and messaging platform: create and manage apps, chat rooms and users, broadcast messages, and deploy AI agents and RAG chatbots",
@@ -10813,6 +10828,20 @@
       "owner": "orfeomorello",
       "repo": "dsh-localforge",
       "url": "https://github.com/orfeomorello/dsh-localforge"
+    },
+    {
+      "name": "memory-eternal",
+      "displayName": "memory-eternal",
+      "description": "Memory plugin and MCP server for DeepSeek Harness that distills finished conversations into audited knowledge cards in a searchable local Markdown vault, with knowledge graph and review center",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "EternalNight996",
+      "repo": "memory-eternal",
+      "url": "https://github.com/EternalNight996/memory-eternal"
     },
     {
       "name": "Vibe-Mathematics",

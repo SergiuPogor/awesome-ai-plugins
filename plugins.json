@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 722,
+  "total": 724,
   "platforms": [
     "codex",
     "grok",
@@ -8557,6 +8557,20 @@
       ]
     },
     {
+      "name": "Equibles",
+      "url": "https://github.com/daniel3303/stock-market-mcp-server",
+      "owner": "daniel3303",
+      "repo": "stock-market-mcp-server",
+      "description": "Plugin packages (Agent Plugins, Gemini CLI, Grok Build) for the hosted Equibles financial data MCP server: SEC filings, as-reported fundamentals, earnings-call transcripts, 13F holdings, and insider and congressional trades, with OAuth sign-in",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Ethora",
       "url": "https://github.com/dappros/ethora-mcp-server",
       "owner": "dappros",
@@ -10095,6 +10109,19 @@
       "owner": "orfeomorello",
       "repo": "dsh-localforge",
       "description": "LM Studio, Ollama, and vLLM adapter for DeepSeek Harness with live model discovery, auto-load, per-model concurrency limits, fallback chains, and Prometheus metrics",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "memory-eternal",
+      "url": "https://github.com/EternalNight996/memory-eternal",
+      "owner": "EternalNight996",
+      "repo": "memory-eternal",
+      "description": "Memory plugin and MCP server for DeepSeek Harness that distills finished conversations into audited knowledge cards in a searchable local Markdown vault, with knowledge graph and review center",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",
