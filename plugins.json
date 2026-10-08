@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 713,
+  "total": 715,
   "platforms": [
     "codex",
     "grok",
@@ -498,6 +498,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/grapefruit0205/click/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Clueless",
+      "url": "https://github.com/ADanMan/clueless",
+      "owner": "ADanMan",
+      "repo": "clueless",
+      "description": "Responsibility-flip mode for when the user cannot review the output: irreversible steps first, one verification step, every default named with its alternative, at most three questions only the user can answer.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ADanMan/clueless/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -9944,6 +9958,19 @@
       "owner": "ysr666",
       "repo": "dsh-vision-router",
       "description": "Gives text-only DeepSeek Harness agents image understanding through a built-in no-key vision chain plus fourteen tools for Q&A, grounding, OCR, crop, screenshots and pixel diff",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "dsh-whale-girl-pet",
+      "url": "https://github.com/yanzwzz/dsh-whale-girl-pet",
+      "owner": "yanzwzz",
+      "repo": "dsh-whale-girl-pet",
+      "description": "Desktop pet plugin for the DeepSeek Harness web UI that reports task token usage, session and per-turn cost pills, and hourly spend dashboards",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",

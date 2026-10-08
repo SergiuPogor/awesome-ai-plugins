@@ -530,6 +530,21 @@
       "install_url": "https://raw.githubusercontent.com/grapefruit0205/click/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Clueless",
+      "displayName": "Clueless",
+      "description": "Responsibility-flip mode for when the user cannot review the output: irreversible steps first, one verification step, every default named with its alternative, at most three questions only the user can answer.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "ADanMan",
+      "repo": "clueless",
+      "url": "https://github.com/ADanMan/clueless",
+      "install_url": "https://raw.githubusercontent.com/ADanMan/clueless/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Codebase Recon",
       "displayName": "Codebase Recon",
       "description": "Analyze git history to understand a codebase before reading any code \u2014 auto-scales by repo size and cross-references hotspots with bug magnets to surface high-risk files, bus factor, and team momentum.",
@@ -10651,6 +10666,20 @@
       "owner": "ysr666",
       "repo": "dsh-vision-router",
       "url": "https://github.com/ysr666/dsh-vision-router"
+    },
+    {
+      "name": "dsh-whale-girl-pet",
+      "displayName": "dsh-whale-girl-pet",
+      "description": "Desktop pet plugin for the DeepSeek Harness web UI that reports task token usage, session and per-turn cost pills, and hourly spend dashboards",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "yanzwzz",
+      "repo": "dsh-whale-girl-pet",
+      "url": "https://github.com/yanzwzz/dsh-whale-girl-pet"
     },
     {
       "name": "Engramory",
