@@ -3232,6 +3232,21 @@
       "install_url": "https://raw.githubusercontent.com/linkmcp-io/linkmcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "LMCP",
+      "displayName": "LMCP",
+      "description": "Local tools that let Codex use Mail, Calendar, Contacts, Teams, Slack, WhatsApp (Mac), OneDrive, Google Drive, Notion, Outlook (Windows) and Office files on Mac and Windows.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "colibird-ai",
+      "repo": "local-mcp-releases",
+      "url": "https://github.com/colibird-ai/local-mcp-releases",
+      "install_url": "https://raw.githubusercontent.com/colibird-ai/local-mcp-releases/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Loomaly",
       "displayName": "Loomaly",
       "description": "Ranks your site's SEO problems by what to fix first, gives Codex a fix prompt for your framework to apply in your repo, and re-checks the live page once the fix is deployed, via a hosted MCP server and four skills.",
@@ -5630,6 +5645,21 @@
       "repo": "mcp-grafana",
       "url": "https://github.com/jburgess/mcp-grafana",
       "install_url": "https://raw.githubusercontent.com/jburgess/mcp-grafana/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Gremlyn",
+      "displayName": "Gremlyn",
+      "description": "Security and chaos engineering for MCP agents: a Claude Code plugin that breaks your agent's MCP tools on purpose to test prompt-injection defenses and resilience",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "gremlyn-ai",
+      "repo": "gremlyn",
+      "url": "https://github.com/gremlyn-ai/gremlyn",
+      "install_url": "https://raw.githubusercontent.com/gremlyn-ai/gremlyn/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "grip",

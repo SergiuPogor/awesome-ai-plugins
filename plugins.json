@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 708,
+  "total": 710,
   "platforms": [
     "codex",
     "grok",
@@ -3026,6 +3026,20 @@
       ]
     },
     {
+      "name": "LMCP",
+      "url": "https://github.com/colibird-ai/local-mcp-releases",
+      "owner": "colibird-ai",
+      "repo": "local-mcp-releases",
+      "description": "Local tools that let Codex use Mail, Calendar, Contacts, Teams, Slack, WhatsApp (Mac), OneDrive, Google Drive, Notion, Outlook (Windows) and Office files on Mac and Windows.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/colibird-ai/local-mcp-releases/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Loomaly",
       "url": "https://github.com/loomaly/loomaly",
       "owner": "loomaly",
@@ -5263,6 +5277,20 @@
       "install_url": "https://raw.githubusercontent.com/jburgess/mcp-grafana/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Gremlyn",
+      "url": "https://github.com/gremlyn-ai/gremlyn",
+      "owner": "gremlyn-ai",
+      "repo": "gremlyn",
+      "description": "Security and chaos engineering for MCP agents: a Claude Code plugin that breaks your agent's MCP tools on purpose to test prompt-injection defenses and resilience",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gremlyn-ai/gremlyn/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
