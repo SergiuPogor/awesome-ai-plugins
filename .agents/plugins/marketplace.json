@@ -10226,6 +10226,21 @@
       "install_url": "https://raw.githubusercontent.com/NickHOI/Token-Harbor/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ultramotion",
+      "displayName": "ultramotion",
+      "description": "Motion-template skills for Claude Code and Codex that turn one prompt into a finished vertical video with music: Liquid Glass, Kinetic Type, Hand-drawn Explainer and Variety Captions",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sunsiyuan",
+      "repo": "ultramotion",
+      "url": "https://github.com/sunsiyuan/ultramotion",
+      "install_url": "https://raw.githubusercontent.com/sunsiyuan/ultramotion/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "unic",
       "displayName": "unic",
       "description": "Local MCP server exposing read-only AWS inspection tools to AI agents, including capability discovery, Backup vault listing, and context sync previews",

@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-08",
-  "total": 706,
+  "total": 707,
   "platforms": [
     "codex",
     "grok",
@@ -9549,6 +9549,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/NickHOI/Token-Harbor/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ultramotion",
+      "url": "https://github.com/sunsiyuan/ultramotion",
+      "owner": "sunsiyuan",
+      "repo": "ultramotion",
+      "description": "Motion-template skills for Claude Code and Codex that turn one prompt into a finished vertical video with music: Liquid Glass, Kinetic Type, Hand-drawn Explainer and Variety Captions",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sunsiyuan/ultramotion/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
