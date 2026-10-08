@@ -5356,11 +5356,11 @@
       "repo": "grip",
       "description": "Git hook that quizzes you on your own diff before commit or push, with a Claude Code plugin plus Codex and Gemini CLI support",
       "category": "Development & Workflow",
-      "platform": "codex",
+      "platform": "claude-code",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/guilyx/grip/HEAD/.codex-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/guilyx/grip/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
-        "codex"
+        "claude-code"
       ]
     },
     {
