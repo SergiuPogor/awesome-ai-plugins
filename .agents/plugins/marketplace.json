@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -10126,14 +10126,14 @@
       "description": "Claude Code, Codex, Cursor, and Windsurf skill that deploys AI agents on AWS, Azure, GCP, or Snowflake with Terraform while keeping a human in the loop: a hook blocks agent-run apply and destroy, only a human at a terminal can apply after typing the plan's fingerprint, and each change gets an evidence record for regulated-environment reviews",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "somesh-ghaturle",
       "repo": "agentic-boundary-terraform-skills",
       "url": "https://github.com/somesh-ghaturle/agentic-boundary-terraform-skills",
-      "install_url": "https://raw.githubusercontent.com/somesh-ghaturle/agentic-boundary-terraform-skills/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/somesh-ghaturle/agentic-boundary-terraform-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "ThoughtProof MCP",

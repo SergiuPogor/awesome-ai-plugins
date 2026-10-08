@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-07",
+  "last_updated": "2026-10-08",
   "total": 705,
   "platforms": [
     "codex",
@@ -9462,11 +9462,11 @@
       "repo": "agentic-boundary-terraform-skills",
       "description": "Claude Code, Codex, Cursor, and Windsurf skill that deploys AI agents on AWS, Azure, GCP, or Snowflake with Terraform while keeping a human in the loop: a hook blocks agent-run apply and destroy, only a human at a terminal can apply after typing the plan's fingerprint, and each change gets an evidence record for regulated-environment reviews",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/somesh-ghaturle/agentic-boundary-terraform-skills/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/somesh-ghaturle/agentic-boundary-terraform-skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
