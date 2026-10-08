@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-07",
-  "total": 704,
+  "total": 705,
   "platforms": [
     "codex",
     "grok",
@@ -9339,6 +9339,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/stefanautomateed/shipvela-codex/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Shotbase",
+      "url": "https://github.com/route1-ai/shotbase",
+      "owner": "route1-ai",
+      "repo": "shotbase",
+      "description": "Self-hostable screenshot API and MCP server returning page screenshots plus structured data, with AI extraction running on your own model including a local Ollama so page content never leaves your network",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/route1-ai/shotbase/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
