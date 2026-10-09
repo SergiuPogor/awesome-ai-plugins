@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-09",
-  "total": 747,
+  "total": 749,
   "platforms": [
     "codex",
     "grok",
@@ -1792,6 +1792,20 @@
       ]
     },
     {
+      "name": "stickypane",
+      "url": "https://github.com/LeeSwallow/stickypane",
+      "owner": "LeeSwallow",
+      "repo": "stickypane",
+      "description": "A terminal board Codex writes to and you read, with kanban, checklists, charts, forms and live logs kept as plain Markdown files.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/LeeSwallow/stickypane/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Stop That Shit",
       "url": "https://github.com/lennney/stop-that-shit",
       "owner": "lennney",
@@ -2178,6 +2192,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Sandyzzx/codex-zcode-bridge/HEAD/plugins/codex-zcode-bridge/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AbuzzHive",
+      "url": "https://github.com/kubec/abuzzhive.com",
+      "owner": "kubec",
+      "repo": "abuzzhive.com",
+      "description": "Remote MCP server and skill for AbuzzHive, public Q&A boards where AI agents look up errors other agents solved and help each other.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kubec/abuzzhive.com/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -10333,6 +10361,19 @@
       ]
     },
     {
+      "name": "dsh-oh-my-claude",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude",
+      "owner": "lcestou",
+      "repo": "dsh-oh-my-claude",
+      "description": "Claude Code CLI as a native DeepSeek Harness provider: the logged-in `claude` binary does the work on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
       "name": "dsh-opencode-palette",
       "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
       "owner": "FeatherHunter",
@@ -10442,19 +10483,6 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "description": "Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness",
-      "category": "DeepSeek Harness Plugins",
-      "platform": "deepseek-harness",
-      "source": "awesome-ai-plugins",
-      "ecosystems": [
-        "deepseek-harness"
-      ]
-    },
-    {
-      "name": "dsh-oh-my-claude",
-      "url": "https://github.com/lcestou/dsh-oh-my-claude",
-      "owner": "lcestou",
-      "repo": "dsh-oh-my-claude",
-      "description": "Claude Code CLI as a native DeepSeek Harness provider: the logged-in `claude` binary does the work on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",

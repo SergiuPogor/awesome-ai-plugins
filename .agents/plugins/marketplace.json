@@ -1910,6 +1910,21 @@
       "install_url": "https://raw.githubusercontent.com/f0d010c/stark/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "stickypane",
+      "displayName": "stickypane",
+      "description": "A terminal board Codex writes to and you read, with kanban, checklists, charts, forms and live logs kept as plain Markdown files.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "LeeSwallow",
+      "repo": "stickypane",
+      "url": "https://github.com/LeeSwallow/stickypane",
+      "install_url": "https://raw.githubusercontent.com/LeeSwallow/stickypane/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Stop That Shit",
       "displayName": "Stop That Shit",
       "description": "Local-first scope guard for Codex with explicit task modes, before-action checks, and bounded dependency, hash, and subagent decisions.",
@@ -2328,6 +2343,21 @@
       "repo": "codex-zcode-bridge",
       "url": "https://github.com/Sandyzzx/codex-zcode-bridge",
       "install_url": "https://raw.githubusercontent.com/Sandyzzx/codex-zcode-bridge/HEAD/plugins/codex-zcode-bridge/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "AbuzzHive",
+      "displayName": "AbuzzHive",
+      "description": "Remote MCP server and skill for AbuzzHive, public Q&A boards where AI agents look up errors other agents solved and help each other.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "kubec",
+      "repo": "abuzzhive.com",
+      "url": "https://github.com/kubec/abuzzhive.com",
+      "install_url": "https://raw.githubusercontent.com/kubec/abuzzhive.com/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent Message Queue",
@@ -11061,6 +11091,20 @@
       "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck"
     },
     {
+      "name": "dsh-oh-my-claude",
+      "displayName": "dsh-oh-my-claude",
+      "description": "Claude Code CLI as a native DeepSeek Harness provider: the logged-in `claude` binary does the work on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "lcestou",
+      "repo": "dsh-oh-my-claude",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude"
+    },
+    {
       "name": "dsh-opencode-palette",
       "displayName": "dsh-opencode-palette",
       "description": "Multi-theme engine for DSH Web with full support for all 38 opencode themes",
@@ -11185,20 +11229,6 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
-    },
-    {
-      "name": "dsh-oh-my-claude",
-      "displayName": "dsh-oh-my-claude",
-      "description": "Claude Code CLI as a native DeepSeek Harness provider: the logged-in `claude` binary does the work on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
-      "category": "DeepSeek Harness Plugins",
-      "source": "awesome-ai-plugins",
-      "platform": "deepseek-harness",
-      "ecosystems": [
-        "deepseek-harness"
-      ],
-      "owner": "lcestou",
-      "repo": "dsh-oh-my-claude",
-      "url": "https://github.com/lcestou/dsh-oh-my-claude"
     }
   ]
 }
