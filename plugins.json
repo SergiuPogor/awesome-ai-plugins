@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-09",
-  "total": 746,
+  "total": 747,
   "platforms": [
     "codex",
     "grok",
@@ -10442,6 +10442,19 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "description": "Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "dsh-oh-my-claude",
+      "url": "https://github.com/lcestou/dsh-oh-my-claude",
+      "owner": "lcestou",
+      "repo": "dsh-oh-my-claude",
+      "description": "Claude Code CLI as a native DeepSeek Harness provider: the logged-in `claude` binary does the work on its own subscription with no API key, with a live model list, per-session resume, approval relay, images, a memory/rewind/changes panel, and workspaces on remote SSH boxes",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",
