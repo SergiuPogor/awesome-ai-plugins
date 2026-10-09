@@ -7387,6 +7387,21 @@
       "install_url": "https://raw.githubusercontent.com/ProjectOpenSea/opensea-skill/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opus-ollama",
+      "displayName": "opus-ollama",
+      "description": "Claude Code skill where Opus plans and a tool-less Ollama model (local or cloud) writes the code through a path-allowlisted script",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "rsreeju",
+      "repo": "opus-ollama",
+      "url": "https://github.com/rsreeju/opus-ollama",
+      "install_url": "https://raw.githubusercontent.com/rsreeju/opus-ollama/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Orchestrate Task Force",
       "displayName": "Orchestrate Task Force",
       "description": "Task orchestration skill for Codex Desktop, Claude Code, and Google Antigravity, with visible task ownership, scoped parallel work, and integrated review",
@@ -11229,21 +11244,6 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
-    },
-    {
-      "name": "opus-ollama",
-      "displayName": "opus-ollama",
-      "description": "Claude Code skill where Opus plans and a tool-less Ollama model (local or cloud) writes the code through a path-allowlisted script",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "claude-code",
-      "ecosystems": [
-        "claude-code"
-      ],
-      "owner": "rsreeju",
-      "repo": "opus-ollama",
-      "url": "https://github.com/rsreeju/opus-ollama",
-      "install_url": "https://raw.githubusercontent.com/rsreeju/opus-ollama/HEAD/.claude-plugin/plugin.json"
     }
   ]
 }
