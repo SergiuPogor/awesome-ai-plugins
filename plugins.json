@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-08",
-  "total": 730,
+  "last_updated": "2026-10-09",
+  "total": 736,
   "platforms": [
     "codex",
     "grok",
@@ -1072,6 +1072,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/blackwell-systems/gcf-codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Generative Media Skills",
+      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "owner": "SamurAIGPT",
+      "repo": "Generative-Media-Skills",
+      "description": "13 skills for image, video, and audio generation using 100+ models - FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, and HunyuanVideo via muapi.ai.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/SamurAIGPT/Generative-Media-Skills/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -2774,6 +2788,20 @@
       ]
     },
     {
+      "name": "Equibles",
+      "url": "https://github.com/daniel3303/stock-market-mcp-server",
+      "owner": "daniel3303",
+      "repo": "stock-market-mcp-server",
+      "description": "SEC filings, financial statements, earnings call transcripts, insider trades and 13F holdings for US stocks through the hosted Equibles MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Exa Web Search",
       "url": "https://github.com/zlsbksdxl/codex-exa",
       "owner": "zlsbksdxl",
@@ -4258,6 +4286,20 @@
       ]
     },
     {
+      "name": "Android Engineering Skills",
+      "url": "https://github.com/lennonpetrick/android-engineering-skills",
+      "owner": "lennonpetrick",
+      "repo": "android-engineering-skills",
+      "description": "Agent Skills for any skills-compatible coding agent (Claude Code, Codex, Gemini in Android Studio, and more) that teach how to structure, write, and test Android apps with Kotlin and Jetpack Compose",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/lennonpetrick/android-engineering-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Antigravity Context Meter",
       "url": "https://github.com/Dunphil692/antigravity-context-meter",
       "owner": "Dunphil692",
@@ -5266,20 +5308,6 @@
       ]
     },
     {
-      "name": "Generative Media Skills",
-      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
-      "owner": "SamurAIGPT",
-      "repo": "Generative-Media-Skills",
-      "description": "13 skills for image, video, and audio generation using 100+ models - FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, and HunyuanVideo via muapi.ai",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/SamurAIGPT/Generative-Media-Skills/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "genie",
       "url": "https://github.com/automagik-dev/genie",
       "owner": "automagik-dev",
@@ -6075,6 +6103,20 @@
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "long-form-distribution",
+      "url": "https://github.com/mrowean/long-form-distribution",
+      "owner": "mrowean",
+      "repo": "long-form-distribution",
+      "description": "Claude Code plugin that turns a published long-form piece into per-section LinkedIn, X and Substack Notes drafts, with a dashboard that tracks what's been posted",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mrowean/long-form-distribution/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -7394,6 +7436,20 @@
       ]
     },
     {
+      "name": "Solana Finance",
+      "url": "https://github.com/quicknode/solana-finance-claude-plugin",
+      "owner": "quicknode",
+      "repo": "solana-finance-claude-plugin",
+      "description": "build financial software - order book exchanges, betting markets, AMMs, fundraising projects, betting markets, options trading, etc - on Solana using Anchor, Rust, and Quasar",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/quicknode/solana-finance-claude-plugin/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "SOTA Engineering Skills",
       "url": "https://github.com/martinholovsky/SOTA-skills",
       "owner": "martinholovsky",
@@ -8627,20 +8683,6 @@
       ]
     },
     {
-      "name": "Equibles",
-      "url": "https://github.com/daniel3303/stock-market-mcp-server",
-      "owner": "daniel3303",
-      "repo": "stock-market-mcp-server",
-      "description": "Plugin packages (Agent Plugins, Gemini CLI, Grok Build) for the hosted Equibles financial data MCP server: SEC filings, as-reported fundamentals, earnings-call transcripts, 13F holdings, and insider and congressional trades, with OAuth sign-in",
-      "category": "Tools & Integrations",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "Ethora",
       "url": "https://github.com/dappros/ethora-mcp-server",
       "owner": "dappros",
@@ -8650,6 +8692,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/dappros/ethora-mcp-server/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Firecrawl",
+      "url": "https://github.com/firecrawl/skills",
+      "owner": "firecrawl",
+      "repo": "skills",
+      "description": "Official Firecrawl skills and MCP configuration for Claude Code, Cursor and Codex, giving agents web search, scraping, crawling, URL mapping and browser interaction",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/firecrawl/skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -8678,6 +8734,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/smwbev/framewright/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Game Boy MCP Player",
+      "url": "https://github.com/Dst0rtr/pokemon-ai-player",
+      "owner": "Dst0rtr",
+      "repo": "pokemon-ai-player",
+      "description": "MCP server that lets AI agents play any Game Boy game through PyBoy, with a Pok\u00e9mon Red/Blue/Yellow profile that reads game state from memory and built-in benchmark metrics",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Dst0rtr/pokemon-ai-player/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -9451,6 +9521,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/sarthakdabhi/plancast/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "plane-codex-mcp",
+      "url": "https://github.com/Bene-2020/plane-codex-mcp",
+      "owner": "Bene-2020",
+      "repo": "plane-codex-mcp",
+      "description": "Codex plugin that captures project work events and syncs tasks, bugs, decisions and risks to Plane via a local SQLite outbox",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Bene-2020/plane-codex-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]

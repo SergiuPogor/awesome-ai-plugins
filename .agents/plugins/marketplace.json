@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-08",
+  "last_updated": "2026-10-09",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -1143,6 +1143,21 @@
       "repo": "gcf-codex-plugin",
       "url": "https://github.com/blackwell-systems/gcf-codex-plugin",
       "install_url": "https://raw.githubusercontent.com/blackwell-systems/gcf-codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Generative Media Skills",
+      "displayName": "Generative Media Skills",
+      "description": "13 skills for image, video, and audio generation using 100+ models - FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, and HunyuanVideo via muapi.ai.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "SamurAIGPT",
+      "repo": "Generative-Media-Skills",
+      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+      "install_url": "https://raw.githubusercontent.com/SamurAIGPT/Generative-Media-Skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Goal Progress",
@@ -2962,6 +2977,21 @@
       "install_url": "https://raw.githubusercontent.com/GarethManning/education-agent-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Equibles",
+      "displayName": "Equibles",
+      "description": "SEC filings, financial statements, earnings call transcripts, insider trades and 13F holdings for US stocks through the hosted Equibles MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "daniel3303",
+      "repo": "stock-market-mcp-server",
+      "url": "https://github.com/daniel3303/stock-market-mcp-server",
+      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Exa Web Search",
       "displayName": "Exa Web Search",
       "description": "Search and fetch current web sources in Codex through the official Exa MCP server with browser OAuth.",
@@ -4552,6 +4582,21 @@
       "install_url": "https://raw.githubusercontent.com/tlangridge/Alloy/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Android Engineering Skills",
+      "displayName": "Android Engineering Skills",
+      "description": "Agent Skills for any skills-compatible coding agent (Claude Code, Codex, Gemini in Android Studio, and more) that teach how to structure, write, and test Android apps with Kotlin and Jetpack Compose",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "lennonpetrick",
+      "repo": "android-engineering-skills",
+      "url": "https://github.com/lennonpetrick/android-engineering-skills",
+      "install_url": "https://raw.githubusercontent.com/lennonpetrick/android-engineering-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Antigravity Context Meter",
       "displayName": "Antigravity Context Meter",
       "description": "Real-time 1:1 Cursor-style context meter & zero-loss session migration for Google Antigravity (Desktop HUD & IDE Extension)",
@@ -5632,21 +5677,6 @@
       "install_url": "https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Generative Media Skills",
-      "displayName": "Generative Media Skills",
-      "description": "13 skills for image, video, and audio generation using 100+ models - FLUX, Midjourney v7, Veo3, Kling 3.0, Suno, and HunyuanVideo via muapi.ai",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "SamurAIGPT",
-      "repo": "Generative-Media-Skills",
-      "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
-      "install_url": "https://raw.githubusercontent.com/SamurAIGPT/Generative-Media-Skills/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "genie",
       "displayName": "genie",
       "description": "Agent skills and CLI that interview a wish into a plan, dispatch parallel subagents, and review results against acceptance criteria",
@@ -6500,6 +6530,21 @@
       "repo": "logicprobe",
       "url": "https://github.com/AmethystLuna/logicprobe",
       "install_url": "https://raw.githubusercontent.com/AmethystLuna/logicprobe/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "long-form-distribution",
+      "displayName": "long-form-distribution",
+      "description": "Claude Code plugin that turns a published long-form piece into per-section LinkedIn, X and Substack Notes drafts, with a dashboard that tracks what's been posted",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "mrowean",
+      "repo": "long-form-distribution",
+      "url": "https://github.com/mrowean/long-form-distribution",
+      "install_url": "https://raw.githubusercontent.com/mrowean/long-form-distribution/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "loose-ends",
@@ -7912,6 +7957,21 @@
       "install_url": "https://raw.githubusercontent.com/ab-ten/smt-mcp-server-poc/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Solana Finance",
+      "displayName": "Solana Finance",
+      "description": "build financial software - order book exchanges, betting markets, AMMs, fundraising projects, betting markets, options trading, etc - on Solana using Anchor, Rust, and Quasar",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "quicknode",
+      "repo": "solana-finance-claude-plugin",
+      "url": "https://github.com/quicknode/solana-finance-claude-plugin",
+      "install_url": "https://raw.githubusercontent.com/quicknode/solana-finance-claude-plugin/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "SOTA Engineering Skills",
       "displayName": "SOTA Engineering Skills",
       "description": "Router-mapped library of 40 domain and language skills with BUILD and AUDIT modes, loading only the rules a task needs and ending every rules file in an audit checklist",
@@ -9233,21 +9293,6 @@
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "Equibles",
-      "displayName": "Equibles",
-      "description": "Plugin packages (Agent Plugins, Gemini CLI, Grok Build) for the hosted Equibles financial data MCP server: SEC filings, as-reported fundamentals, earnings-call transcripts, 13F holdings, and insider and congressional trades, with OAuth sign-in",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "daniel3303",
-      "repo": "stock-market-mcp-server",
-      "url": "https://github.com/daniel3303/stock-market-mcp-server",
-      "install_url": "https://raw.githubusercontent.com/daniel3303/stock-market-mcp-server/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "Ethora",
       "displayName": "Ethora",
       "description": "MCP server for the Ethora chat and messaging platform: create and manage apps, chat rooms and users, broadcast messages, and deploy AI agents and RAG chatbots",
@@ -9261,6 +9306,21 @@
       "repo": "ethora-mcp-server",
       "url": "https://github.com/dappros/ethora-mcp-server",
       "install_url": "https://raw.githubusercontent.com/dappros/ethora-mcp-server/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Firecrawl",
+      "displayName": "Firecrawl",
+      "description": "Official Firecrawl skills and MCP configuration for Claude Code, Cursor and Codex, giving agents web search, scraping, crawling, URL mapping and browser interaction",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "firecrawl",
+      "repo": "skills",
+      "url": "https://github.com/firecrawl/skills",
+      "install_url": "https://raw.githubusercontent.com/firecrawl/skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "flacli",
@@ -9291,6 +9351,21 @@
       "repo": "framewright",
       "url": "https://github.com/smwbev/framewright",
       "install_url": "https://raw.githubusercontent.com/smwbev/framewright/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Game Boy MCP Player",
+      "displayName": "Game Boy MCP Player",
+      "description": "MCP server that lets AI agents play any Game Boy game through PyBoy, with a Pok\u00e9mon Red/Blue/Yellow profile that reads game state from memory and built-in benchmark metrics",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Dst0rtr",
+      "repo": "pokemon-ai-player",
+      "url": "https://github.com/Dst0rtr/pokemon-ai-player",
+      "install_url": "https://raw.githubusercontent.com/Dst0rtr/pokemon-ai-player/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "GDS Agent",
@@ -10119,6 +10194,21 @@
       "repo": "plancast",
       "url": "https://github.com/sarthakdabhi/plancast",
       "install_url": "https://raw.githubusercontent.com/sarthakdabhi/plancast/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "plane-codex-mcp",
+      "displayName": "plane-codex-mcp",
+      "description": "Codex plugin that captures project work events and syncs tasks, bugs, decisions and risks to Plane via a local SQLite outbox",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Bene-2020",
+      "repo": "plane-codex-mcp",
+      "url": "https://github.com/Bene-2020/plane-codex-mcp",
+      "install_url": "https://raw.githubusercontent.com/Bene-2020/plane-codex-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Portway",
