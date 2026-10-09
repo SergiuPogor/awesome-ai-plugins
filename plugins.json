@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-09",
-  "total": 749,
+  "total": 750,
   "platforms": [
     "codex",
     "grok",
@@ -10488,6 +10488,20 @@
       "source": "awesome-ai-plugins",
       "ecosystems": [
         "deepseek-harness"
+      ]
+    },
+    {
+      "name": "opus-ollama",
+      "url": "https://github.com/rsreeju/opus-ollama",
+      "owner": "rsreeju",
+      "repo": "opus-ollama",
+      "description": "Claude Code skill where Opus plans and a tool-less Ollama model (local or cloud) writes the code through a path-allowlisted script",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rsreeju/opus-ollama/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     }
   ]
