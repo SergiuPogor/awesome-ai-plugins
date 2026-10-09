@@ -10194,6 +10194,19 @@
       ]
     },
     {
+      "name": "dsh-mattpocock-skills-deck",
+      "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
+      "owner": "FeatherHunter",
+      "repo": "dsh-mattpocock-skills-deck",
+      "description": "DSH plugin that renders GitHub issues as a task board panel and bundles 25 mattpocock/skills for one-click loading",
+      "category": "DeepSeek Harness Plugins",
+      "platform": "deepseek-harness",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
       "name": "dsh-opencode-palette",
       "url": "https://github.com/FeatherHunter/dsh-opencode-palette",
       "owner": "FeatherHunter",
@@ -10303,19 +10316,6 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "description": "Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness",
-      "category": "DeepSeek Harness Plugins",
-      "platform": "deepseek-harness",
-      "source": "awesome-ai-plugins",
-      "ecosystems": [
-        "deepseek-harness"
-      ]
-    },
-    {
-      "name": "dsh-mattpocock-skills-deck",
-      "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck",
-      "owner": "FeatherHunter",
-      "repo": "dsh-mattpocock-skills-deck",
-      "description": "DSH plugin that renders GitHub issues as a task board panel and bundles 25 mattpocock/skills for one-click loading",
       "category": "DeepSeek Harness Plugins",
       "platform": "deepseek-harness",
       "source": "awesome-ai-plugins",
