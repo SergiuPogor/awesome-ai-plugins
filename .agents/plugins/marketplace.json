@@ -9488,6 +9488,21 @@
       "install_url": "https://raw.githubusercontent.com/nmorton13/hodljuice-cli/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "homie",
+      "displayName": "homie",
+      "description": "Four-level chat-voice personality layer for coding agents (off, yo, dawg, mafa) that changes how the agent talks in prose while leaving technical answers and code identical",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "prashanthgit19",
+      "repo": "homie",
+      "url": "https://github.com/prashanthgit19/homie",
+      "install_url": "https://raw.githubusercontent.com/prashanthgit19/homie/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Hostinger API MCP",
       "displayName": "Hostinger API MCP",
       "description": "Manage Hostinger VPS, domains, DNS, hosting, and billing through MCP tools backed by the official Hostinger API",
