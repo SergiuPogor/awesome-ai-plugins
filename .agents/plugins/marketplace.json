@@ -11036,6 +11036,20 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
+    },
+    {
+      "name": "dsh-mattpocock-skills-deck",
+      "displayName": "dsh-mattpocock-skills-deck",
+      "description": "DSH plugin that renders GitHub issues as a task board panel and bundles 25 mattpocock/skills for one-click loading",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "FeatherHunter",
+      "repo": "dsh-mattpocock-skills-deck",
+      "url": "https://github.com/FeatherHunter/dsh-mattpocock-skills-deck"
     }
   ]
 }

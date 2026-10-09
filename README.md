@@ -820,6 +820,7 @@ submitting a repository.
 - [dsh-config-manager](https://github.com/xiajiajun516/dsh-config-manager) - Backup, restore, export, import, migrate and sync your complete DeepSeek Harness (DSH) configuration — settings, model providers, plugins, MCP servers, skills, agent presets and workspaces — and restore your whole environment on a new machine with one click.
 - [dsh-deja](https://github.com/vshulcz/deja-vu) - Brings the session history of nineteen other coding agents into DeepSeek Harness: recall, session digest and per-file history tools over a local index, plus optional automatic recall.
 - [dsh-im-companion](https://github.com/FeatherHunter/dsh-im-companion) - Workspace presence companion for dsh-im: see which workspaces have an assistant on duty and whether they are online.
+- [dsh-mattpocock-skills-deck](https://github.com/FeatherHunter/dsh-mattpocock-skills-deck) - DSH plugin that renders GitHub issues as a task board panel and bundles 25 mattpocock/skills for one-click loading.
 - [dsh-opencode-palette](https://github.com/FeatherHunter/dsh-opencode-palette) - Multi-theme engine for DSH Web with full support for all 38 opencode themes.
 - [dsh-plugin-hub](https://github.com/wingsky-1/dsh-plugin-hub) - Plugin collection for the DeepSeek Harness web GUI: task notifications, provider usage tracking, MCP management, and LAN access.
 - [dsh-prompt](https://github.com/FeatherHunter/dsh-prompt) - Prompt toolbox for DeepSeek Harness: preset and custom prompt templates with one-click insert into the conversation.
