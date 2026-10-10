@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-10",
-  "total": 753,
+  "total": 755,
   "platforms": [
     "codex",
     "grok",
@@ -2080,6 +2080,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/dadwadw233/VibePortrait/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "vibestretch",
+      "url": "https://github.com/Eliasjunit/vibestretch",
+      "owner": "Eliasjunit",
+      "repo": "vibestretch",
+      "description": "Codex hooks that print one stretch or eye-break line and play a soft chime once the agent has kept you waiting for minutes, with zero model tokens and no telemetry (also Claude Code and Gemini CLI).",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Eliasjunit/vibestretch/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4577,6 +4591,20 @@
       "install_url": "https://raw.githubusercontent.com/Onur45500/bury-bench/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "cache-warmer",
+      "url": "https://github.com/paulbkim-dev/claude-code-cache-warmer",
+      "owner": "paulbkim-dev",
+      "repo": "claude-code-cache-warmer",
+      "description": "Claude Code plugin that keeps the prompt cache warm through idle gaps by sending one small refresh shortly before the 5-minute or 1-hour cache expires",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/paulbkim-dev/claude-code-cache-warmer/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
