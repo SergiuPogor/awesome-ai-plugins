@@ -7792,6 +7792,21 @@
       "install_url": "https://raw.githubusercontent.com/wukonigcom/quanta-costa/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "RagLeap",
+      "displayName": "RagLeap",
+      "description": "Self-hosted AI employee platform with 46 agents, Graph RAG on Neo4j, BYOK across providers, MIT",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "antonyrag",
+      "repo": "ragleap-core",
+      "url": "https://github.com/antonyrag/ragleap-core",
+      "install_url": "https://raw.githubusercontent.com/antonyrag/ragleap-core/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "React Native Developer Skills",
       "displayName": "React Native Developer Skills",
       "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",
@@ -7882,6 +7897,21 @@
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/repo-audit/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ReportCraft MCP",
+      "displayName": "ReportCraft MCP",
+      "description": "MCP server that automates academic and project report generation through screenshots, source code collection, self-contained HTML, and personalized PDF exports",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "hitarthombre",
+      "repo": "report-craft-mcp",
+      "url": "https://github.com/hitarthombre/report-craft-mcp",
+      "install_url": "https://raw.githubusercontent.com/hitarthombre/report-craft-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Rider Skills",
       "displayName": "Rider Skills",
       "description": "Official JetBrains Rider agent skills that let AI coding agents use the IDE's semantic code understanding, refactoring, debugger, and test tooling in .NET and Unreal Engine projects",
@@ -7925,6 +7955,21 @@
       "repo": "rowtrail",
       "url": "https://github.com/adam2go/rowtrail",
       "install_url": "https://raw.githubusercontent.com/adam2go/rowtrail/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "RTL Terminal",
+      "displayName": "RTL Terminal",
+      "description": "Claude Code mod that lays out Arabic, Hebrew, Persian, Urdu and other right-to-left text properly in Windows Terminal, the Windows console and VS Code's integrated terminal, with right-aligned paragraphs, bullets on the right, correct brackets and a live preview of RTL input",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "MohammedSaud404",
+      "repo": "rtl-terminal",
+      "url": "https://github.com/MohammedSaud404/rtl-terminal",
+      "install_url": "https://raw.githubusercontent.com/MohammedSaud404/rtl-terminal/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Salesforce Compound Engineering",
@@ -8570,6 +8615,21 @@
       "repo": "trigger_tree",
       "url": "https://github.com/Hedde/trigger_tree",
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Ultra Mod",
+      "displayName": "Ultra Mod",
+      "description": "All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for rm -rf and git reset --hard, .env and secret protection, and a receipt for every turn",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "mertkayacs",
+      "repo": "ultramod",
+      "url": "https://github.com/mertkayacs/ultramod",
+      "install_url": "https://raw.githubusercontent.com/mertkayacs/ultramod/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Ultralytics Agent Skills",
@@ -9413,6 +9473,21 @@
       "install_url": "https://raw.githubusercontent.com/RaazKetan/creo/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Datacircle",
+      "displayName": "Datacircle",
+      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "waynehamadi",
+      "repo": "datacircle-plugin",
+      "url": "https://github.com/waynehamadi/datacircle-plugin",
+      "install_url": "https://raw.githubusercontent.com/waynehamadi/datacircle-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "DataForge",
       "displayName": "DataForge",
       "description": "Turns any website into a quality-scored LLM fine-tuning dataset in JSONL, Parquet or on the Hugging Face Hub, with a CLI and a `dataforge mcp` server exposing tools to scrape, explore, validate, run and inspect a dataset build",
@@ -10001,6 +10076,21 @@
       "install_url": "https://raw.githubusercontent.com/Salman-Labs/mcp-dialect-fix/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "mcp-for-Azgaar",
+      "displayName": "mcp-for-Azgaar",
+      "description": "MCP server connecting AI assistants to Azgaar's Fantasy Map Generator to inspect geography, manage realms, and edit maps locally",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "aznan-triks",
+      "repo": "mcp-for-Azgaar",
+      "url": "https://github.com/aznan-triks/mcp-for-Azgaar",
+      "install_url": "https://raw.githubusercontent.com/aznan-triks/mcp-for-Azgaar/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "mcp-gatehouse",
       "displayName": "mcp-gatehouse",
       "description": "Python library that adds permission tiers, fail-closed approval gates, and append-only JSONL audit logging with secret redaction inside MCP servers built on the official Python SDK, with no proxy or external policy service (`pip install mcp-gatehouse`)",
@@ -10374,6 +10464,21 @@
       "repo": "pdf-monster",
       "url": "https://github.com/jbaehova/pdf-monster",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "PDFtoAgent (Dow Theory MCP)",
+      "displayName": "PDFtoAgent (Dow Theory MCP)",
+      "description": "Turnkey FastMCP server built with the PDFtoAgent pipeline, extracting 100+ deterministic tools from the book into a unified RAG + Skill + Tools bundle",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "babaksh",
+      "repo": "PDFtoAgent",
+      "url": "https://github.com/babaksh/PDFtoAgent",
+      "install_url": "https://raw.githubusercontent.com/babaksh/PDFtoAgent/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "peepshow",

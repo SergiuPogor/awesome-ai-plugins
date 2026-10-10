@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-10",
-  "total": 758,
+  "total": 765,
   "platforms": [
     "codex",
     "grok",
@@ -7282,6 +7282,20 @@
       ]
     },
     {
+      "name": "RagLeap",
+      "url": "https://github.com/antonyrag/ragleap-core",
+      "owner": "antonyrag",
+      "repo": "ragleap-core",
+      "description": "Self-hosted AI employee platform with 46 agents, Graph RAG on Neo4j, BYOK across providers, MIT",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/antonyrag/ragleap-core/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "React Native Developer Skills",
       "url": "https://github.com/Neha/rn-developer-skills",
       "owner": "Neha",
@@ -7366,6 +7380,20 @@
       ]
     },
     {
+      "name": "ReportCraft MCP",
+      "url": "https://github.com/hitarthombre/report-craft-mcp",
+      "owner": "hitarthombre",
+      "repo": "report-craft-mcp",
+      "description": "MCP server that automates academic and project report generation through screenshots, source code collection, self-contained HTML, and personalized PDF exports",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/hitarthombre/report-craft-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Rider Skills",
       "url": "https://github.com/JetBrains/rider-skills",
       "owner": "JetBrains",
@@ -7405,6 +7433,20 @@
       "install_url": "https://raw.githubusercontent.com/adam2go/rowtrail/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "RTL Terminal",
+      "url": "https://github.com/MohammedSaud404/rtl-terminal",
+      "owner": "MohammedSaud404",
+      "repo": "rtl-terminal",
+      "description": "Claude Code mod that lays out Arabic, Hebrew, Persian, Urdu and other right-to-left text properly in Windows Terminal, the Windows console and VS Code's integrated terminal, with right-aligned paragraphs, bullets on the right, correct brackets and a live preview of RTL input",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/MohammedSaud404/rtl-terminal/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -8007,6 +8049,20 @@
       "install_url": "https://raw.githubusercontent.com/Hedde/trigger_tree/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Ultra Mod",
+      "url": "https://github.com/mertkayacs/ultramod",
+      "owner": "mertkayacs",
+      "repo": "ultramod",
+      "description": "All-in-one mod pack for Claude Code: a usage limits and context HUD, a guard with undo for rm -rf and git reset --hard, .env and secret protection, and a receipt for every turn",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/mertkayacs/ultramod/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -8795,6 +8851,20 @@
       ]
     },
     {
+      "name": "Datacircle",
+      "url": "https://github.com/waynehamadi/datacircle-plugin",
+      "owner": "waynehamadi",
+      "repo": "datacircle-plugin",
+      "description": "Query your favorite B2B data APIs through us. Same request, same price, no markup",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/waynehamadi/datacircle-plugin/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "DataForge",
       "url": "https://github.com/ianktoo/data-forge",
       "owner": "ianktoo",
@@ -9344,6 +9414,20 @@
       ]
     },
     {
+      "name": "mcp-for-Azgaar",
+      "url": "https://github.com/aznan-triks/mcp-for-Azgaar",
+      "owner": "aznan-triks",
+      "repo": "mcp-for-Azgaar",
+      "description": "MCP server connecting AI assistants to Azgaar's Fantasy Map Generator to inspect geography, manage realms, and edit maps locally",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aznan-triks/mcp-for-Azgaar/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "mcp-gatehouse",
       "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
       "owner": "nickgeorgeseo",
@@ -9689,6 +9773,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/jbaehova/pdf-monster/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "PDFtoAgent (Dow Theory MCP)",
+      "url": "https://github.com/babaksh/PDFtoAgent",
+      "owner": "babaksh",
+      "repo": "PDFtoAgent",
+      "description": "Turnkey FastMCP server built with the PDFtoAgent pipeline, extracting 100+ deterministic tools from the book into a unified RAG + Skill + Tools bundle",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/babaksh/PDFtoAgent/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
