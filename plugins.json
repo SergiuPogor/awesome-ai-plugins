@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-10",
-  "total": 757,
+  "total": 758,
   "platforms": [
     "codex",
     "grok",
@@ -4692,6 +4692,20 @@
       ]
     },
     {
+      "name": "claude-chrome-speed",
+      "url": "https://github.com/cr1707/claude-chrome-speed",
+      "owner": "cr1707",
+      "repo": "claude-chrome-speed",
+      "description": "Rules plugin that cuts Claude in Chrome task time (40% less on Sonnet 5.5, 28% on Opus 5.5 in a pre-registered 240-run benchmark)",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/cr1707/claude-chrome-speed/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "claude-council",
       "url": "https://github.com/hex/claude-council",
       "owner": "hex",
@@ -7022,11 +7036,11 @@
       "repo": "orka",
       "description": "Orchestrates headless coding-agent CLIs (Codex, Grok, Claude Code, Cursor, Gemini, OpenCode, Copilot) as a team in isolated git worktrees, with cross-model review, QA and a scored run ledger",
       "category": "Development & Workflow",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ugorur/orka/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/ugorur/orka/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
