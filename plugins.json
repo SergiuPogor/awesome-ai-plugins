@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-09",
-  "total": 751,
+  "last_updated": "2026-10-10",
+  "total": 752,
   "platforms": [
     "codex",
     "grok",
@@ -6182,11 +6182,11 @@
       "repo": "long-form-distribution",
       "description": "Claude Code plugin that turns a published long-form piece into per-section LinkedIn, X and Substack Notes drafts, with a dashboard that tracks what's been posted",
       "category": "Development & Workflow",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/mrowean/long-form-distribution/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/mrowean/long-form-distribution/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -9551,6 +9551,20 @@
       "install_url": "https://raw.githubusercontent.com/psinetron/opencode-visualiser/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "OpenZine",
+      "url": "https://github.com/JosssphZhou/openzine",
+      "owner": "JosssphZhou",
+      "repo": "openzine",
+      "description": "Agent skill for Claude Code and Codex that turns a PDF or a folder of page images into a page-turning 3D booklet, saved as one offline HTML file",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/JosssphZhou/openzine/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
