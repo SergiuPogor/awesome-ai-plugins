@@ -7702,6 +7702,21 @@
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Quanta Costa",
+      "displayName": "Quanta Costa",
+      "description": "Claude Code plugin that shows your usage limits with a pace forecast, billing period, session cost in tokens and $/\u20ac, and whether your plan pays off, right above the prompt",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "wukonigcom",
+      "repo": "quanta-costa",
+      "url": "https://github.com/wukonigcom/quanta-costa",
+      "install_url": "https://raw.githubusercontent.com/wukonigcom/quanta-costa/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "React Native Developer Skills",
       "displayName": "React Native Developer Skills",
       "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",

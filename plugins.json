@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-10",
-  "total": 752,
+  "total": 753,
   "platforms": [
     "codex",
     "grok",
@@ -7195,6 +7195,20 @@
       "install_url": "https://raw.githubusercontent.com/Aqua-123/pstack-for-codex/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Quanta Costa",
+      "url": "https://github.com/wukonigcom/quanta-costa",
+      "owner": "wukonigcom",
+      "repo": "quanta-costa",
+      "description": "Claude Code plugin that shows your usage limits with a pace forecast, billing period, session cost in tokens and $/\u20ac, and whether your plan pays off, right above the prompt",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/wukonigcom/quanta-costa/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
