@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 768,
+  "total": 769,
   "platforms": [
     "codex",
     "grok",
@@ -4689,6 +4689,20 @@
       "install_url": "https://raw.githubusercontent.com/Neha/check-fix-accessibility/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Claude Code Arcade",
+      "url": "https://github.com/witkowsky/claude-code-arcade",
+      "owner": "witkowsky",
+      "repo": "claude-code-arcade",
+      "description": "Claude Code mod with five games to play in a pane while the agent works: Flappy Claude, the Chrome dino runner, Snake, Pong and Space Invaders, all starring Clawd in Claude's colours",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/witkowsky/claude-code-arcade/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

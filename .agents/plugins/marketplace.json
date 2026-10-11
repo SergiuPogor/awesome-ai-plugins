@@ -5017,6 +5017,21 @@
       "install_url": "https://raw.githubusercontent.com/Neha/check-fix-accessibility/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Claude Code Arcade",
+      "displayName": "Claude Code Arcade",
+      "description": "Claude Code mod with five games to play in a pane while the agent works: Flappy Claude, the Chrome dino runner, Snake, Pong and Space Invaders, all starring Clawd in Claude's colours",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "witkowsky",
+      "repo": "claude-code-arcade",
+      "url": "https://github.com/witkowsky/claude-code-arcade",
+      "install_url": "https://raw.githubusercontent.com/witkowsky/claude-code-arcade/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Claude Watchdog",
       "displayName": "Claude Watchdog",
       "description": "Stop hook that runs a critical post-mortem on every Claude Code session, cross-checking what was asked against the actual git diff for missed goals, wasted detours, and unverified claims",
