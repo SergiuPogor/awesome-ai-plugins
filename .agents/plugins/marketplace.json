@@ -9082,6 +9082,21 @@
       "install_url": "https://raw.githubusercontent.com/MikeyPetrillo/Agent402/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "AgentBadge MCP",
+      "displayName": "AgentBadge MCP",
+      "description": "Verify agents, check trust scores, and pay for services with x402 \u2014 ERC-8004 identity on Arc via MCP",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "spreadzp",
+      "repo": "agentbadge-mcp",
+      "url": "https://github.com/spreadzp/agentbadge-mcp",
+      "install_url": "https://raw.githubusercontent.com/spreadzp/agentbadge-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AgentCall",
       "displayName": "AgentCall",
       "description": "Lets Claude Code, Codex, Cursor, Gemini CLI, and 30+ other agents join Google Meet, Zoom, or Microsoft Teams as a speaking, listening, presenting participant with text-to-speech, live transcripts, screenshare, and an avatar camera feed",

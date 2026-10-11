@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 781,
+  "total": 782,
   "platforms": [
     "codex",
     "grok",
@@ -8482,6 +8482,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/MikeyPetrillo/Agent402/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "AgentBadge MCP",
+      "url": "https://github.com/spreadzp/agentbadge-mcp",
+      "owner": "spreadzp",
+      "repo": "agentbadge-mcp",
+      "description": "Verify agents, check trust scores, and pay for services with x402 \u2014 ERC-8004 identity on Arc via MCP",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/spreadzp/agentbadge-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
