@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 769,
+  "total": 770,
   "platforms": [
     "codex",
     "grok",
@@ -5095,6 +5095,20 @@
       "install_url": "https://raw.githubusercontent.com/hogancv/coordinate-agents/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "copy-blocks",
+      "url": "https://github.com/y-hirakaw/claude-code-mods",
+      "owner": "y-hirakaw",
+      "repo": "claude-code-mods",
+      "description": "Claude Code mod that puts a copy button above each quote and code block in Claude's answer, copying the text without the terminal's line breaks or gutter",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/y-hirakaw/claude-code-mods/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

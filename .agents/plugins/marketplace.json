@@ -5452,6 +5452,21 @@
       "install_url": "https://raw.githubusercontent.com/hogancv/coordinate-agents/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "copy-blocks",
+      "displayName": "copy-blocks",
+      "description": "Claude Code mod that puts a copy button above each quote and code block in Claude's answer, copying the text without the terminal's line breaks or gutter",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "y-hirakaw",
+      "repo": "claude-code-mods",
+      "url": "https://github.com/y-hirakaw/claude-code-mods",
+      "install_url": "https://raw.githubusercontent.com/y-hirakaw/claude-code-mods/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Cover My Repo",
       "displayName": "Cover My Repo",
       "description": "Designs three checked GitHub social preview cards with Codex or Cursor, then renders them locally with Chrome",
