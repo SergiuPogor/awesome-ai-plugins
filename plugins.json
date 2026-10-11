@@ -3,11 +3,12 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 772,
+  "total": 779,
   "platforms": [
     "codex",
     "grok",
     "claude-code",
+    "standalone",
     "kimi",
     "deepseek-harness"
   ],
@@ -4720,6 +4721,20 @@
       ]
     },
     {
+      "name": "Claude Book Reader",
+      "url": "https://github.com/Nomad06/claude-book-reader",
+      "owner": "Nomad06",
+      "repo": "claude-book-reader",
+      "description": "Claude Code mod to read a PDF book in a pane or browser window while the agent works, with pictures shown in kitty and Ghostty",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Nomad06/claude-book-reader/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Claude Code Arcade",
       "url": "https://github.com/witkowsky/claude-code-arcade",
       "owner": "witkowsky",
@@ -5291,6 +5306,20 @@
       "install_url": "https://raw.githubusercontent.com/sh-ai-x/dev-harness-kit/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "DHP",
+      "url": "https://github.com/SIDDARTHAREDDY8/dhp",
+      "owner": "SIDDARTHAREDDY8",
+      "repo": "dhp",
+      "description": "Durable Handoff Protocol: agent work that survives worker death (kill -9, OOM, spot reclaim) through content-addressed handoffs, leases, checkpoints, and fence tokens, with an MCP server included",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/SIDDARTHAREDDY8/dhp/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -6787,6 +6816,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Kihara777/NixKits/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "NotFair",
+      "url": "https://github.com/nowork-studio/notfair-plugin",
+      "owner": "nowork-studio",
+      "repo": "notfair-plugin",
+      "description": "Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, WordPress, and GoHighLevel through one OAuth MCP connection, with open-source SEO, GEO, and content skills for Claude Code, Codex, Cursor, and compatible agents",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -8556,6 +8599,20 @@
       ]
     },
     {
+      "name": "anymd",
+      "url": "https://github.com/SylphxAI/anymd",
+      "owner": "SylphxAI",
+      "repo": "anymd",
+      "description": "Local MCP server and CLI that converts PDF, Office, EPUB, HTML, image, audio and video files into clean Markdown for agents",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/SylphxAI/anymd/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Anywhere",
       "url": "https://github.com/raph559/anywhere",
       "owner": "raph559",
@@ -9226,6 +9283,19 @@
       "install_url": "https://raw.githubusercontent.com/frankjoshua/herdr-acp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Hesper",
+      "url": "https://github.com/derzierau/hesper",
+      "owner": "derzierau",
+      "repo": "hesper",
+      "description": "MIT-licensed standalone macOS workspace for Claude Code and Codex with live terminals, attention controls, cross-Mac session handoffs, and Homebrew installation",
+      "category": "Tools & Integrations",
+      "platform": "standalone",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "standalone"
       ]
     },
     {
@@ -10162,11 +10232,11 @@
       "repo": "skills",
       "description": "Agent Skill and Claude Code plugin that teaches coding agents to pull live Google Search, Scholar, News, Maps, Jobs, Bing, Amazon and Reddit results and scrape URLs to markdown through the Serply API or its hosted MCP server",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -10291,6 +10361,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/conorbronsdon/substack-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Tanod",
+      "url": "https://github.com/tanod-labs/tanod-mcp",
+      "owner": "tanod-labs",
+      "repo": "tanod-mcp",
+      "description": "Remote MCP server with 140+ pay-per-call tools for PDF, OCR, images, web pages and chain reads; free daily allowance, then x402 USDC on Base or Polygon",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/tanod-labs/tanod-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -10431,6 +10515,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/uxkin/agent/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Vessel",
+      "url": "https://github.com/spenceclark/Vessel",
+      "owner": "spenceclark",
+      "repo": "Vessel",
+      "description": "Local reverse proxy that records every request and response between agents and Ollama, OpenAI-compatible or Anthropic backends to SQLite for search, replay and comparison, with a read-only MCP server for Claude Code and other MCP clients",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/spenceclark/Vessel/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
