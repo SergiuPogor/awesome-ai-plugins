@@ -4537,6 +4537,21 @@
       "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "agentRamen",
+      "displayName": "agentRamen",
+      "description": "Local SQLite graph of code and git history plus session memory, so the agent stops re-reading the repo every prompt",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "palrajjp",
+      "repo": "agentRamen",
+      "url": "https://github.com/palrajjp/agentRamen",
+      "install_url": "https://raw.githubusercontent.com/palrajjp/agentRamen/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "AgentWiki",
       "displayName": "AgentWiki",
       "description": "Rust CLI that generates C4-style architecture docs for any repository using already-authenticated agent CLIs (Claude Code, Codex, Devin) as the LLM backend",

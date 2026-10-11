@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 770,
+  "total": 771,
   "platforms": [
     "codex",
     "grok",
@@ -4239,6 +4239,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/exadel-inc/agentic-readiness-assessment/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "agentRamen",
+      "url": "https://github.com/palrajjp/agentRamen",
+      "owner": "palrajjp",
+      "repo": "agentRamen",
+      "description": "Local SQLite graph of code and git history plus session memory, so the agent stops re-reading the repo every prompt",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/palrajjp/agentRamen/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
