@@ -3037,6 +3037,21 @@
       "install_url": "https://raw.githubusercontent.com/droplinked/droplinked-codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "DropTheHassle",
+      "displayName": "DropTheHassle",
+      "description": "Your AI publishes a site to a free HTTPS link or your own .com, and it never pays.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bosmdavid-gif",
+      "repo": "dropthehassle-skill",
+      "url": "https://github.com/bosmdavid-gif/dropthehassle-skill",
+      "install_url": "https://raw.githubusercontent.com/bosmdavid-gif/dropthehassle-skill/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Education Agent Skills",
       "displayName": "Education Agent Skills",
       "description": "131 evidence-based education skills for curriculum design, lesson planning, and assessment, with transparent evidence ratings and MCP server.",
@@ -3215,6 +3230,21 @@
       "repo": "jev-social",
       "url": "https://github.com/socai-io/jev-social",
       "install_url": "https://raw.githubusercontent.com/socai-io/jev-social/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Jimeng Storyboard (\u5373\u68a6\u5206\u955c\u5e08)",
+      "displayName": "Jimeng Storyboard (\u5373\u68a6\u5206\u955c\u5e08)",
+      "description": "Full short-drama storyboard production workflow for Codex: six role subagents (script intake, dialogue, director, art, storyboard, review) with per-episode checks and derived outputs.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "andreamzhang",
+      "repo": "jimeng-skills",
+      "url": "https://github.com/andreamzhang/jimeng-skills",
+      "install_url": "https://raw.githubusercontent.com/andreamzhang/jimeng-skills/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Kachilu Browser",

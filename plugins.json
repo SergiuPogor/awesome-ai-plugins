@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-11",
-  "total": 779,
+  "total": 781,
   "platforms": [
     "codex",
     "grok",
@@ -2845,6 +2845,20 @@
       ]
     },
     {
+      "name": "DropTheHassle",
+      "url": "https://github.com/bosmdavid-gif/dropthehassle-skill",
+      "owner": "bosmdavid-gif",
+      "repo": "dropthehassle-skill",
+      "description": "Your AI publishes a site to a free HTTPS link or your own .com, and it never pays.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bosmdavid-gif/dropthehassle-skill/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Education Agent Skills",
       "url": "https://github.com/GarethManning/education-agent-skills",
       "owner": "GarethManning",
@@ -3007,6 +3021,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/socai-io/jev-social/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Jimeng Storyboard (\u5373\u68a6\u5206\u955c\u5e08)",
+      "url": "https://github.com/andreamzhang/jimeng-skills",
+      "owner": "andreamzhang",
+      "repo": "jimeng-skills",
+      "description": "Full short-drama storyboard production workflow for Codex: six role subagents (script intake, dialogue, director, art, storyboard, review) with per-episode checks and derived outputs.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/andreamzhang/jimeng-skills/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
