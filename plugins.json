@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-12",
-  "total": 783,
+  "total": 791,
   "platforms": [
     "codex",
     "grok",
@@ -3321,6 +3321,20 @@
       ]
     },
     {
+      "name": "NotFair Plugin",
+      "url": "https://github.com/nowork-studio/notfair-plugin",
+      "owner": "nowork-studio",
+      "repo": "notfair-plugin",
+      "description": "Open-source SEO, GEO, and paid-ads skills for AI agents, with Google/Meta/X/LinkedIn/Reddit/TikTok Ads, Search Console, GA4, WordPress, and GoHighLevel workflows through one OAuth MCP server.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Nullcost",
       "url": "https://github.com/johnvouros/nullcost-plugin",
       "owner": "johnvouros",
@@ -4847,6 +4861,20 @@
       ]
     },
     {
+      "name": "claude-harness-bootstrap",
+      "url": "https://github.com/sagaga144/claude-harness-bootstrap",
+      "owner": "sagaga144",
+      "repo": "claude-harness-bootstrap",
+      "description": "Generates a project-specific Claude Code harness (CLAUDE.md, hooks, subagents, commands) from one paragraph, with an eval suite showing where it changes the outcome",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sagaga144/claude-harness-bootstrap/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "claude-image-gen",
       "url": "https://github.com/guinacio/claude-image-gen",
       "owner": "guinacio",
@@ -4872,6 +4900,20 @@
       "install_url": "https://raw.githubusercontent.com/Digital-Process-Tools/claude-jit-context/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "claude-project-map",
+      "url": "https://github.com/bokiko/claude-project-map",
+      "owner": "bokiko",
+      "repo": "claude-project-map",
+      "description": "/project-map renders one status page: done / next / one decision box; scripts gather facts, the model judges",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bokiko/claude-project-map/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -5463,6 +5505,19 @@
       ]
     },
     {
+      "name": "Fleetglass",
+      "url": "https://github.com/thejoyfulist/fleetglass",
+      "owner": "thejoyfulist",
+      "repo": "fleetglass",
+      "description": "Self-hosted, read-only cockpit that ties every Claude Code and Codex session to the machine it runs on, with CPU, memory, tokens per second, cost per model, and quotas with pace",
+      "category": "Development & Workflow",
+      "platform": "standalone",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "FlexViz",
       "url": "https://github.com/flex-analytics/flexviz",
       "owner": "flex-analytics",
@@ -5810,6 +5865,20 @@
       "install_url": "https://raw.githubusercontent.com/HiAi-gg/hiai-opencode/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Hindsight",
+      "url": "https://github.com/emoubarak/hindsight",
+      "owner": "emoubarak",
+      "repo": "hindsight",
+      "description": "Claude Code plugin that searches your past sessions by meaning and turns the corrections you keep repeating into rules it follows",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/emoubarak/hindsight/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -6849,20 +6918,6 @@
       ]
     },
     {
-      "name": "NotFair",
-      "url": "https://github.com/nowork-studio/notfair-plugin",
-      "owner": "nowork-studio",
-      "repo": "notfair-plugin",
-      "description": "Operate Google, Meta, X, LinkedIn, Reddit, and TikTok Ads plus GA4, Search Console, WordPress, and GoHighLevel through one OAuth MCP connection, with open-source SEO, GEO, and content skills for Claude Code, Codex, Cursor, and compatible agents",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/nowork-studio/notfair-plugin/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "obsidian-wiki",
       "url": "https://github.com/Ar9av/obsidian-wiki",
       "owner": "Ar9av",
@@ -7740,6 +7795,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/kiycoh/silica-harness/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "simpleviz",
+      "url": "https://github.com/sstoehrm/simpleviz",
+      "owner": "sstoehrm",
+      "repo": "simpleviz",
+      "description": "Skill teaching agents the simpleviz EDN graph format and CLI so they can author, serve, and compare diagram files",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sstoehrm/simpleviz/HEAD/plugins/simpleviz/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -9456,6 +9525,20 @@
       ]
     },
     {
+      "name": "iki",
+      "url": "https://github.com/zeikar/iki",
+      "owner": "zeikar",
+      "repo": "iki",
+      "description": "Claude Code and Codex plugin that draws character parts with an image model and auto-rigs them into an animated .iki puppet over an MCP server",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/zeikar/iki/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "im-ai-copyeditor",
       "url": "https://github.com/Turtle-Hwan/im-ai-copyeditor",
       "owner": "Turtle-Hwan",
@@ -10309,6 +10392,20 @@
       ]
     },
     {
+      "name": "SessionCost",
+      "url": "https://github.com/kish21/sessioncost",
+      "owner": "kish21",
+      "repo": "sessioncost",
+      "description": "Shows how many tokens each turn and call of a Claude Code, Codex, Cursor or Antigravity session sent, what it cost, and measured fixes to send fewer",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/kish21/sessioncost/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Shipvela",
       "url": "https://github.com/stefanautomateed/shipvela-codex",
       "owner": "stefanautomateed",
@@ -10600,6 +10697,19 @@
       "install_url": "https://raw.githubusercontent.com/vmware-skills/VMware-AIops/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "vox",
+      "url": "https://github.com/h1rdr3v2/vox-cli",
+      "owner": "h1rdr3v2",
+      "repo": "vox-cli",
+      "description": "Local Whisper transcription and Kokoro text-to-speech for Apple Silicon Macs and Linux, served as an OpenAI-compatible audio API that every coding agent on the machine can share",
+      "category": "Tools & Integrations",
+      "platform": "standalone",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "standalone"
       ]
     },
     {
