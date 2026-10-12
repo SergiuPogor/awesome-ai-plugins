@@ -11093,6 +11093,21 @@
       "install_url": "https://raw.githubusercontent.com/superagents-lab/search1api-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "sectionsight",
+      "displayName": "sectionsight",
+      "description": "Claude Code skill that sets up cookieless, privacy-first website analytics (time per page section, consent banner, Slack or e-mail reports, health alerts) and proves the privacy claims with a headless-browser check",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Majny",
+      "repo": "sectionsight",
+      "url": "https://github.com/Majny/sectionsight",
+      "install_url": "https://raw.githubusercontent.com/Majny/sectionsight/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Serply Agent Skills",
       "displayName": "Serply Agent Skills",
       "description": "Agent Skill and Claude Code plugin that teaches coding agents to pull live Google Search, Scholar, News, Maps, Jobs, Bing, Amazon and Reddit results and scrape URLs to markdown through the Serply API or its hosted MCP server",
