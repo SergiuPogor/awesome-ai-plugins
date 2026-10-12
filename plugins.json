@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-11",
-  "total": 782,
+  "last_updated": "2026-10-12",
+  "total": 783,
   "platforms": [
     "codex",
     "grok",
@@ -8759,11 +8759,11 @@
       "repo": "bookstack-mcp",
       "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -9649,6 +9649,19 @@
       "install_url": "https://raw.githubusercontent.com/nickgeorgeseo/mcp-gatehouse/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "mcp-infer",
+      "url": "https://github.com/Emilthelucky/mcp-infer",
+      "owner": "Emilthelucky",
+      "repo": "mcp-infer",
+      "description": "Infers MCP tool definitions from TypeScript types and JSDoc for the official MCP TypeScript SDK",
+      "category": "Tools & Integrations",
+      "platform": "standalone",
+      "source": "awesome-ai-plugins",
+      "ecosystems": [
+        "standalone"
       ]
     },
     {

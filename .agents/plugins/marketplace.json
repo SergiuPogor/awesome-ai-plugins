@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-11",
+  "last_updated": "2026-10-12",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -9372,14 +9372,14 @@
       "description": "MCP server for searching, reading, and managing BookStack wiki content from AI assistants",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "ttpears",
       "repo": "bookstack-mcp",
       "url": "https://github.com/ttpears/bookstack-mcp",
-      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/ttpears/bookstack-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "BoondManager MCP Server",
@@ -10328,6 +10328,20 @@
       "repo": "mcp-gatehouse",
       "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
       "install_url": "https://raw.githubusercontent.com/nickgeorgeseo/mcp-gatehouse/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "mcp-infer",
+      "displayName": "mcp-infer",
+      "description": "Infers MCP tool definitions from TypeScript types and JSDoc for the official MCP TypeScript SDK",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "Emilthelucky",
+      "repo": "mcp-infer",
+      "url": "https://github.com/Emilthelucky/mcp-infer"
     },
     {
       "name": "mcp-music-studio",
