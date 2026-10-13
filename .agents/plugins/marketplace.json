@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-12",
+  "last_updated": "2026-10-13",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -8616,6 +8616,21 @@
       "install_url": "https://raw.githubusercontent.com/bitjaru/styleseed/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "subagent-tuner",
+      "displayName": "subagent-tuner",
+      "description": "Claude Code mod that sets the model and reasoning effort of every subagent, with a Manual/Auto band, a pick pane and a saved default that overrides the model the agent asked for",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Kruhlikau",
+      "repo": "subagent-tuner",
+      "url": "https://github.com/Kruhlikau/subagent-tuner",
+      "install_url": "https://raw.githubusercontent.com/Kruhlikau/subagent-tuner/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Suede Creator Skills",
       "displayName": "Suede Creator Skills",
       "description": "An open-source Agent Skills pack for Claude Code and Codex covering multi-agent workflows, code review, design, copy, SEO, app shipping, creator-rights workflows, and local read-only MCP discovery",
@@ -11113,14 +11128,14 @@
       "description": "Claude Code skill that sets up cookieless, privacy-first website analytics (time per page section, consent banner, Slack or e-mail reports, health alerts) and proves the privacy claims with a headless-browser check",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "Majny",
       "repo": "sectionsight",
       "url": "https://github.com/Majny/sectionsight",
-      "install_url": "https://raw.githubusercontent.com/Majny/sectionsight/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/Majny/sectionsight/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Serply Agent Skills",

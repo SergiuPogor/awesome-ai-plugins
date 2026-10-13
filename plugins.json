@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-12",
-  "total": 793,
+  "last_updated": "2026-10-13",
+  "total": 794,
   "platforms": [
     "codex",
     "grok",
@@ -8052,6 +8052,20 @@
       ]
     },
     {
+      "name": "subagent-tuner",
+      "url": "https://github.com/Kruhlikau/subagent-tuner",
+      "owner": "Kruhlikau",
+      "repo": "subagent-tuner",
+      "description": "Claude Code mod that sets the model and reasoning effort of every subagent, with a Manual/Auto band, a pick pane and a saved default that overrides the model the agent asked for",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Kruhlikau/subagent-tuner/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Suede Creator Skills",
       "url": "https://github.com/JasonColapietro/suede-creator-skills",
       "owner": "JasonColapietro",
@@ -10384,11 +10398,11 @@
       "repo": "sectionsight",
       "description": "Claude Code skill that sets up cookieless, privacy-first website analytics (time per page section, consent banner, Slack or e-mail reports, health alerts) and proves the privacy claims with a headless-browser check",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Majny/sectionsight/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/Majny/sectionsight/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
