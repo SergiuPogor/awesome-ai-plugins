@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-13",
-  "total": 798,
+  "total": 799,
   "platforms": [
     "codex",
     "grok",
@@ -4400,20 +4400,6 @@
       ]
     },
     {
-      "name": "ai-companion-time-anchor",
-      "url": "https://github.com/See-Sol-Lab/ai-companion-time-anchor",
-      "owner": "See-Sol-Lab",
-      "repo": "ai-companion-time-anchor",
-      "description": "Cross-client skill and hook collection for per-conversation elapsed-time awareness, ambient time cues, active clock checks, and temporal-context updates across Codex, Claude Code, and web/chat environments",
-      "category": "Development & Workflow",
-      "platform": "codex",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/See-Sol-Lab/ai-companion-time-anchor/HEAD/.codex-plugin/plugin.json",
-      "ecosystems": [
-        "codex"
-      ]
-    },
-    {
       "name": "AI Quota HUD",
       "url": "https://github.com/Pakapong26/ai-quota-hud",
       "owner": "Pakapong26",
@@ -4437,6 +4423,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "ai-companion-time-anchor",
+      "url": "https://github.com/See-Sol-Lab/ai-companion-time-anchor",
+      "owner": "See-Sol-Lab",
+      "repo": "ai-companion-time-anchor",
+      "description": "Cross-client skill and hook collection for per-conversation elapsed-time awareness, ambient time cues, active clock checks, and temporal-context updates across Codex, Claude Code, and web/chat environments",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/See-Sol-Lab/ai-companion-time-anchor/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -7605,6 +7605,20 @@
       ]
     },
     {
+      "name": "RAPR AI",
+      "url": "https://github.com/rawalrahul/raprai",
+      "owner": "rawalrahul",
+      "repo": "raprai",
+      "description": "Run Claude Code, Codex, Ollama and other agents side by side on your own machine, with group chats and control from the browser, Telegram or WhatsApp",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rawalrahul/raprai/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "React Native Developer Skills",
       "url": "https://github.com/Neha/rn-developer-skills",
       "owner": "Neha",
@@ -9529,11 +9543,11 @@
       "repo": "homie",
       "description": "Four-level chat-voice personality layer for coding agents (off, yo, dawg, mafa) that changes how the agent talks in prose while leaving technical answers and code identical",
       "category": "Tools & Integrations",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/prashanthgit19/homie/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/prashanthgit19/homie/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {

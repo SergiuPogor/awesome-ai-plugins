@@ -4702,21 +4702,6 @@
       "install_url": "https://raw.githubusercontent.com/ucsandman/Agnostic-AI/HEAD/.codex-plugin/plugin.json"
     },
     {
-      "name": "ai-companion-time-anchor",
-      "displayName": "ai-companion-time-anchor",
-      "description": "Cross-client skill and hook collection for per-conversation elapsed-time awareness, ambient time cues, active clock checks, and temporal-context updates across Codex, Claude Code, and web/chat environments",
-      "category": "Development & Workflow",
-      "source": "awesome-ai-plugins",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ],
-      "owner": "See-Sol-Lab",
-      "repo": "ai-companion-time-anchor",
-      "url": "https://github.com/See-Sol-Lab/ai-companion-time-anchor",
-      "install_url": "https://raw.githubusercontent.com/See-Sol-Lab/ai-companion-time-anchor/HEAD/.codex-plugin/plugin.json"
-    },
-    {
       "name": "AI Quota HUD",
       "displayName": "AI Quota HUD",
       "description": "Windows desktop HUD showing % left and reset countdown for every Codex/ChatGPT and Claude Code account (local + VPS over SSH) plus xKiro credit, flagging early/bonus resets while reading only local logs so it uses zero quota",
@@ -4745,6 +4730,21 @@
       "repo": "AI-Video-Transcriber",
       "url": "https://github.com/wendy7756/AI-Video-Transcriber",
       "install_url": "https://raw.githubusercontent.com/wendy7756/AI-Video-Transcriber/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "ai-companion-time-anchor",
+      "displayName": "ai-companion-time-anchor",
+      "description": "Cross-client skill and hook collection for per-conversation elapsed-time awareness, ambient time cues, active clock checks, and temporal-context updates across Codex, Claude Code, and web/chat environments",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "See-Sol-Lab",
+      "repo": "ai-companion-time-anchor",
+      "url": "https://github.com/See-Sol-Lab/ai-companion-time-anchor",
+      "install_url": "https://raw.githubusercontent.com/See-Sol-Lab/ai-companion-time-anchor/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "AI-Native SDLC",
@@ -8136,6 +8136,21 @@
       "install_url": "https://raw.githubusercontent.com/antonyrag/ragleap-core/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "RAPR AI",
+      "displayName": "RAPR AI",
+      "description": "Run Claude Code, Codex, Ollama and other agents side by side on your own machine, with group chats and control from the browser, Telegram or WhatsApp",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rawalrahul",
+      "repo": "raprai",
+      "url": "https://github.com/rawalrahul/raprai",
+      "install_url": "https://raw.githubusercontent.com/rawalrahul/raprai/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "React Native Developer Skills",
       "displayName": "React Native Developer Skills",
       "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",
@@ -10196,14 +10211,14 @@
       "description": "Four-level chat-voice personality layer for coding agents (off, yo, dawg, mafa) that changes how the agent talks in prose while leaving technical answers and code identical",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "claude-code",
+      "platform": "codex",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ],
       "owner": "prashanthgit19",
       "repo": "homie",
       "url": "https://github.com/prashanthgit19/homie",
-      "install_url": "https://raw.githubusercontent.com/prashanthgit19/homie/HEAD/.claude-plugin/plugin.json"
+      "install_url": "https://raw.githubusercontent.com/prashanthgit19/homie/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Hostinger API MCP",
