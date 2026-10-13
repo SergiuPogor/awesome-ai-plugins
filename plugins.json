@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-13",
-  "total": 799,
+  "total": 800,
   "platforms": [
     "codex",
     "grok",
@@ -5498,11 +5498,11 @@
       "repo": "effect-actions",
       "description": "Agent skill and Effect library for defining a typed action once and serving it over HTTP, as MCP tools, as an AI Toolkit, and from a CLI",
       "category": "Development & Workflow",
-      "platform": "claude-code",
+      "platform": "codex",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/gjermundgaraba/effect-actions/HEAD/.claude-plugin/plugin.json",
+      "install_url": "https://raw.githubusercontent.com/gjermundgaraba/effect-actions/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
-        "claude-code"
+        "codex"
       ]
     },
     {
@@ -7838,6 +7838,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/GlobalMatchHub/searchlink-lite/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Second Claude Code",
+      "url": "https://github.com/unclejobs-ai/second-claude-code",
+      "owner": "unclejobs-ai",
+      "repo": "second-claude-code",
+      "description": "Knowledge-work plugin for Claude Code, Codex, and Grok with research, writing, review, and refinement skills and a gated gather, draft, check, and cut workflow",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/unclejobs-ai/second-claude-code/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
