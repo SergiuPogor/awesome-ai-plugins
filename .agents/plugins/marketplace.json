@@ -7296,6 +7296,21 @@
       "install_url": "https://raw.githubusercontent.com/divyamrastogi/model-orchestration/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "mstack",
+      "displayName": "mstack",
+      "description": "61 skills, 19 agents and 33 prompts for Claude Code, Cursor, Codex and 16 more coding agents via npx @imisbahk/mstack",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "IMisbahk",
+      "repo": "mstack",
+      "url": "https://github.com/IMisbahk/mstack",
+      "install_url": "https://raw.githubusercontent.com/IMisbahk/mstack/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "mstar-harness",
       "displayName": "mstar-harness",
       "description": "Multi-agent code harness plugin that routes work through PM, dev, QC, and QA roles with deterministic workflow gates enforced by a TypeScript engine, installable across dsh, omp, OpenCode, Cursor, Kimi Code, ZCode, and Codex",
