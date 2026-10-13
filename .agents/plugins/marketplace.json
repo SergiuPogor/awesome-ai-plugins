@@ -6906,6 +6906,21 @@
       "install_url": "https://raw.githubusercontent.com/techygarg/lattice/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Limitless Library",
+      "displayName": "Limitless Library",
+      "description": "MCP server: Python CLI and stdio server for reusing source-free methods and explicitly shared code with receiver-controlled verification",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "Univeracity",
+      "repo": "limitlesslibrary",
+      "url": "https://github.com/Univeracity/limitlesslibrary",
+      "installation_url": "https://github.com/Univeracity/limitlesslibrary#readme"
+    },
+    {
       "name": "limitwise",
       "displayName": "limitwise",
       "description": "Schedule and automate Codex work while respecting rolling and weekly usage limits in percentage or in tokens. Let your PC work while you sleep",

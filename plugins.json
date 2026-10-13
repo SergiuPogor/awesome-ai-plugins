@@ -3,12 +3,13 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-13",
-  "total": 796,
+  "total": 797,
   "platforms": [
     "codex",
     "grok",
     "claude-code",
     "standalone",
+    "mcp",
     "kimi",
     "deepseek-harness"
   ],
@@ -6453,6 +6454,20 @@
       "install_url": "https://raw.githubusercontent.com/techygarg/lattice/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Limitless Library",
+      "url": "https://github.com/Univeracity/limitlesslibrary",
+      "owner": "Univeracity",
+      "repo": "limitlesslibrary",
+      "description": "MCP server: Python CLI and stdio server for reusing source-free methods and explicitly shared code with receiver-controlled verification",
+      "category": "Development & Workflow",
+      "platform": "mcp",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/Univeracity/limitlesslibrary#readme",
+      "ecosystems": [
+        "mcp"
       ]
     },
     {

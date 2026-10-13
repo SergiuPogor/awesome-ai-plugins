@@ -47,6 +47,7 @@ INSTALL_URL_PROBE_TIMEOUT = 6.0
 DEEPSEEK_HARNESS_PLATFORM = "deepseek-harness"
 GROK_PLATFORM = "grok"
 KIMI_PLATFORM = "kimi"
+MCP_PLATFORM = "mcp"
 
 # `## Community Plugins` subsections such as `Development & Workflow` mix
 # platforms, so the heading cannot classify their entries. Derive the platform
@@ -213,7 +214,7 @@ def marketplace_entry(plugin: dict) -> dict:
         "ecosystems": plugin.get("ecosystems", [plugin.get("platform", "codex")]),
     }
 
-    for key in ("owner", "repo", "url", "install_url"):
+    for key in ("owner", "repo", "url", "install_url", "installation_url"):
         value = str(plugin.get(key, "")).strip()
         if value:
             entry[key] = value
@@ -299,6 +300,10 @@ def parse_plugins(readme_path: Path) -> list[dict]:
         owner = owner_match.group(1)
         repo = owner_match.group(2).removesuffix(".git")
 
+        # An explicit description prefix keeps native MCP servers in topical
+        # categories without claiming they are client-specific plugin bundles.
+        platform = MCP_PLATFORM if desc.startswith("MCP server: ") else entry_platform
+
         plugin = {
             "name": name,
             "url": url,
@@ -306,16 +311,20 @@ def parse_plugins(readme_path: Path) -> list[dict]:
             "repo": repo,
             "description": desc,
             "category": current_category,
-            "platform": entry_platform,
+            "platform": platform,
             "source": "awesome-ai-plugins",
         }
-        manifest_path = PLATFORM_MANIFEST_PATHS.get(entry_platform)
-        if manifest_path:
+        manifest_path = PLATFORM_MANIFEST_PATHS.get(platform)
+        if platform == MCP_PLATFORM:
+            # MCP describes a protocol, not a universal package installer.
+            # Link to the project's instructions rather than invent a manifest.
+            plugin["installation_url"] = f"https://github.com/{owner}/{repo}#readme"
+        elif manifest_path:
             plugin["install_url"] = (
                 "https://raw.githubusercontent.com/"
                 f"{owner}/{repo}/HEAD/{manifest_path}"
             )
-        elif entry_platform not in {DEEPSEEK_HARNESS_PLATFORM, "standalone"}:
+        elif platform not in {DEEPSEEK_HARNESS_PLATFORM, "standalone"}:
             plugin["install_url"] = (
                 "https://raw.githubusercontent.com/"
                 f"{owner}/{repo}/HEAD/.codex-plugin/plugin.json"
@@ -352,6 +361,7 @@ def merge_readme_additions(
                 DEEPSEEK_HARNESS_PLATFORM,
                 GROK_PLATFORM,
                 KIMI_PLATFORM,
+                MCP_PLATFORM,
             }:
                 platform = plugin["platform"]
                 for existing in (*upstream, *additions):
@@ -363,10 +373,16 @@ def merge_readme_additions(
                         existing["ecosystems"] = ecosystems
                     if platform not in ecosystems:
                         ecosystems.append(platform)
+                    if platform == MCP_PLATFORM:
+                        existing["installation_url"] = plugin["installation_url"]
                     break
             continue
 
         seen.add(key)
+
+        if plugin.get("platform") == MCP_PLATFORM:
+            additions.append(normalize_plugin(plugin))
+            continue
 
         if plugin.get("platform") in {DEEPSEEK_HARNESS_PLATFORM, "standalone"}:
             # Native runtimes resolve repository sources through their own
