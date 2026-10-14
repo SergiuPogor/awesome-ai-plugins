@@ -507,6 +507,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [Standup Generator](./plugins/mturac/standup-gen) - Daily standup notes from git activity across repos.
 - [Stark](https://github.com/f0d010c/stark) - UI/UX design plugin for AI coding agents with product-flow routing, platform-native interface guidance, asset planning, and shipped-reference analysis before code.
 - [STE-Pro Max](https://github.com/shyamsridhar123/STE-Pro-Max) - Simplified Technical English-inspired writing, interactive visual explanations, and evidence-linked storytelling for Claude Code, Codex, and GitHub Copilot CLI.
+- [Stock Alarm](https://github.com/shawn14/claude-stock-alarm) - Claude Code plugin that docks a live stock watchlist above the prompt and sets local price alerts like `/sa alert NVDA above 250`, free and using zero Claude tokens.
 - [Stvena](https://github.com/nccapo/stvena) - Terminal workspace for running Codex or Claude Code beside live diffs, full-file review, checks, staging, and precise code feedback.
 - [StyleSeed](https://github.com/bitjaru/styleseed) - Compiles your project's design decisions into a lock file, then enforces them on Claude Code, Codex, and Cursor output with code and rendered-pixel gates so screens stay consistent across sessions.
 - [subagent-tuner](https://github.com/Kruhlikau/subagent-tuner) - Claude Code mod that sets the model and reasoning effort of every subagent, with a Manual/Auto band, a pick pane and a saved default that overrides the model the agent asked for.
