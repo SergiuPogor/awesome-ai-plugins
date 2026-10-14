@@ -445,6 +445,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [Pixel](https://github.com/Pixel-CLI/pixel) - Local, deterministic code index that Claude Code, Codex, Pi, OpenCode and other coding agents query for signatures, callers, impact and Git history instead of reading whole files.
 - [Pixeltable](https://github.com/pixeltable/pixeltable-skill) - Declarative multimodal AI data engine for tables, computed columns, embedding search, agents, and FastAPI services.
 - [Planning with Files](https://github.com/OthmanAdi/planning-with-files) - Persistent file-based planning for Claude Code, Codex, and other AI coding agents, preserving task plans, findings, and progress across context loss, crashes, and compaction.
+- [Plugin Directory Preflight](https://github.com/gagoar/plugin-directory-preflight) - Run the plugin directory's upload checks locally, read the scan report in a screenful, and pin a stubborn hold with a probe repository.
 - [pm-claude-skills](https://github.com/mohitagw15856/pm-claude-skills) - Open-source library of 1174 plain-markdown agent skills for Claude Code, Codex, Gemini, and Cursor, covering professional and life tasks with built-in quality checks and anti-patterns.
 - [Ponytail](https://github.com/DietrichGebert/ponytail) - Guides coding agents toward minimal working solutions through YAGNI, existing code, standard libraries, and native platform features.
 - [PR Storyteller](./plugins/mturac/pr-storyteller) - PR title + body + test plan from commits and diff vs base branch.
