@@ -2,11 +2,12 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-13",
-  "total": 800,
+  "last_updated": "2026-10-14",
+  "total": 801,
   "platforms": [
     "codex",
     "grok",
+    "agent-skills",
     "claude-code",
     "standalone",
     "mcp",
@@ -4145,6 +4146,20 @@
       "platform": "grok",
       "ecosystems": [
         "grok"
+      ]
+    },
+    {
+      "name": "Awesome QA Skills",
+      "url": "https://github.com/naodeng/awesome-qa-skills",
+      "owner": "naodeng",
+      "repo": "awesome-qa-skills",
+      "description": "Bilingual collection of 330 installable QA agent skills covering test workflows, test types, and skill engineering across the SDLC",
+      "category": "Agent Skills",
+      "platform": "agent-skills",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/naodeng/awesome-qa-skills#readme",
+      "ecosystems": [
+        "agent-skills"
       ]
     },
     {
