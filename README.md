@@ -36,6 +36,7 @@
 - [Start Here](#start-here)
 - [Official Plugins](#official-plugins)
 - [Community Plugins](#community-plugins)
+  - [Agent Skills](#agent-skills)
   - [Grok Plugins](#grok-plugins)
   - [Kimi Plugins](#kimi-plugins)
   - [DeepSeek Harness Plugins](#deepseek-harness-plugins)
@@ -103,7 +104,13 @@ This repository is a discovery catalog, not a universal installer. Follow each l
 
 ## Community Plugins
 
-Third-party plugins built by the community. [PRs welcome](#contributing)!
+Community-built plugins, native skills, MCP servers, and related agent extensions. [PRs welcome](#contributing)!
+
+### Agent Skills
+
+Individually installable Agent Skills collections, rather than one client-specific plugin bundle.
+
+- [Awesome QA Skills](https://github.com/naodeng/awesome-qa-skills) - Bilingual collection of 330 installable QA agent skills covering test workflows, test types, and skill engineering across the SDLC.
 
 ### Development & Workflow
 

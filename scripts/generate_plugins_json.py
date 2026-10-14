@@ -48,6 +48,7 @@ DEEPSEEK_HARNESS_PLATFORM = "deepseek-harness"
 GROK_PLATFORM = "grok"
 KIMI_PLATFORM = "kimi"
 MCP_PLATFORM = "mcp"
+AGENT_SKILLS_PLATFORM = "agent-skills"
 
 # `## Community Plugins` subsections such as `Development & Workflow` mix
 # platforms, so the heading cannot classify their entries. Derive the platform
@@ -63,9 +64,11 @@ PLATFORM_MANIFEST_PATHS = {
 }
 
 # Community entries live under one README section. Keep the platform attached
-# to each subsection so native Grok, Kimi, and DeepSeek Harness entries are not
-# misclassified as Codex plugins merely because catalogs share one section.
+# to each subsection so native Agent Skills, Grok, Kimi, and DeepSeek Harness
+# entries are not misclassified as Codex plugins merely because catalogs share
+# one section.
 COMMUNITY_CATEGORY_PLATFORMS = {
+    "Agent Skills": AGENT_SKILLS_PLATFORM,
     "Grok Plugins": GROK_PLATFORM,
     "Kimi Plugins": KIMI_PLATFORM,
     "DeepSeek Harness Plugins": DEEPSEEK_HARNESS_PLATFORM,
@@ -315,9 +318,9 @@ def parse_plugins(readme_path: Path) -> list[dict]:
             "source": "awesome-ai-plugins",
         }
         manifest_path = PLATFORM_MANIFEST_PATHS.get(platform)
-        if platform == MCP_PLATFORM:
-            # MCP describes a protocol, not a universal package installer.
-            # Link to the project's instructions rather than invent a manifest.
+        if platform in {MCP_PLATFORM, AGENT_SKILLS_PLATFORM}:
+            # Native MCP and Agent Skills entries use their source instructions,
+            # not a client-specific plugin manifest.
             plugin["installation_url"] = f"https://github.com/{owner}/{repo}#readme"
         elif manifest_path:
             plugin["install_url"] = (
@@ -362,6 +365,7 @@ def merge_readme_additions(
                 GROK_PLATFORM,
                 KIMI_PLATFORM,
                 MCP_PLATFORM,
+                AGENT_SKILLS_PLATFORM,
             }:
                 platform = plugin["platform"]
                 for existing in (*upstream, *additions):
@@ -373,14 +377,14 @@ def merge_readme_additions(
                         existing["ecosystems"] = ecosystems
                     if platform not in ecosystems:
                         ecosystems.append(platform)
-                    if platform == MCP_PLATFORM:
+                    if platform in {MCP_PLATFORM, AGENT_SKILLS_PLATFORM}:
                         existing["installation_url"] = plugin["installation_url"]
                     break
             continue
 
         seen.add(key)
 
-        if plugin.get("platform") == MCP_PLATFORM:
+        if plugin.get("platform") in {MCP_PLATFORM, AGENT_SKILLS_PLATFORM}:
             additions.append(normalize_plugin(plugin))
             continue
 

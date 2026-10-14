@@ -69,6 +69,67 @@ class GeneratePluginsJsonTests(unittest.TestCase):
             )
             self.assertNotIn("install_url", entry)
 
+    def test_native_agent_skills_use_source_installation_in_both_feeds(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            readme.write_text(
+                "## Community Plugins\n\n### Agent Skills\n\n"
+                "- [Native Skills](https://github.com/example/native-skills)"
+                " - Installable Agent Skills collection.\n"
+            )
+            with patch.object(MODULE, "probe_install_url") as probe:
+                plugins, added = MODULE.merge_readme_additions([], readme)
+            probe.assert_not_called()
+
+        self.assertEqual(added, 1)
+        compatibility = MODULE.generate_plugins_json(plugins)["plugins"][0]
+        marketplace = MODULE.generate_marketplace_json(
+            [MODULE.marketplace_entry(plugin) for plugin in plugins]
+        )["plugins"][0]
+        for entry in (compatibility, marketplace):
+            self.assertEqual(entry["platform"], "agent-skills")
+            self.assertEqual(entry["ecosystems"], ["agent-skills"])
+            self.assertEqual(entry["category"], "Agent Skills")
+            self.assertEqual(
+                entry["installation_url"],
+                "https://github.com/example/native-skills#readme",
+            )
+            self.assertNotIn("install_url", entry)
+
+    def test_native_agent_skills_merge_with_an_existing_plugin(self) -> None:
+        install_url = (
+            "https://raw.githubusercontent.com/example/shared/HEAD/"
+            ".codex-plugin/plugin.json"
+        )
+        upstream = [{
+            "name": "Shared Skills",
+            "owner": "example",
+            "repo": "shared-skills",
+            "platform": "codex",
+            "ecosystems": ["codex"],
+            "install_url": install_url,
+        }]
+        with tempfile.TemporaryDirectory() as directory:
+            readme = Path(directory) / "README.md"
+            readme.write_text(
+                "## Community Plugins\n\n### Agent Skills\n\n"
+                "- [Shared Skills](https://github.com/example/shared-skills)"
+                " - Native Agent Skills collection.\n"
+            )
+            with patch.object(MODULE, "probe_install_url") as probe:
+                plugins, added = MODULE.merge_readme_additions(upstream, readme)
+            probe.assert_not_called()
+
+        self.assertEqual(added, 0)
+        self.assertEqual(len(plugins), 1)
+        self.assertEqual(plugins[0]["platform"], "codex")
+        self.assertEqual(plugins[0]["install_url"], install_url)
+        self.assertEqual(plugins[0]["ecosystems"], ["codex", "agent-skills"])
+        self.assertEqual(
+            plugins[0]["installation_url"],
+            "https://github.com/example/shared-skills#readme",
+        )
+
     def test_native_mcp_fallback_generates_no_invented_manifest(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
