@@ -7285,11 +7285,7 @@
       "description": "Local, deterministic code index that Claude Code, Codex, Pi, OpenCode and other coding agents query for signatures, callers, impact and Git history instead of reading whole files",
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Pixel-CLI/pixel/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
-      "ecosystems": [
-        "codex"
-      ]
+      "installation_url": "https://github.com/Pixel-CLI/pixel#readme"
     },
     {
       "name": "Planning with Files",
