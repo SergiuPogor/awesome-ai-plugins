@@ -11423,6 +11423,21 @@
       "install_url": "https://raw.githubusercontent.com/tanod-labs/tanod-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Tapetide",
+      "displayName": "Tapetide",
+      "description": "Indian stock market MCP server: research, screen and track about 8,200 NSE and BSE stocks from Claude, ChatGPT, Cursor or any MCP client",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Tapetide-hq",
+      "repo": "nse-bse-indian-stock-market-data-mcp",
+      "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
+      "install_url": "https://raw.githubusercontent.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "Telnyx",
       "displayName": "Telnyx",
       "description": "Telnyx toolkit for AI agents bundling Claude Code, Cursor, Gemini CLI, and OpenCode plugins, an agent toolkit for OpenAI/LangChain/CrewAI/Vercel AI SDK, a hosted MCP server, and a one-command CLI for messaging, voice, numbers, and account management",
@@ -12005,21 +12020,6 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
-    },
-    {
-      "name": "Tapetide",
-      "displayName": "Tapetide",
-      "description": "Indian stock market MCP server: research, screen and track about 8,200 NSE and BSE stocks from Claude, ChatGPT, Cursor or any MCP client",
-      "category": "Tools & Integrations",
-      "source": "awesome-ai-plugins",
-      "platform": "claude-code",
-      "ecosystems": [
-        "claude-code"
-      ],
-      "owner": "Tapetide-hq",
-      "repo": "nse-bse-indian-stock-market-data-mcp",
-      "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
-      "install_url": "https://raw.githubusercontent.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp/HEAD/.claude-plugin/plugin.json"
     }
   ]
 }

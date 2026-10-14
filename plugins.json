@@ -10674,6 +10674,20 @@
       ]
     },
     {
+      "name": "Tapetide",
+      "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
+      "owner": "Tapetide-hq",
+      "repo": "nse-bse-indian-stock-market-data-mcp",
+      "description": "Indian stock market MCP server: research, screen and track about 8,200 NSE and BSE stocks from Claude, ChatGPT, Cursor or any MCP client",
+      "category": "Tools & Integrations",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Telnyx",
       "url": "https://github.com/team-telnyx/ai",
       "owner": "team-telnyx",
@@ -11215,20 +11229,6 @@
       "source": "awesome-ai-plugins",
       "ecosystems": [
         "deepseek-harness"
-      ]
-    },
-    {
-      "name": "Tapetide",
-      "url": "https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp",
-      "owner": "Tapetide-hq",
-      "repo": "nse-bse-indian-stock-market-data-mcp",
-      "description": "Indian stock market MCP server: research, screen and track about 8,200 NSE and BSE stocks from Claude, ChatGPT, Cursor or any MCP client",
-      "category": "Tools & Integrations",
-      "platform": "claude-code",
-      "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp/HEAD/.claude-plugin/plugin.json",
-      "ecosystems": [
-        "claude-code"
       ]
     }
   ]
