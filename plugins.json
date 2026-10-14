@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-14",
-  "total": 813,
+  "total": 823,
   "platforms": [
     "codex",
     "grok",
@@ -4261,6 +4261,20 @@
       ]
     },
     {
+      "name": "Agent Replay",
+      "url": "https://github.com/sangloo/agent-replay",
+      "owner": "sangloo",
+      "repo": "agent-replay",
+      "description": "Replays Claude Code, Codex and Gemini CLI sessions change by change with the agent's own words above each step, flags what was not actually checked (failures hidden by a pipe, tests that lost assertions or gained a .skip, files changed after the last passing check), and installs as a Claude Code plugin with four skills and a capture-after-every-turn hook",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/sangloo/agent-replay/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "agent-kit",
       "url": "https://github.com/agent-kit-startup/agent-kit",
       "owner": "agent-kit-startup",
@@ -4580,6 +4594,20 @@
       "install_url": "https://raw.githubusercontent.com/Noizefield/audio-plugin-coder/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Ava",
+      "url": "https://github.com/Manukrish2504/Ava",
+      "owner": "Manukrish2504",
+      "repo": "Ava",
+      "description": "Claude Code plugin that talks back: a Stop hook speaks a one-line debrief after every task, and on request it explains what was built or recaps the session aloud in a local Kokoro voice, with no API key and nothing leaving your Mac",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Manukrish2504/Ava/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -5730,6 +5758,20 @@
       ]
     },
     {
+      "name": "genesis-architect",
+      "url": "https://github.com/maioio/genesis-architect",
+      "owner": "maioio",
+      "repo": "genesis-architect",
+      "description": "Agent skill that researches real GitHub repositories and issues before scaffolding projects, then audits drift, cycles and fragility in existing code",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/maioio/genesis-architect/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "genie",
       "url": "https://github.com/automagik-dev/genie",
       "owner": "automagik-dev",
@@ -5867,6 +5909,20 @@
       "install_url": "https://raw.githubusercontent.com/etr/groundwork/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "hackerearth-mcp",
+      "url": "https://github.com/pratham-jain33/hackerearth-mcp",
+      "owner": "pratham-jain33",
+      "repo": "hackerearth-mcp",
+      "description": "MCP server that executes code in 24 languages on HackerEarth's sandboxed cloud servers, so AI assistants run code and see real output instead of predicting it",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pratham-jain33/hackerearth-mcp/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -7480,6 +7536,20 @@
       ]
     },
     {
+      "name": "patent-lineage",
+      "url": "https://github.com/cadeos/patent-lineage",
+      "owner": "cadeos",
+      "repo": "patent-lineage",
+      "description": "Claude Code skill that draws how an everyday object evolved: it verifies each ancestor patent on Google Patents, then redraws it as an interactive isometric model on a timeline",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/cadeos/patent-lineage/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "pawl",
       "url": "https://github.com/ulukaya/pawl",
       "owner": "ulukaya",
@@ -7561,6 +7631,20 @@
       "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Plugin Directory Preflight",
+      "url": "https://github.com/gagoar/plugin-directory-preflight",
+      "owner": "gagoar",
+      "repo": "plugin-directory-preflight",
+      "description": "Run the plugin directory's upload checks locally, read the scan report in a screenful, and pin a stubborn hold with a probe repository",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gagoar/plugin-directory-preflight/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -7937,6 +8021,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/unclejobs-ai/second-claude-code/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "security-mcp",
+      "url": "https://github.com/pratham-jain33/security-mcp",
+      "owner": "pratham-jain33",
+      "repo": "security-mcp",
+      "description": "Zero-key MCP server: grade any website's security A+ to F, check CVEs against CISA KEV and EPSS, and get MITRE ATT&CK defenses in plain English",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pratham-jain33/security-mcp/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -8555,6 +8653,20 @@
       "install_url": "https://raw.githubusercontent.com/samridh3215/universalMods/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "unmistakable",
+      "url": "https://github.com/gagoar/unmistakable",
+      "owner": "gagoar",
+      "repo": "unmistakable",
+      "description": "Skill that rewrites tool descriptions, error messages and agent instructions so an AI agent cannot misread them, with a dependency-free TypeScript linter that checks the result",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gagoar/unmistakable/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -9438,6 +9550,20 @@
       "install_url": "https://raw.githubusercontent.com/Rikinshah787/dotpals/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "drip",
+      "url": "https://github.com/beausterling/drip-ai-water-usage",
+      "owner": "beausterling",
+      "repo": "drip-ai-water-usage",
+      "description": "Live water meter for Claude Code and Codex that reads their local session logs to estimate each session's water and energy use, shown in the status line with low/mid/high ranges and cited sources, with `drip run codex` opening the agent beside a live meter",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/beausterling/drip-ai-water-usage/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -11020,6 +11146,20 @@
       "source": "awesome-ai-plugins",
       "ecosystems": [
         "standalone"
+      ]
+    },
+    {
+      "name": "vybe-intelligence-vault",
+      "url": "https://github.com/rxmna8502/vybe-intelligence-vault",
+      "owner": "rxmna8502",
+      "repo": "vybe-intelligence-vault",
+      "description": "MCP server exposing a 160,000+ node AI knowledge graph for query and context injection by coding agents",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/rxmna8502/vybe-intelligence-vault/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
       ]
     },
     {

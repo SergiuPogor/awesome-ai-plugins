@@ -4552,6 +4552,21 @@
       "install_url": "https://raw.githubusercontent.com/AgentTanuki/agent-guild-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Agent Replay",
+      "displayName": "Agent Replay",
+      "description": "Replays Claude Code, Codex and Gemini CLI sessions change by change with the agent's own words above each step, flags what was not actually checked (failures hidden by a pipe, tests that lost assertions or gained a .skip, files changed after the last passing check), and installs as a Claude Code plugin with four skills and a capture-after-every-turn hook",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "sangloo",
+      "repo": "agent-replay",
+      "url": "https://github.com/sangloo/agent-replay",
+      "install_url": "https://raw.githubusercontent.com/sangloo/agent-replay/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "agent-kit",
       "displayName": "agent-kit",
       "description": "Extension pack of slash commands, skills, rules, and hooks adding plan-driven, confirmation-gated coding and staging-to-prod git workflows to Cursor and Claude Code",
@@ -4895,6 +4910,21 @@
       "repo": "audio-plugin-coder",
       "url": "https://github.com/Noizefield/audio-plugin-coder",
       "install_url": "https://raw.githubusercontent.com/Noizefield/audio-plugin-coder/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Ava",
+      "displayName": "Ava",
+      "description": "Claude Code plugin that talks back: a Stop hook speaks a one-line debrief after every task, and on request it explains what was built or recaps the session aloud in a local Kokoro voice, with no API key and nothing leaving your Mac",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "Manukrish2504",
+      "repo": "Ava",
+      "url": "https://github.com/Manukrish2504/Ava",
+      "install_url": "https://raw.githubusercontent.com/Manukrish2504/Ava/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "avoid-ai-writing",
@@ -6126,6 +6156,21 @@
       "install_url": "https://raw.githubusercontent.com/gke-labs/gemini-for-kubernetes-development/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "genesis-architect",
+      "displayName": "genesis-architect",
+      "description": "Agent skill that researches real GitHub repositories and issues before scaffolding projects, then audits drift, cycles and fragility in existing code",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "maioio",
+      "repo": "genesis-architect",
+      "url": "https://github.com/maioio/genesis-architect",
+      "install_url": "https://raw.githubusercontent.com/maioio/genesis-architect/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "genie",
       "displayName": "genie",
       "description": "Agent skills and CLI that interview a wish into a plan, dispatch parallel subagents, and review results against acceptance criteria",
@@ -6274,6 +6319,21 @@
       "repo": "groundwork",
       "url": "https://github.com/etr/groundwork",
       "install_url": "https://raw.githubusercontent.com/etr/groundwork/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "hackerearth-mcp",
+      "displayName": "hackerearth-mcp",
+      "description": "MCP server that executes code in 24 languages on HackerEarth's sandboxed cloud servers, so AI assistants run code and see real output instead of predicting it",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "pratham-jain33",
+      "repo": "hackerearth-mcp",
+      "url": "https://github.com/pratham-jain33/hackerearth-mcp",
+      "install_url": "https://raw.githubusercontent.com/pratham-jain33/hackerearth-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "harmonyos-skills",
@@ -8001,6 +8061,21 @@
       "install_url": "https://raw.githubusercontent.com/mnott/PAI/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "patent-lineage",
+      "displayName": "patent-lineage",
+      "description": "Claude Code skill that draws how an everyday object evolved: it verifies each ancestor patent on Google Patents, then redraws it as an interactive isometric model on a timeline",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "cadeos",
+      "repo": "patent-lineage",
+      "url": "https://github.com/cadeos/patent-lineage",
+      "install_url": "https://raw.githubusercontent.com/cadeos/patent-lineage/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "pawl",
       "displayName": "pawl",
       "description": "Deterministic hooks for Claude Code, Codex, and Antigravity that gate destructive commands, credential access, outbound messages, and repeated tool calls using Python's standard library",
@@ -8089,6 +8164,21 @@
       "repo": "planning-with-files",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "install_url": "https://raw.githubusercontent.com/OthmanAdi/planning-with-files/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Plugin Directory Preflight",
+      "displayName": "Plugin Directory Preflight",
+      "description": "Run the plugin directory's upload checks locally, read the scan report in a screenful, and pin a stubborn hold with a probe repository",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "gagoar",
+      "repo": "plugin-directory-preflight",
+      "url": "https://github.com/gagoar/plugin-directory-preflight",
+      "install_url": "https://raw.githubusercontent.com/gagoar/plugin-directory-preflight/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "pm-claude-skills",
@@ -8494,6 +8584,21 @@
       "repo": "second-claude-code",
       "url": "https://github.com/unclejobs-ai/second-claude-code",
       "install_url": "https://raw.githubusercontent.com/unclejobs-ai/second-claude-code/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "security-mcp",
+      "displayName": "security-mcp",
+      "description": "Zero-key MCP server: grade any website's security A+ to F, check CVEs against CISA KEV and EPSS, and get MITRE ATT&CK defenses in plain English",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "pratham-jain33",
+      "repo": "security-mcp",
+      "url": "https://github.com/pratham-jain33/security-mcp",
+      "install_url": "https://raw.githubusercontent.com/pratham-jain33/security-mcp/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "SEO Skills AI",
@@ -9154,6 +9259,21 @@
       "repo": "universalMods",
       "url": "https://github.com/samridh3215/universalMods",
       "install_url": "https://raw.githubusercontent.com/samridh3215/universalMods/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "unmistakable",
+      "displayName": "unmistakable",
+      "description": "Skill that rewrites tool descriptions, error messages and agent instructions so an AI agent cannot misread them, with a dependency-free TypeScript linter that checks the result",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "gagoar",
+      "repo": "unmistakable",
+      "url": "https://github.com/gagoar/unmistakable",
+      "install_url": "https://raw.githubusercontent.com/gagoar/unmistakable/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Usage Monitor",
@@ -10100,6 +10220,21 @@
       "repo": "dotpals",
       "url": "https://github.com/Rikinshah787/dotpals",
       "install_url": "https://raw.githubusercontent.com/Rikinshah787/dotpals/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "drip",
+      "displayName": "drip",
+      "description": "Live water meter for Claude Code and Codex that reads their local session logs to estimate each session's water and energy use, shown in the status line with low/mid/high ranges and cited sources, with `drip run codex` opening the agent beside a live meter",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "beausterling",
+      "repo": "drip-ai-water-usage",
+      "url": "https://github.com/beausterling/drip-ai-water-usage",
+      "install_url": "https://raw.githubusercontent.com/beausterling/drip-ai-water-usage/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "edgeone-makers-tools",
@@ -11795,6 +11930,21 @@
       "owner": "h1rdr3v2",
       "repo": "vox-cli",
       "url": "https://github.com/h1rdr3v2/vox-cli"
+    },
+    {
+      "name": "vybe-intelligence-vault",
+      "displayName": "vybe-intelligence-vault",
+      "description": "MCP server exposing a 160,000+ node AI knowledge graph for query and context injection by coding agents",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "rxmna8502",
+      "repo": "vybe-intelligence-vault",
+      "url": "https://github.com/rxmna8502/vybe-intelligence-vault",
+      "install_url": "https://raw.githubusercontent.com/rxmna8502/vybe-intelligence-vault/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Watermelon UI",
