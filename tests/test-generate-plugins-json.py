@@ -39,6 +39,40 @@ def only_path_resolves(path: str):
     return fake_urlopen
 
 
+class FakeBody(FakeResponse):
+    """A 200 response with a body, for files the generator reads."""
+
+    def __init__(self, body: bytes) -> None:
+        super().__init__(200)
+        self.body = body
+
+    def read(self, size: int = -1) -> bytes:
+        return self.body if size < 0 else self.body[:size]
+
+
+def serves(files: dict[str, bytes | None]):
+    """Fake `urlopen` serving `files` by path suffix; a None body is HEAD-only."""
+
+    def fake_urlopen(request, *_args, **_kwargs):
+        url = request if isinstance(request, str) else request.full_url
+        for path, body in files.items():
+            if url.endswith("/HEAD/" + path):
+                return FakeResponse(200) if body is None else FakeBody(body)
+        raise urllib.error.HTTPError(url, 404, "Not Found", {}, None)
+
+    return fake_urlopen
+
+
+def claude_marketplace_readme(directory: str, name: str) -> Path:
+    readme = Path(directory) / "README.md"
+    readme.write_text(
+        "## Community Plugins\n\n"
+        "### Development & Workflow\n\n"
+        f"- [{name}](https://github.com/example/mods) - Claude Code plugin.\n"
+    )
+    return readme
+
+
 class GeneratePluginsJsonTests(unittest.TestCase):
     def test_native_mcp_entry_has_documentation_in_both_feeds(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -368,6 +402,106 @@ class GeneratePluginsJsonTests(unittest.TestCase):
             "https://raw.githubusercontent.com/example/codex-demo"
             "/HEAD/.codex-plugin/plugin.json",
         )
+
+    def test_resolves_plugin_listed_in_claude_marketplace(self) -> None:
+        marketplace = (
+            b'{"name": "mods", "plugins": ['
+            b'{"name": "other", "source": "./other"},'
+            b'{"name": "token-bar", "source": "./token-bar"}]}'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            readme = claude_marketplace_readme(directory, "token-bar")
+            with patch(
+                "urllib.request.urlopen",
+                serves({
+                    ".claude-plugin/marketplace.json": marketplace,
+                    "token-bar/.claude-plugin/plugin.json": None,
+                }),
+            ):
+                plugins, added = MODULE.merge_readme_additions([], readme)
+
+        self.assertEqual(added, 1)
+        self.assertEqual(plugins[0]["platform"], "claude-code")
+        self.assertEqual(plugins[0]["ecosystems"], ["claude-code"])
+        self.assertEqual(
+            plugins[0]["install_url"],
+            "https://raw.githubusercontent.com/example/mods"
+            "/HEAD/token-bar/.claude-plugin/plugin.json",
+        )
+
+    def test_single_plugin_marketplace_resolves_under_another_name(self) -> None:
+        marketplace = b'{"plugins": [{"name": "bar", "source": "plugins/bar/"}]}'
+        with patch(
+            "urllib.request.urlopen",
+            serves({
+                ".claude-plugin/marketplace.json": marketplace,
+                "plugins/bar/.claude-plugin/plugin.json": None,
+            }),
+        ):
+            found, url = MODULE.probe_claude_marketplace("example", "mods", "Bar Plugin")
+
+        self.assertTrue(found)
+        self.assertEqual(
+            url,
+            "https://raw.githubusercontent.com/example/mods"
+            "/HEAD/plugins/bar/.claude-plugin/plugin.json",
+        )
+
+    def test_ignores_marketplace_sources_outside_the_repo(self) -> None:
+        for source in ('"../elsewhere"', '"https://example.com/x"', '{"source": "github", "repo": "a/b"}'):
+            marketplace = ('{"plugins": [{"name": "x", "source": %s}]}' % source).encode()
+            with self.subTest(source=source), patch(
+                "urllib.request.urlopen",
+                serves({
+                    ".claude-plugin/marketplace.json": marketplace,
+                    "elsewhere/.claude-plugin/plugin.json": None,
+                }),
+            ):
+                self.assertEqual(MODULE.probe_claude_marketplace("example", "mods", "x"), (True, None))
+
+    def test_ignores_marketplace_whose_plugin_manifest_is_missing(self) -> None:
+        marketplace = b'{"plugins": [{"name": "x", "source": "./x"}]}'
+        with patch(
+            "urllib.request.urlopen",
+            serves({".claude-plugin/marketplace.json": marketplace}),
+        ):
+            self.assertEqual(MODULE.probe_claude_marketplace("example", "mods", "x"), (True, None))
+
+    def test_no_marketplace_is_not_found(self) -> None:
+        with patch("urllib.request.urlopen", serves({})):
+            self.assertEqual(MODULE.probe_claude_marketplace("example", "mods", "x"), (False, None))
+
+    def test_unresolved_marketplace_has_no_install_target(self) -> None:
+        marketplace = (
+            b'{"plugins": [{"name": "a", "source": "./a"}, {"name": "b", "source": "./b"}]}'
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            readme = claude_marketplace_readme(directory, "token-bar")
+            with patch(
+                "urllib.request.urlopen",
+                serves({
+                    ".claude-plugin/marketplace.json": marketplace,
+                    "a/.claude-plugin/plugin.json": None,
+                }),
+            ):
+                plugins, _ = MODULE.merge_readme_additions([], readme)
+
+        # The root manifests are missing, so a default path would 404 or name another bundle.
+        self.assertNotIn("install_url", plugins[0])
+        self.assertEqual(plugins[0]["platform"], "claude-code")
+        self.assertNotIn("install_url", MODULE.marketplace_entry(plugins[0]))
+
+    def test_unreadable_marketplace_has_no_install_target(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            readme = claude_marketplace_readme(directory, "token-bar")
+            with patch(
+                "urllib.request.urlopen",
+                serves({".claude-plugin/marketplace.json": b"not json"}),
+            ):
+                plugins, _ = MODULE.merge_readme_additions([], readme)
+
+        self.assertNotIn("install_url", plugins[0])
+        self.assertEqual(plugins[0]["platform"], "claude-code")
 
 
 if __name__ == "__main__":
