@@ -9051,6 +9051,21 @@
       "install_url": "https://raw.githubusercontent.com/ultralytics/skills/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "universalMods",
+      "displayName": "universalMods",
+      "description": "Web floor for running and steering teams of Codex or Claude Code agents in live terminals, with Claude-Code-style hot-reloading mods for views, guards, agent tools and workflows",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "samridh3215",
+      "repo": "universalMods",
+      "url": "https://github.com/samridh3215/universalMods",
+      "install_url": "https://raw.githubusercontent.com/samridh3215/universalMods/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Usage Monitor",
       "displayName": "Usage Monitor",
       "description": "Floating desktop meter that shows remaining Grok, MiniMax, Codex, Claude, Cursor, Copilot, and Gemini usage and keeps each session on this computer",

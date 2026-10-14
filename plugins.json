@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-14",
-  "total": 802,
+  "total": 803,
   "platforms": [
     "codex",
     "grok",
@@ -8455,6 +8455,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/ultralytics/skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "universalMods",
+      "url": "https://github.com/samridh3215/universalMods",
+      "owner": "samridh3215",
+      "repo": "universalMods",
+      "description": "Web floor for running and steering teams of Codex or Claude Code agents in live terminals, with Claude-Code-style hot-reloading mods for views, guards, agent tools and workflows",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/samridh3215/universalMods/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
