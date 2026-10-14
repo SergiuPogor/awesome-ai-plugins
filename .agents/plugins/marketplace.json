@@ -4507,6 +4507,21 @@
       "install_url": "https://raw.githubusercontent.com/rvdbreemen/adr-kit/HEAD/.claude-plugin/plugin.json"
     },
     {
+      "name": "aegotrax",
+      "displayName": "aegotrax",
+      "description": "Runtime tool-call gate for agents: session intent, approval queue, and audit stream",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "aegotrax-dev",
+      "repo": "aegotrax",
+      "url": "https://github.com/aegotrax-dev/aegotrax",
+      "install_url": "https://raw.githubusercontent.com/aegotrax-dev/aegotrax/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Agent Context OS",
       "displayName": "Agent Context OS",
       "description": "Portable Git-backed context and session workflow layer with first-class Claude Code, Codex, and OpenClaw support plus experimental adapters for Hermes, Cursor, and Devin",
@@ -5947,6 +5962,21 @@
       "install_url": "https://raw.githubusercontent.com/Obedience-Corp/festival/HEAD/plugins/festival/.codex-plugin/plugin.json"
     },
     {
+      "name": "Filesystem MCP",
+      "displayName": "Filesystem MCP",
+      "description": "MCP server: read, write, search, diff and patch files in allowed folders, with secret files blocked and confirmation before risky changes",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "j0hanz",
+      "repo": "filesystem-mcp",
+      "url": "https://github.com/j0hanz/filesystem-mcp",
+      "installation_url": "https://github.com/j0hanz/filesystem-mcp#readme"
+    },
+    {
       "name": "FinBridge",
       "displayName": "FinBridge",
       "description": "Remote MCP server for Korean and US market data with filings, screeners, insider activity, and portfolio backtests",
@@ -6529,6 +6559,21 @@
       "repo": "idea-diamond",
       "url": "https://github.com/luckysharda/idea-diamond",
       "install_url": "https://raw.githubusercontent.com/luckysharda/idea-diamond/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "IdeaScientist",
+      "displayName": "IdeaScientist",
+      "description": "Evidence-grounded scientific ideation with literature discovery, isolated readers, and independent review in native Claude Code, Codex, and Pi agents",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "junjiezhou1122",
+      "repo": "ideascientist-claude-code",
+      "url": "https://github.com/junjiezhou1122/ideascientist-claude-code",
+      "install_url": "https://raw.githubusercontent.com/junjiezhou1122/ideascientist-claude-code/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "iris-agentic-dev",
@@ -7626,6 +7671,21 @@
       "install_url": "https://raw.githubusercontent.com/vheins/opencode-9router/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "opencode-chromium",
+      "displayName": "opencode-chromium",
+      "description": "Chromium browser automation extension collection providing an MCP server, OpenCode plugin, browser skill, and SDK with four browser tools",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "Quindart-com",
+      "repo": "opencode-chromium",
+      "url": "https://github.com/Quindart-com/opencode-chromium",
+      "install_url": "https://raw.githubusercontent.com/Quindart-com/opencode-chromium/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "opencode-litellm",
       "displayName": "opencode-litellm",
       "description": "OpenCode plugin that auto-detects a LiteLLM proxy and dynamically registers its models in the OpenCode picker",
@@ -8166,6 +8226,21 @@
       "install_url": "https://raw.githubusercontent.com/rawalrahul/raprai/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "ratchet",
+      "displayName": "ratchet",
+      "description": "A code-size budget for your repo that only goes down, so coding agents can't grow the code without a human-approved grant",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "krishansubudhi",
+      "repo": "ratchet",
+      "url": "https://github.com/krishansubudhi/ratchet",
+      "install_url": "https://raw.githubusercontent.com/krishansubudhi/ratchet/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "React Native Developer Skills",
       "displayName": "React Native Developer Skills",
       "description": "Vendor-neutral React Native skill collection covering spec authoring, architecture, performance, security, testing, and code review for Codex, Claude, and Cursor",
@@ -8704,6 +8779,21 @@
       "repo": "STE-Pro-Max",
       "url": "https://github.com/shyamsridhar123/STE-Pro-Max",
       "install_url": "https://raw.githubusercontent.com/shyamsridhar123/STE-Pro-Max/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Stock Alarm",
+      "displayName": "Stock Alarm",
+      "description": "Claude Code plugin that docks a live stock watchlist above the prompt and sets local price alerts like `/sa alert NVDA above 250`, free and using zero Claude tokens",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "shawn14",
+      "repo": "claude-stock-alarm",
+      "url": "https://github.com/shawn14/claude-stock-alarm",
+      "install_url": "https://raw.githubusercontent.com/shawn14/claude-stock-alarm/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Stvena",
@@ -10042,6 +10132,21 @@
       "install_url": "https://raw.githubusercontent.com/citrolabs/ego-lite/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "EndNote for Word",
+      "displayName": "EndNote for Word",
+      "description": "Codex and Claude Code plugin with a local MCP server and Agent Skill that creates native EndNote Cite While You Write citations and bibliographies in Word on Windows from DOI-verified references, including RIS import into EndNote libraries",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "felimet",
+      "repo": "endnote-for-word",
+      "url": "https://github.com/felimet/endnote-for-word",
+      "install_url": "https://raw.githubusercontent.com/felimet/endnote-for-word/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Ethora",
       "displayName": "Ethora",
       "description": "MCP server for the Ethora chat and messaging platform: create and manage apps, chat rooms and users, broadcast messages, and deploy AI agents and RAG chatbots",
@@ -10205,6 +10310,21 @@
       "repo": "gsc-quick-wins",
       "url": "https://github.com/iniyan/gsc-quick-wins",
       "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "GSC Security Checker",
+      "displayName": "GSC Security Checker",
+      "description": "MCP server: self-learning AppSec platform (SAST, SCA, secrets, IaC) whose 69 detectors prove exploitability with a sandboxed PoC gate and verify fixes, exposed as six read-only tools for agent-driven repository audits",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "poliakarmai",
+      "repo": "gsc",
+      "url": "https://github.com/poliakarmai/gsc",
+      "installation_url": "https://github.com/poliakarmai/gsc#readme"
     },
     {
       "name": "herdr-acp",
@@ -10509,6 +10629,21 @@
       "install_url": "https://raw.githubusercontent.com/LetsFG/LetsFG/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "LinkBit",
+      "displayName": "LinkBit",
+      "description": "MCP server: shorten URLs, generate QR codes, and read click analytics via LinkBit (npx linkbit-mcp, slk_ API key)",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "ecosystems": [
+        "mcp"
+      ],
+      "owner": "yutotanakastar",
+      "repo": "linkbit-mcp",
+      "url": "https://github.com/yutotanakastar/linkbit-mcp",
+      "installation_url": "https://github.com/yutotanakastar/linkbit-mcp#readme"
+    },
+    {
       "name": "Logo Design Skill",
       "displayName": "Logo Design Skill",
       "description": "Agent Skill for Claude Code, Codex, Gemini CLI, and other agents that runs a full logo workflow, from brief and category research to three tested SVG concepts and a concept checkpoint, then builds favicons, app icons, and presentation boards, backed by a 1,400+ logo reference library",
@@ -10537,6 +10672,21 @@
       "repo": "looot-skills",
       "url": "https://github.com/loootai/looot-skills",
       "install_url": "https://raw.githubusercontent.com/loootai/looot-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "mathtype-for-word",
+      "displayName": "mathtype-for-word",
+      "description": "Codex and Claude Code plugin with a local MCP server and Agent Skill that creates editable MathType 7 equations in Word and PowerPoint on Windows, with MathType-native equation numbering and cross-references in Word",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "felimet",
+      "repo": "mathtype-for-word",
+      "url": "https://github.com/felimet/mathtype-for-word",
+      "install_url": "https://raw.githubusercontent.com/felimet/mathtype-for-word/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "mcp-dialect-fix",

@@ -3,14 +3,14 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-14",
-  "total": 803,
+  "total": 813,
   "platforms": [
     "codex",
     "grok",
     "agent-skills",
     "claude-code",
-    "standalone",
     "mcp",
+    "standalone",
     "kimi",
     "deepseek-harness"
   ],
@@ -4219,6 +4219,20 @@
       ]
     },
     {
+      "name": "aegotrax",
+      "url": "https://github.com/aegotrax-dev/aegotrax",
+      "owner": "aegotrax-dev",
+      "repo": "aegotrax",
+      "description": "Runtime tool-call gate for agents: session intent, approval queue, and audit stream",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/aegotrax-dev/aegotrax/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Agent Context OS",
       "url": "https://github.com/conorbronsdon/agent-context-os",
       "owner": "conorbronsdon",
@@ -5563,6 +5577,20 @@
       ]
     },
     {
+      "name": "Filesystem MCP",
+      "url": "https://github.com/j0hanz/filesystem-mcp",
+      "owner": "j0hanz",
+      "repo": "filesystem-mcp",
+      "description": "MCP server: read, write, search, diff and patch files in allowed folders, with secret files blocked and confirmation before risky changes",
+      "category": "Development & Workflow",
+      "platform": "mcp",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/j0hanz/filesystem-mcp#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
       "name": "FinBridge",
       "url": "https://github.com/Jakechj/finbridge-mcp",
       "owner": "Jakechj",
@@ -6103,6 +6131,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/luckysharda/idea-diamond/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "IdeaScientist",
+      "url": "https://github.com/junjiezhou1122/ideascientist-claude-code",
+      "owner": "junjiezhou1122",
+      "repo": "ideascientist-claude-code",
+      "description": "Evidence-grounded scientific ideation with literature discovery, isolated readers, and independent review in native Claude Code, Codex, and Pi agents",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/junjiezhou1122/ideascientist-claude-code/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
@@ -7130,6 +7172,20 @@
       ]
     },
     {
+      "name": "opencode-chromium",
+      "url": "https://github.com/Quindart-com/opencode-chromium",
+      "owner": "Quindart-com",
+      "repo": "opencode-chromium",
+      "description": "Chromium browser automation extension collection providing an MCP server, OpenCode plugin, browser skill, and SDK with four browser tools",
+      "category": "Development & Workflow",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/Quindart-com/opencode-chromium/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "opencode-litellm",
       "url": "https://github.com/yuseferi/opencode-litellm",
       "owner": "yuseferi",
@@ -7634,6 +7690,20 @@
       ]
     },
     {
+      "name": "ratchet",
+      "url": "https://github.com/krishansubudhi/ratchet",
+      "owner": "krishansubudhi",
+      "repo": "ratchet",
+      "description": "A code-size budget for your repo that only goes down, so coding agents can't grow the code without a human-approved grant",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/krishansubudhi/ratchet/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "React Native Developer Skills",
       "url": "https://github.com/Neha/rn-developer-skills",
       "owner": "Neha",
@@ -8133,6 +8203,20 @@
       "platform": "claude-code",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/shyamsridhar123/STE-Pro-Max/HEAD/.claude-plugin/plugin.json",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "Stock Alarm",
+      "url": "https://github.com/shawn14/claude-stock-alarm",
+      "owner": "shawn14",
+      "repo": "claude-stock-alarm",
+      "description": "Claude Code plugin that docks a live stock watchlist above the prompt and sets local price alerts like `/sa alert NVDA above 250`, free and using zero Claude tokens",
+      "category": "Development & Workflow",
+      "platform": "claude-code",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/shawn14/claude-stock-alarm/HEAD/.claude-plugin/plugin.json",
       "ecosystems": [
         "claude-code"
       ]
@@ -9385,6 +9469,20 @@
       ]
     },
     {
+      "name": "EndNote for Word",
+      "url": "https://github.com/felimet/endnote-for-word",
+      "owner": "felimet",
+      "repo": "endnote-for-word",
+      "description": "Codex and Claude Code plugin with a local MCP server and Agent Skill that creates native EndNote Cite While You Write citations and bibliographies in Word on Windows from DOI-verified references, including RIS import into EndNote libraries",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/felimet/endnote-for-word/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Ethora",
       "url": "https://github.com/dappros/ethora-mcp-server",
       "owner": "dappros",
@@ -9536,6 +9634,20 @@
       "install_url": "https://raw.githubusercontent.com/iniyan/gsc-quick-wins/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "GSC Security Checker",
+      "url": "https://github.com/poliakarmai/gsc",
+      "owner": "poliakarmai",
+      "repo": "gsc",
+      "description": "MCP server: self-learning AppSec platform (SAST, SCA, secrets, IaC) whose 69 detectors prove exploitability with a sandboxed PoC gate and verify fixes, exposed as six read-only tools for agent-driven repository audits",
+      "category": "Tools & Integrations",
+      "platform": "mcp",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/poliakarmai/gsc#readme",
+      "ecosystems": [
+        "mcp"
       ]
     },
     {
@@ -9821,6 +9933,20 @@
       ]
     },
     {
+      "name": "LinkBit",
+      "url": "https://github.com/yutotanakastar/linkbit-mcp",
+      "owner": "yutotanakastar",
+      "repo": "linkbit-mcp",
+      "description": "MCP server: shorten URLs, generate QR codes, and read click analytics via LinkBit (npx linkbit-mcp, slk_ API key)",
+      "category": "Tools & Integrations",
+      "platform": "mcp",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/yutotanakastar/linkbit-mcp#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
       "name": "Logo Design Skill",
       "url": "https://github.com/kaankiziltug/logo-design-skill",
       "owner": "kaankiziltug",
@@ -9844,6 +9970,20 @@
       "platform": "codex",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/loootai/looot-skills/HEAD/.codex-plugin/plugin.json",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "mathtype-for-word",
+      "url": "https://github.com/felimet/mathtype-for-word",
+      "owner": "felimet",
+      "repo": "mathtype-for-word",
+      "description": "Codex and Claude Code plugin with a local MCP server and Agent Skill that creates editable MathType 7 equations in Word and PowerPoint on Windows, with MathType-native equation numbering and cross-references in Word",
+      "category": "Tools & Integrations",
+      "platform": "codex",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/felimet/mathtype-for-word/HEAD/.codex-plugin/plugin.json",
       "ecosystems": [
         "codex"
       ]
