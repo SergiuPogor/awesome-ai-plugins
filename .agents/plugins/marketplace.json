@@ -8270,6 +8270,21 @@
       "installation_url": "https://github.com/Kyne0328/rel-ai-mcp#readme"
     },
     {
+      "name": "Releases Index",
+      "displayName": "Releases Index",
+      "description": "Open release-notes registry with MCP and CLI so agents can search and fetch product changelogs",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "buildinternet",
+      "repo": "releases",
+      "url": "https://github.com/buildinternet/releases",
+      "installation_url": "https://github.com/buildinternet/releases#readme"
+    },
+    {
       "name": "remcycle",
       "displayName": "remcycle",
       "description": "Garbage collection for Claude Code's memory: a mod that rereads your sessions every day, keeps what you decided, and questions the notes that have gone stale",

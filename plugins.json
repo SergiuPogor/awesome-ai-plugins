@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 854,
+  "total": 855,
   "platforms": [
     "codex",
     "grok",
@@ -7705,6 +7705,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/Kyne0328/rel-ai-mcp#readme"
+    },
+    {
+      "name": "Releases Index",
+      "url": "https://github.com/buildinternet/releases",
+      "owner": "buildinternet",
+      "repo": "releases",
+      "description": "Open release-notes registry with MCP and CLI so agents can search and fetch product changelogs",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/buildinternet/releases#readme",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "remcycle",
