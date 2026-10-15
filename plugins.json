@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 852,
+  "total": 853,
   "platforms": [
     "codex",
     "grok",
@@ -5587,6 +5587,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "Draw.io MCP Server (drawio-mcp-server)",
+      "url": "https://github.com/lgazo/drawio-mcp-server",
+      "owner": "lgazo",
+      "repo": "drawio-mcp-server",
+      "description": "MCP server exposing Draw.io tools so AI agents can create, inspect, and modify diagrams, pages, and layers",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/lgazo/drawio-mcp-server#readme",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {

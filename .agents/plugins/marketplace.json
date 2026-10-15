@@ -5982,6 +5982,21 @@
       "install_url": "https://raw.githubusercontent.com/EvolveHQ/docflow/HEAD/plugins/docflow/.codex-plugin/plugin.json"
     },
     {
+      "name": "Draw.io MCP Server (drawio-mcp-server)",
+      "displayName": "Draw.io MCP Server (drawio-mcp-server)",
+      "description": "MCP server exposing Draw.io tools so AI agents can create, inspect, and modify diagrams, pages, and layers",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "lgazo",
+      "repo": "drawio-mcp-server",
+      "url": "https://github.com/lgazo/drawio-mcp-server",
+      "installation_url": "https://github.com/lgazo/drawio-mcp-server#readme"
+    },
+    {
       "name": "dsh-product-subagent-console",
       "displayName": "dsh-product-subagent-console",
       "description": "Designs multi-Agent plans, observes real child-session trees, compares approved tasks with runtime attempts, and prepares evidence-backed recovery inside DeepSeek Harness conversations",
