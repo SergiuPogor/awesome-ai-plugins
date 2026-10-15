@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 841,
+  "total": 842,
   "platforms": [
     "codex",
     "grok",
@@ -11061,6 +11061,20 @@
       "platform": "deepseek-harness",
       "ecosystems": [
         "deepseek-harness"
+      ]
+    },
+    {
+      "name": "opencode-cursor",
+      "url": "https://github.com/Nomadcxx/opencode-cursor",
+      "owner": "Nomadcxx",
+      "repo": "opencode-cursor",
+      "description": "OpenCode plugin for Cursor subscription models with streaming, thinking, tool calls, MCP support, and browser login through Cursor CLI or API-key authentication through the SDK",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "installation_url": "https://github.com/Nomadcxx/opencode-cursor#readme",
+      "ecosystems": [
+        "opencode"
       ]
     },
     {

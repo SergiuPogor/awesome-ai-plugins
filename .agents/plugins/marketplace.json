@@ -11891,6 +11891,21 @@
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
     },
     {
+      "name": "opencode-cursor",
+      "displayName": "opencode-cursor",
+      "description": "OpenCode plugin for Cursor subscription models with streaming, thinking, tool calls, MCP support, and browser login through Cursor CLI or API-key authentication through the SDK",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "Nomadcxx",
+      "repo": "opencode-cursor",
+      "url": "https://github.com/Nomadcxx/opencode-cursor",
+      "installation_url": "https://github.com/Nomadcxx/opencode-cursor#readme"
+    },
+    {
       "name": "RTL_OpenCode",
       "displayName": "RTL_OpenCode",
       "description": "OpenCode plugin that fixes bidirectional Persian, Arabic, and Hebrew text rendering with Unicode isolates, keeping code blocks and paths intact",
