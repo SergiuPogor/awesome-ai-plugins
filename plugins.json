@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 843,
+  "total": 847,
   "platforms": [
     "codex",
     "grok",
@@ -4206,6 +4206,20 @@
       ]
     },
     {
+      "name": "claude-skills",
+      "url": "https://github.com/Jeffallan/claude-skills",
+      "owner": "Jeffallan",
+      "repo": "claude-skills",
+      "description": "67 Agent Skills for full-stack development across languages, frameworks, infrastructure, testing, security, and data/ML, with 371 reference files that load only when a task needs them and 9 project workflow commands",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/Jeffallan/claude-skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "nuthinking/skills",
       "url": "https://github.com/nuthinking/skills",
       "owner": "nuthinking",
@@ -4215,6 +4229,20 @@
       "source": "awesome-ai-plugins",
       "platform": "agent-skills",
       "installation_url": "https://github.com/nuthinking/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
+      "name": "writing-with-agents",
+      "url": "https://github.com/Jeffallan/writing-with-agents",
+      "owner": "Jeffallan",
+      "repo": "writing-with-agents",
+      "description": "Ten Agent Skills that turn Betty Flowers' Madman, Architect, Carpenter, Judge writing method into a human-in-the-loop workflow, with SEO, a quality rubric, and content strategy",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/Jeffallan/writing-with-agents#readme",
       "ecosystems": [
         "agent-skills"
       ]
@@ -4612,6 +4640,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/VectorSpaceLab/AREX-Skill#readme"
+    },
+    {
+      "name": "Atelier",
+      "url": "https://github.com/pdcgomes/atelier",
+      "owner": "pdcgomes",
+      "repo": "atelier",
+      "description": "Claude Code plugin and local daemon for live canvases: Claude writes a template or custom React canvas into .atelier/, Atelier checks it and shows it in your browser in a sandboxed frame, and what you tick, approve or answer reaches the session beside your next prompt, at the end of its turn or through canvas_wait",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/pdcgomes/atelier/HEAD/plugin/claude-code/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "Audio Plugin Coder",
@@ -8788,6 +8830,20 @@
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Auten",
+      "url": "https://github.com/auten-ai/auten-mcp",
+      "owner": "auten-ai",
+      "repo": "auten-mcp",
+      "description": "MCP server: gives Claude Code, Codex, Cursor or any MCP client hands on a real screen, your computer (Mac, Windows, Linux) and your Android phone (beta), clicking, typing and reading even in apps with no API, and replays learned tasks without a model call",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/auten-ai/auten-mcp#readme",
+      "ecosystems": [
+        "mcp"
       ]
     },
     {
