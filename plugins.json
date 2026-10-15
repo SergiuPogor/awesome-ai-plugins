@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 833,
+  "total": 840,
   "platforms": [
     "codex",
     "grok",
@@ -4584,6 +4584,16 @@
       "installation_url": "https://github.com/lennonpetrick/android-engineering-skills#readme"
     },
     {
+      "name": "angles-video-skill",
+      "url": "https://github.com/anglesvideo/angles-video-skills",
+      "owner": "anglesvideo",
+      "repo": "angles-video-skills",
+      "description": "AI video generation skill for Claude Code supporting Veo3, Kling 3.0, Wan, and HunyuanVideo via the angles.video API",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/anglesvideo/angles-video-skills#readme"
+    },
+    {
       "name": "Antigravity Context Meter",
       "url": "https://github.com/Dunphil692/antigravity-context-meter",
       "owner": "Dunphil692",
@@ -6391,6 +6401,20 @@
       ]
     },
     {
+      "name": "KOZMOS",
+      "url": "https://github.com/ersinkoc/claude-mods",
+      "owner": "ersinkoc",
+      "repo": "claude-mods",
+      "description": "48 live, visual function-hook mods for Claude Code in the terminal and desktop app: animated bands above the prompt, sidebars, a status ticker, companions, guards, and sound for usage limits, context, subagents, git, and cost",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/ersinkoc/claude-mods/HEAD/mods/kozmos/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "Labtasker",
       "url": "https://github.com/luocfprime/labtasker",
       "owner": "luocfprime",
@@ -7775,6 +7799,20 @@
       ]
     },
     {
+      "name": "Shrike",
+      "url": "https://github.com/SumantxD/shrike",
+      "owner": "SumantxD",
+      "repo": "shrike",
+      "description": "Claude Code plugin for the Shrike desktop app that shows your agent what your web app actually did on each click (the code path, real values, queries and errors), so it fixes from what ran instead of guessing; every code change waits for your approval in Shrike",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/SumantxD/shrike/HEAD/integrations/claude-code/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
       "name": "silica",
       "url": "https://github.com/kiycoh/silica-harness",
       "owner": "kiycoh",
@@ -8234,6 +8272,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "token-bar",
+      "url": "https://github.com/santosli/claude-mods",
+      "owner": "santosli",
+      "repo": "claude-mods",
+      "description": "Claude Code mod that shows context use, session and weekly quota with reset countdowns, and today's token spend in a band above the prompt, in the terminal and the desktop app",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/santosli/claude-mods/HEAD/token-bar/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
@@ -8767,6 +8819,20 @@
       ]
     },
     {
+      "name": "bagel",
+      "url": "https://github.com/Extelligence-ai/bagel",
+      "owner": "Extelligence-ai",
+      "repo": "bagel",
+      "description": "MCP server: Query robotics, drone, and IoT logs in natural language and build auditable data-reduction pipelines with companion agent skills",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "mcp",
+      "installation_url": "https://github.com/Extelligence-ai/bagel#readme",
+      "ecosystems": [
+        "mcp"
+      ]
+    },
+    {
       "name": "Bestax",
       "url": "https://github.com/allxsmith/bestax-skills",
       "owner": "allxsmith",
@@ -9274,6 +9340,16 @@
       "ecosystems": [
         "claude-code"
       ]
+    },
+    {
+      "name": "Genexus18MCP",
+      "url": "https://github.com/lennix1337/Genexus18MCP",
+      "owner": "lennix1337",
+      "repo": "Genexus18MCP",
+      "description": "MCP server that lets AI agents read, edit, analyze, and refactor objects in GeneXus Knowledge Bases through supported GeneXus SDKs and compatibility drivers",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/lennix1337/Genexus18MCP#readme"
     },
     {
       "name": "GitHub Issues for Claude Code",
@@ -10014,6 +10090,20 @@
       "platform": "codex",
       "ecosystems": [
         "codex"
+      ]
+    },
+    {
+      "name": "pg-perf-mcp",
+      "url": "https://github.com/gouranshul/pg-perf-mcp",
+      "owner": "gouranshul",
+      "repo": "pg-perf-mcp",
+      "description": "Read-only MCP server that lets AI assistants diagnose PostgreSQL performance: slow queries, EXPLAIN plans, index advice, locks, and the queries inside database functions",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/gouranshul/pg-perf-mcp/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
       ]
     },
     {
