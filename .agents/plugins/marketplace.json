@@ -3757,6 +3757,21 @@
       "install_url": "https://raw.githubusercontent.com/plori-ai/codex-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "PostEverywhere",
+      "displayName": "PostEverywhere",
+      "description": "Social media scheduler plugin: write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and more, plan a content calendar and see analytics, through a hosted MCP server and 15 skills ([posteverywhere.ai](https://posteverywhere.ai)).",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "posteverywhere",
+      "repo": "codex-plugin",
+      "url": "https://github.com/posteverywhere/codex-plugin",
+      "install_url": "https://raw.githubusercontent.com/posteverywhere/codex-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "PriceWin",
       "displayName": "PriceWin",
       "description": "Live hotel and flight prices compared across Booking.com, Agoda, Trip.com and Traveloka, in USD, through the hosted PriceWin MCP server with a search skill.",
@@ -5834,6 +5849,21 @@
       "repo": "dhp",
       "url": "https://github.com/SIDDARTHAREDDY8/dhp",
       "install_url": "https://raw.githubusercontent.com/SIDDARTHAREDDY8/dhp/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "Docflow (EvolveHQ)",
+      "displayName": "Docflow (EvolveHQ)",
+      "description": "ADR-driven documentation workflow for Claude Code, Codex, Cursor, OpenCode, pi, and more that scaffolds an ADR catalogue, plan queue, and AGENTS.md conventions into single repos or portable multi-repo workspaces, with lifecycle skills to author, ship, and audit decisions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "EvolveHQ",
+      "repo": "docflow",
+      "url": "https://github.com/EvolveHQ/docflow",
+      "install_url": "https://raw.githubusercontent.com/EvolveHQ/docflow/HEAD/plugins/docflow/.codex-plugin/plugin.json"
     },
     {
       "name": "dsh-product-subagent-console",
@@ -8010,6 +8040,21 @@
       "repo": "ratchet",
       "url": "https://github.com/krishansubudhi/ratchet",
       "install_url": "https://raw.githubusercontent.com/krishansubudhi/ratchet/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "ratification-docket",
+      "displayName": "ratification-docket",
+      "description": "Claude Code skill that gathers the Proposed decisions scattered across dense documents into one plain-language page of decision cards the owner rules on without opening a source file, then writes the rulings back into the records, trackers and ledgers",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "seevali",
+      "repo": "claude-skills",
+      "url": "https://github.com/seevali/claude-skills",
+      "install_url": "https://raw.githubusercontent.com/seevali/claude-skills/HEAD/ratification-docket/.claude-plugin/plugin.json"
     },
     {
       "name": "React Native Developer Skills",
@@ -10804,6 +10849,21 @@
       "repo": "portway",
       "url": "https://github.com/rath/portway",
       "install_url": "https://raw.githubusercontent.com/rath/portway/HEAD/plugins/portway/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "PostEverywhere",
+      "displayName": "PostEverywhere",
+      "description": "Social media scheduler plugin: write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and more, plan a content calendar and see analytics, through a hosted MCP server and 15 skills ([posteverywhere.ai](https://posteverywhere.ai))",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "posteverywhere",
+      "repo": "claude-plugin",
+      "url": "https://github.com/posteverywhere/claude-plugin",
+      "install_url": "https://raw.githubusercontent.com/posteverywhere/claude-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "Pulse CC",

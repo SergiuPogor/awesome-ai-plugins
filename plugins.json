@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 829,
+  "total": 833,
   "platforms": [
     "codex",
     "grok",
@@ -3520,6 +3520,20 @@
       ]
     },
     {
+      "name": "PostEverywhere",
+      "url": "https://github.com/posteverywhere/codex-plugin",
+      "owner": "posteverywhere",
+      "repo": "codex-plugin",
+      "description": "Social media scheduler plugin: write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and more, plan a content calendar and see analytics, through a hosted MCP server and 15 skills ([posteverywhere.ai](https://posteverywhere.ai)).",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/posteverywhere/codex-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "PriceWin",
       "url": "https://github.com/PriceDotWin/pricewin-agent-plugin",
       "owner": "PriceDotWin",
@@ -5451,6 +5465,20 @@
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "Docflow (EvolveHQ)",
+      "url": "https://github.com/EvolveHQ/docflow",
+      "owner": "EvolveHQ",
+      "repo": "docflow",
+      "description": "ADR-driven documentation workflow for Claude Code, Codex, Cursor, OpenCode, pi, and more that scaffolds an ADR catalogue, plan queue, and AGENTS.md conventions into single repos or portable multi-repo workspaces, with lifecycle skills to author, ship, and audit decisions",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/EvolveHQ/docflow/HEAD/plugins/docflow/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
@@ -7461,6 +7489,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/krishansubudhi/ratchet/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "ratification-docket",
+      "url": "https://github.com/seevali/claude-skills",
+      "owner": "seevali",
+      "repo": "claude-skills",
+      "description": "Claude Code skill that gathers the Proposed decisions scattered across dense documents into one plain-language page of decision cards the owner rules on without opening a source file, then writes the rulings back into the records, trackers and ledgers",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/seevali/claude-skills/HEAD/ratification-docket/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
@@ -10054,6 +10096,20 @@
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
+      ]
+    },
+    {
+      "name": "PostEverywhere",
+      "url": "https://github.com/posteverywhere/claude-plugin",
+      "owner": "posteverywhere",
+      "repo": "claude-plugin",
+      "description": "Social media scheduler plugin: write, schedule and publish posts to Instagram, TikTok, YouTube, LinkedIn, X, Threads, Pinterest, Bluesky and more, plan a content calendar and see analytics, through a hosted MCP server and 15 skills ([posteverywhere.ai](https://posteverywhere.ai))",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/posteverywhere/claude-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
       ]
     },
     {
