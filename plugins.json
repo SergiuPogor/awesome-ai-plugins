@@ -2,8 +2,8 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
-  "last_updated": "2026-10-14",
-  "total": 825,
+  "last_updated": "2026-10-15",
+  "total": 829,
   "platforms": [
     "codex",
     "grok",
@@ -12,7 +12,8 @@
     "mcp",
     "standalone",
     "kimi",
-    "deepseek-harness"
+    "deepseek-harness",
+    "opencode"
   ],
   "plugins": [
     {
@@ -4191,6 +4192,20 @@
       ]
     },
     {
+      "name": "nuthinking/skills",
+      "url": "https://github.com/nuthinking/skills",
+      "owner": "nuthinking",
+      "repo": "skills",
+      "description": "Agent skills for Claude Code, Codex and Cursor, including site-edit, where editors pin notes on a live site and Claude Code turns them into pull requests, and product-map, which keeps a feature map and product flows in the repo",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "installation_url": "https://github.com/nuthinking/skills#readme",
+      "ecosystems": [
+        "agent-skills"
+      ]
+    },
+    {
       "name": "geml",
       "url": "https://github.com/geml-spec/geml",
       "owner": "geml-spec",
@@ -5870,6 +5885,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/sysangel/hemingway#readme"
+    },
+    {
+      "name": "herdr-toolkit",
+      "url": "https://github.com/shimo4228/herdr-toolkit",
+      "owner": "shimo4228",
+      "repo": "herdr-toolkit",
+      "description": "Claude Code plugin with two skills for the Herdr agent multiplexer: spawn-session starts detached Remote Control sessions in Herdr panes, and agent-send sends prompts to agents in Herdr panes and reports whether each one landed and when the work is done",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/shimo4228/herdr-toolkit/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "Hey Jarvis",
@@ -8842,6 +8871,20 @@
       ]
     },
     {
+      "name": "claude-ai-music-skills",
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "owner": "bitwize-music-studio",
+      "repo": "claude-ai-music-skills",
+      "description": "Claude Code and Codex plugin with an MCP server for a Suno album workflow: concept, lyrics, prompts, mastering and release prep",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/bitwize-music-studio/claude-ai-music-skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "claude-dev-suite",
       "url": "https://github.com/claude-dev-suite/claude-dev-suite",
       "owner": "claude-dev-suite",
@@ -10862,6 +10905,20 @@
       "platform": "deepseek-harness",
       "ecosystems": [
         "deepseek-harness"
+      ]
+    },
+    {
+      "name": "RTL_OpenCode",
+      "url": "https://github.com/programmer-1998/RTL_OpenCode",
+      "owner": "programmer-1998",
+      "repo": "RTL_OpenCode",
+      "description": "OpenCode plugin that fixes bidirectional Persian, Arabic, and Hebrew text rendering with Unicode isolates, keeping code blocks and paths intact",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "installation_url": "https://github.com/programmer-1998/RTL_OpenCode#readme",
+      "ecosystems": [
+        "opencode"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "awesome-ai-plugins",
-  "last_updated": "2026-10-14",
+  "last_updated": "2026-10-15",
   "plugins": [
     {
       "name": "Registry Broker",
@@ -4477,6 +4477,21 @@
       "installation_url": "https://github.com/naodeng/awesome-qa-skills#readme"
     },
     {
+      "name": "nuthinking/skills",
+      "displayName": "nuthinking/skills",
+      "description": "Agent skills for Claude Code, Codex and Cursor, including site-edit, where editors pin notes on a live site and Claude Code turns them into pull requests, and product-map, which keeps a feature map and product flows in the repo",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "nuthinking",
+      "repo": "skills",
+      "url": "https://github.com/nuthinking/skills",
+      "installation_url": "https://github.com/nuthinking/skills#readme"
+    },
+    {
       "name": "geml",
       "displayName": "geml",
       "description": "An agent-native markup language featuring deterministic block-level editing and built-in validation to ensure documents never drift or break during AI operations",
@@ -6287,6 +6302,21 @@
       "repo": "hemingway",
       "url": "https://github.com/sysangel/hemingway",
       "installation_url": "https://github.com/sysangel/hemingway#readme"
+    },
+    {
+      "name": "herdr-toolkit",
+      "displayName": "herdr-toolkit",
+      "description": "Claude Code plugin with two skills for the Herdr agent multiplexer: spawn-session starts detached Remote Control sessions in Herdr panes, and agent-send sends prompts to agents in Herdr panes and reports whether each one landed and when the work is done",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "shimo4228",
+      "repo": "herdr-toolkit",
+      "url": "https://github.com/shimo4228/herdr-toolkit",
+      "install_url": "https://raw.githubusercontent.com/shimo4228/herdr-toolkit/HEAD/.claude-plugin/plugin.json"
     },
     {
       "name": "Hey Jarvis",
@@ -9494,6 +9524,21 @@
       "install_url": "https://raw.githubusercontent.com/hxy9243/chorale/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "claude-ai-music-skills",
+      "displayName": "claude-ai-music-skills",
+      "description": "Claude Code and Codex plugin with an MCP server for a Suno album workflow: concept, lyrics, prompts, mastering and release prep",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bitwize-music-studio",
+      "repo": "claude-ai-music-skills",
+      "url": "https://github.com/bitwize-music-studio/claude-ai-music-skills",
+      "install_url": "https://raw.githubusercontent.com/bitwize-music-studio/claude-ai-music-skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "claude-dev-suite",
       "displayName": "claude-dev-suite",
       "description": "Detects a project's stack and installs the matching agents, framework skills and MCP servers into it, writing each assistant's own config format for Claude Code, Copilot, Cursor, Gemini CLI, Codex CLI, Cline and Kimi Code",
@@ -11676,6 +11721,21 @@
       "owner": "ChongCyrus",
       "repo": "Vibe-Mathematics",
       "url": "https://github.com/ChongCyrus/Vibe-Mathematics"
+    },
+    {
+      "name": "RTL_OpenCode",
+      "displayName": "RTL_OpenCode",
+      "description": "OpenCode plugin that fixes bidirectional Persian, Arabic, and Hebrew text rendering with Unicode isolates, keeping code blocks and paths intact",
+      "category": "OpenCode Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "opencode",
+      "ecosystems": [
+        "opencode"
+      ],
+      "owner": "programmer-1998",
+      "repo": "RTL_OpenCode",
+      "url": "https://github.com/programmer-1998/RTL_OpenCode",
+      "installation_url": "https://github.com/programmer-1998/RTL_OpenCode#readme"
     }
   ]
 }
