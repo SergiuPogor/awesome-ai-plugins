@@ -1,6 +1,7 @@
 import importlib.util
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 SPEC = importlib.util.spec_from_file_location(
     "publish_open_pr_checks",
@@ -102,6 +103,39 @@ class PublishOpenPrChecksTests(unittest.TestCase):
         self.assertNotIn("\n", body)
         self.assertIn("entry is not alphabetical", body)
         self.assertNotIn("scanner CI", body)
+
+    def test_failed_scan_check_links_sanitized_artifact_for_new_title(self):
+        published = []
+
+        def fake_github_api(_repository, path, _token, *, method="GET", payload=None):
+            if path.startswith("/commits/"):
+                return {"check_runs": []}
+            if path == "/check-runs":
+                published.append(payload)
+                return {}
+            return {}
+
+        with patch.object(MODULE, "github_api", side_effect=fake_github_api), patch.object(
+            MODULE, "upsert_remediation_comment"
+        ):
+            MODULE.publish_check(
+                "example/repo",
+                {
+                    "pr_number": 411,
+                    "head_sha": "a" * 40,
+                    "title": "Add example plugin",
+                    "state": "scan",
+                    "failure_reasons": [],
+                },
+                {411: ["failure"]},
+                "https://github.com/example/repo/actions/runs/1",
+                "token",
+            )
+
+        self.assertEqual(len(published), 1)
+        summary = published[0]["output"]["summary"]
+        self.assertIn("download sanitized JSON/SARIF findings", summary)
+        self.assertIn("scan-findings-pr-411-", summary)
 
 
 if __name__ == "__main__":
