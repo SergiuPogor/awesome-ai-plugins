@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 842,
+  "total": 843,
   "platforms": [
     "codex",
     "grok",
@@ -9570,6 +9570,16 @@
       "ecosystems": [
         "claude-code"
       ]
+    },
+    {
+      "name": "icon-mcp",
+      "url": "https://github.com/pratham-jain33/icon-mcp",
+      "owner": "pratham-jain33",
+      "repo": "icon-mcp",
+      "description": "MCP server that generates matching Lucide icon sets as SVG from a list of icon requests plus a shared style, fully offline with no API key",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "installation_url": "https://github.com/pratham-jain33/icon-mcp#readme"
     },
     {
       "name": "iki",
