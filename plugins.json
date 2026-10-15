@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-15",
-  "total": 847,
+  "total": 852,
   "platforms": [
     "codex",
     "grok",
@@ -3758,6 +3758,20 @@
       ]
     },
     {
+      "name": "Serply",
+      "url": "https://github.com/serply-inc/skills",
+      "owner": "serply-inc",
+      "repo": "skills",
+      "description": "Live Google web, news, Scholar, and Maps results plus page scraping in Codex through the hosted Serply MCP server, with the API key read from an environment variable.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "Shots",
       "url": "https://github.com/hitSlop/shots",
       "owner": "hitSlop",
@@ -3780,6 +3794,20 @@
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/phnx-labs/svatlas-mcp/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "SolidPing",
+      "url": "https://github.com/fclairamb/solidping-plugin",
+      "owner": "fclairamb",
+      "repo": "solidping-plugin",
+      "description": "Uptime monitoring from Codex through the hosted SolidPing MCP server with OAuth sign-in: read checks, results and incidents, diagnose failures, and manage checks and status pages after you confirm.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/fclairamb/solidping-plugin/HEAD/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -4340,6 +4368,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/AgentTanuki/agent-guild-plugin/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
+      "name": "Agent Harness",
+      "url": "https://github.com/0xenzyme/agent-harness",
+      "owner": "0xenzyme",
+      "repo": "agent-harness",
+      "description": "Coding-agent plugin that routes project work through goals, tasks, runs, evidence gates, and state sync via project adapters",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/0xenzyme/agent-harness/HEAD/plugins/agent-harness/.codex-plugin/plugin.json",
       "platform": "codex",
       "ecosystems": [
         "codex"
@@ -5112,6 +5154,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/witkowsky/whip/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "clausona",
+      "url": "https://github.com/larcane97/clausona",
+      "owner": "larcane97",
+      "repo": "clausona",
+      "description": "CLI and TUI for switching Claude Code and Codex accounts that keeps conversation history across them so `claude --continue` picks up another account's session, routes each run by plan usage, manages every account's skills, MCP servers and hooks, and runs as a shell hook with no daemon; its Claude Code plugins run parallel workers in herdr, Orca or Superset",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/larcane97/clausona/HEAD/plugins/clausona/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
@@ -9865,6 +9921,19 @@
       ]
     },
     {
+      "name": "mcp-linker",
+      "url": "https://github.com/milisp/mcp-linker",
+      "owner": "milisp",
+      "repo": "mcp-linker",
+      "description": "MCP store to discover, add, and sync MCP server configuration across clients like Claude Code, Codex, and Cursor",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ]
+    },
+    {
       "name": "mcp-music-studio",
       "url": "https://github.com/linxule/mcp-music-studio",
       "owner": "linxule",
@@ -10434,17 +10503,16 @@
       "installation_url": "https://github.com/superagents-lab/search1api-mcp#readme"
     },
     {
-      "name": "Serply Agent Skills",
-      "url": "https://github.com/serply-inc/skills",
-      "owner": "serply-inc",
-      "repo": "skills",
-      "description": "Agent Skill and Claude Code plugin that teaches coding agents to pull live Google Search, Scholar, News, Maps, Jobs, Bing, Amazon and Reddit results and scrape URLs to markdown through the Serply API or its hosted MCP server",
+      "name": "Session Panel for Claude Code",
+      "url": "https://github.com/bkaluza/vscode-claude-panel",
+      "owner": "bkaluza",
+      "repo": "vscode-claude-panel",
+      "description": "MIT VS Code extension that lists your Claude Code terminal sessions in a sidebar panel with live status (working, idle, needs you), subagents and context usage, opens them in named, coloured terminals with Cmd+1\u20139 switching, and reopens them after a restart",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.codex-plugin/plugin.json",
-      "platform": "codex",
+      "platform": "standalone",
       "ecosystems": [
-        "codex"
+        "standalone"
       ]
     },
     {

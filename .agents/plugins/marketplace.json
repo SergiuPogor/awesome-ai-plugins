@@ -4012,6 +4012,21 @@
       "install_url": "https://raw.githubusercontent.com/AddisonHoff/sendsets/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "Serply",
+      "displayName": "Serply",
+      "description": "Live Google web, news, Scholar, and Maps results plus page scraping in Codex through the hosted Serply MCP server, with the API key read from an environment variable.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "serply-inc",
+      "repo": "skills",
+      "url": "https://github.com/serply-inc/skills",
+      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Shots",
       "displayName": "Shots",
       "description": "Agent-native App Store screenshot, app icon, ASO, and localization workflows through the hosted Shots MCP server.",
@@ -4040,6 +4055,21 @@
       "repo": "svatlas-mcp",
       "url": "https://github.com/phnx-labs/svatlas-mcp",
       "install_url": "https://raw.githubusercontent.com/phnx-labs/svatlas-mcp/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "SolidPing",
+      "displayName": "SolidPing",
+      "description": "Uptime monitoring from Codex through the hosted SolidPing MCP server with OAuth sign-in: read checks, results and incidents, diagnose failures, and manage checks and status pages after you confirm.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "fclairamb",
+      "repo": "solidping-plugin",
+      "url": "https://github.com/fclairamb/solidping-plugin",
+      "install_url": "https://raw.githubusercontent.com/fclairamb/solidping-plugin/HEAD/.codex-plugin/plugin.json"
     },
     {
       "name": "SolidWorks GPT Plugin",
@@ -4640,6 +4670,21 @@
       "repo": "agent-guild-plugin",
       "url": "https://github.com/AgentTanuki/agent-guild-plugin",
       "install_url": "https://raw.githubusercontent.com/AgentTanuki/agent-guild-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
+      "name": "Agent Harness",
+      "displayName": "Agent Harness",
+      "description": "Coding-agent plugin that routes project work through goals, tasks, runs, evidence gates, and state sync via project adapters",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "0xenzyme",
+      "repo": "agent-harness",
+      "url": "https://github.com/0xenzyme/agent-harness",
+      "install_url": "https://raw.githubusercontent.com/0xenzyme/agent-harness/HEAD/plugins/agent-harness/.codex-plugin/plugin.json"
     },
     {
       "name": "Agent Replay",
@@ -5472,6 +5517,21 @@
       "repo": "whip",
       "url": "https://github.com/witkowsky/whip",
       "install_url": "https://raw.githubusercontent.com/witkowsky/whip/HEAD/.claude-plugin/plugin.json"
+    },
+    {
+      "name": "clausona",
+      "displayName": "clausona",
+      "description": "CLI and TUI for switching Claude Code and Codex accounts that keeps conversation history across them so `claude --continue` picks up another account's session, routes each run by plan usage, manages every account's skills, MCP servers and hooks, and runs as a shell hook with no daemon; its Claude Code plugins run parallel workers in herdr, Orca or Superset",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "larcane97",
+      "repo": "clausona",
+      "url": "https://github.com/larcane97/clausona",
+      "install_url": "https://raw.githubusercontent.com/larcane97/clausona/HEAD/plugins/clausona/.claude-plugin/plugin.json"
     },
     {
       "name": "clawd-tracker",
@@ -10596,6 +10656,20 @@
       "url": "https://github.com/Emilthelucky/mcp-infer"
     },
     {
+      "name": "mcp-linker",
+      "displayName": "mcp-linker",
+      "description": "MCP store to discover, add, and sync MCP server configuration across clients like Claude Code, Codex, and Cursor",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "standalone",
+      "ecosystems": [
+        "standalone"
+      ],
+      "owner": "milisp",
+      "repo": "mcp-linker",
+      "url": "https://github.com/milisp/mcp-linker"
+    },
+    {
       "name": "mcp-music-studio",
       "displayName": "mcp-music-studio",
       "description": "MCP server for AI music creation: scored ABC notation composition and Strudel live coding, with sheet music rendering, harmony analysis, and MIDI/WAV export",
@@ -11212,19 +11286,18 @@
       "installation_url": "https://github.com/superagents-lab/search1api-mcp#readme"
     },
     {
-      "name": "Serply Agent Skills",
-      "displayName": "Serply Agent Skills",
-      "description": "Agent Skill and Claude Code plugin that teaches coding agents to pull live Google Search, Scholar, News, Maps, Jobs, Bing, Amazon and Reddit results and scrape URLs to markdown through the Serply API or its hosted MCP server",
+      "name": "Session Panel for Claude Code",
+      "displayName": "Session Panel for Claude Code",
+      "description": "MIT VS Code extension that lists your Claude Code terminal sessions in a sidebar panel with live status (working, idle, needs you), subagents and context usage, opens them in named, coloured terminals with Cmd+1\u20139 switching, and reopens them after a restart",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
-      "platform": "codex",
+      "platform": "standalone",
       "ecosystems": [
-        "codex"
+        "standalone"
       ],
-      "owner": "serply-inc",
-      "repo": "skills",
-      "url": "https://github.com/serply-inc/skills",
-      "install_url": "https://raw.githubusercontent.com/serply-inc/skills/HEAD/.codex-plugin/plugin.json"
+      "owner": "bkaluza",
+      "repo": "vscode-claude-panel",
+      "url": "https://github.com/bkaluza/vscode-claude-panel"
     },
     {
       "name": "Sessionbus",
