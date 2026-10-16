@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-16",
-  "total": 862,
+  "total": 863,
   "platforms": [
     "codex",
     "grok",
@@ -4970,6 +4970,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "installation_url": "https://github.com/sinameraji/camouflage#readme"
+    },
+    {
+      "name": "cc-enforcer",
+      "url": "https://github.com/skymanbp/cc-enforcer",
+      "owner": "skymanbp",
+      "repo": "cc-enforcer",
+      "description": "Claude Code hooks that deny a tool call and block a reply that patches reactively, cites by guess or claims done early; the rules also usable as an LLM-agnostic rule pack",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/skymanbp/cc-enforcer/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
     },
     {
       "name": "cc-tree",

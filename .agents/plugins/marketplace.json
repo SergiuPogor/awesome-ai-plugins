@@ -5317,6 +5317,21 @@
       "installation_url": "https://github.com/sinameraji/camouflage#readme"
     },
     {
+      "name": "cc-enforcer",
+      "displayName": "cc-enforcer",
+      "description": "Claude Code hooks that deny a tool call and block a reply that patches reactively, cites by guess or claims done early; the rules also usable as an LLM-agnostic rule pack",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ],
+      "owner": "skymanbp",
+      "repo": "cc-enforcer",
+      "url": "https://github.com/skymanbp/cc-enforcer",
+      "install_url": "https://raw.githubusercontent.com/skymanbp/cc-enforcer/HEAD/.claude-plugin/plugin.json"
+    },
+    {
       "name": "cc-tree",
       "displayName": "cc-tree",
       "description": "Claude Code plugin that runs brainstorming, adversarial critique, design-space comparison and code audit as an auditable radial tree with file:line or URL evidence on every node",
