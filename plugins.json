@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-16",
-  "total": 863,
+  "total": 864,
   "platforms": [
     "codex",
     "grok",
@@ -4980,6 +4980,20 @@
       "category": "Development & Workflow",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/skymanbp/cc-enforcer/HEAD/.claude-plugin/plugin.json",
+      "platform": "claude-code",
+      "ecosystems": [
+        "claude-code"
+      ]
+    },
+    {
+      "name": "cc-memory",
+      "url": "https://github.com/skymanbp/cc-memory",
+      "owner": "skymanbp",
+      "repo": "cc-memory",
+      "description": "Persistent memory for Claude Code across compaction and sessions: reconcile-on-write with LLM-judged de-duplication, a forced PROGRESS.md handoff, a live PLAN.md anchor, FTS5 search, MCP tools and a GUI, in pure stdlib Python",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/skymanbp/cc-memory/HEAD/.claude-plugin/plugin.json",
       "platform": "claude-code",
       "ecosystems": [
         "claude-code"
